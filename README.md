@@ -136,15 +136,3 @@ ros2 run dvrk_python dvrk_arm_test.py -a PSM1
 | Python packages missing | `pip install -r ~/ros2_dvrk/src/dvrk_robot/requirements.txt` |
 
 ---
-
-**You now have:**
-- Clean ROS 2 Humble + Ignition Fortress
-- Full dVRK ROS 2 stack
-- Tendon-driven PSM-derived arms ready for GESR-style customization
-
-Next step (when you're ready):  
-I’ll give you the **custom URDF + xacro** files to turn the PSM arms into your GESR flexible manipulator + snake bone.
-
-Just reply **“send GESR URDF”** and I’ll drop the complete files.
-
-Happy simulating! 🚀
