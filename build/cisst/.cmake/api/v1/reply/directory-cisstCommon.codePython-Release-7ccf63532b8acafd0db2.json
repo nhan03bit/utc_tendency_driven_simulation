@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_add_swig_module"
+		],
+		"files" : 
+		[
+			"cmake/cisstMacros.cmake",
+			"cisstCommon/codePython/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 596,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 601,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 611,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstCommon",
+			"destination" : "include/cisstCommon",
+			"paths" : 
+			[
+				"cisstCommon/codePython/../cisstCommon.i"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstCommon",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/_cisstCommonPython.so"
+			],
+			"targetId" : "cisstCommonPython::@1cdb0a5b21552d8699a7",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cisstCommon",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/cisstCommon/codePython/cisstCommonPython.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cisstCommon",
+			"destination" : "include/cisstCommon",
+			"paths" : 
+			[
+				"cisstCommon/codePython/../cmnPython.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisstCommon/codePython",
+		"source" : "cisstCommon/codePython"
+	}
+}

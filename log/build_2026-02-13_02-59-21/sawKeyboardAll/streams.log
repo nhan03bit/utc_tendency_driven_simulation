@@ -1,0 +1,46 @@
+[0.003s] Invoking command in '/home/utc_sim/ros2_dvrk/build/sawKeyboardAll': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawKeyboard -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/sawKeyboardAll
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.525s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.536s] -- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+[0.540s] -- Performing Test CXX_SUPPORTS_WEXTRA
+[0.623s] -- Performing Test CXX_SUPPORTS_WEXTRA - Success
+[0.623s] -- Performing Test CXX_SUPPORTS_WALL
+[0.686s] -- Performing Test CXX_SUPPORTS_WALL - Success
+[0.690s] -- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+[0.699s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[0.699s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[0.700s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[0.700s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[0.701s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[0.716s] -- Configuring done
+[0.727s] -- Generating done
+[0.730s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/sawKeyboardAll
+[0.748s] Invoked command in '/home/utc_sim/ros2_dvrk/build/sawKeyboardAll' returned '0': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawKeyboard -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/sawKeyboardAll
+[0.748s] Invoking command in '/home/utc_sim/ros2_dvrk/build/sawKeyboardAll': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/sawKeyboardAll -- -j8 -l8
+[0.825s] [ 50%] [32mBuilding CXX object components/CMakeFiles/sawKeyboard.dir/code/mtsKeyboard.cpp.o[0m
+[5.396s] [100%] [32m[1mLinking CXX shared library /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawKeyboard.so[0m
+[5.740s] [100%] Built target sawKeyboard
+[5.800s] Invoked command in '/home/utc_sim/ros2_dvrk/build/sawKeyboardAll' returned '0': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/sawKeyboardAll -- -j8 -l8
+[5.818s] Invoking command in '/home/utc_sim/ros2_dvrk/build/sawKeyboardAll': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/sawKeyboardAll
+[5.833s] -- Install configuration: "Release"
+[5.838s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/share/sawKeyboard/sawKeyboardConfig.cmake
+[5.839s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/share/sawKeyboard/sawKeyboardConfigVersion.cmake
+[5.840s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/include/sawKeyboard
+[5.841s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/include/sawKeyboard/sawKeyboardExport.h
+[5.841s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/include/sawKeyboard/mtsKeyboard.h
+[5.843s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/include/sawKeyboard
+[5.843s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/include/sawKeyboard/sawKeyboardRevision.h
+[5.844s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib/libsawKeyboard.so.1.4.1
+[5.852s] -- Set runtime path of "/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib/libsawKeyboard.so.1.4.1" to ""
+[5.853s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib/libsawKeyboard.so
+[5.898s] Invoked command in '/home/utc_sim/ros2_dvrk/build/sawKeyboardAll' returned '0': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/sawKeyboardAll

@@ -1,0 +1,91 @@
+[0.119s] Invoking command in '/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore -- -j8 -l8
+[0.185s] [  9%] Built target gattlibExternal
+[0.219s] [  9%] Built target sawIntuitiveResearchKitRemoveLogs
+[0.228s] [ 11%] Built target sawIntuitiveResearchKitGripperCalibration
+[0.228s] [ 11%] Built target sawIntuitiveResearchKitSUJBluetoothReset
+[0.228s] [ 14%] Built target sawIntuitiveResearchKitSiPotentiometersCalibration
+[0.233s] [ 14%] Built target sawIntuitiveResearchKitConfigGenerator
+[0.243s] [ 14%] Built target sawIntuitiveResearchKitSDCardUpdater
+[0.276s] [ 97%] Built target sawIntuitiveResearchKit
+[0.301s] [100%] Built target sawIntuitiveResearchKitDerivedTeleOperationPSM
+[0.337s] Invoked command in '/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore' returned '0': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore -- -j8 -l8
+[0.338s] Invoking command in '/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore
+[0.343s] -- Install configuration: "Release"
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.cmake
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfigVersion.cmake
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorMTM.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKit.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJQtWidget.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocusQtWidget.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/prmConfigurationJointFromManipulator.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsToolList.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_PSM_proxy.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocus.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsStateMachine.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_proxy.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_ECM_proxy.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system_Qt.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationECMQtWidget.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system_Qt_widget.h
+[0.343s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTM.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/prmActuatorJointCouplingCheck.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitQtExport.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECM.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJFixed.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJ.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSM.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitExport.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/console.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsPSMCompensation.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationPSM.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSMQtWidget.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorECM.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_proxy.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciHeadSensor.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsHIDHeadSensor.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationECM.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/console_Qt_widget.h
+[0.344s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robGravityCompensation.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorPSMSnake.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/IO_proxy.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmQtWidget.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJSi.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTMQtWidget.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationPSMQtWidget.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECMQtWidget.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArm.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/IO_configuration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_type.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/simulation.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitRevision.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/IO_proxy_configuration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_type.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_configuration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/generation.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_ECM_proxy_configuration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_PSM_proxy_configuration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_proxy_configuration.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/terminal.h
+[0.345s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/base_frame.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_ECM_configuration.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/console_configuration.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitControlTypes.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system_configuration.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_PSM_configuration.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so.2.4.0
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitGripperCalibration
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitSiPotentiometersCalibration
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/calParser.py
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-io-config-generator.py
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-sd-card-updater.py
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-remove-logs.py
+[0.346s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-suj-bluetooth-reset.py
+[0.411s] Invoked command in '/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore' returned '0': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore

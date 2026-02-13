@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-78e94ff513f0978b1bba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saw_controllers_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "saw_controllers_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saw_controllers_ros-Release-8f62d18944ffc4706c36.json",
+					"name" : "saw_controllers_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saw_controllers_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saw_controllers_ros_uninstall-Release-9df814e6bae75999f9bd.json",
+					"name" : "saw_controllers_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-792395656e3a1750148f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/saw_controllers_ros",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawControllers/ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

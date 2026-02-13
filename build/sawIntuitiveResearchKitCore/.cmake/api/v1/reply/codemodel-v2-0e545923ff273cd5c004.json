@@ -1,0 +1,405 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "components",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components-Release-3c85c6927cc21e8639b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "components",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "applications",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications-Release-5fb25c2f6d910d1c64aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "applications"
+				},
+				{
+					"build" : "applications/gripper-calibration",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.gripper-calibration-Release-f318fe4c2b4a3159ad2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "applications/gripper-calibration",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "applications/si-potentiometers-calibration",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.si-potentiometers-calibration-Release-5135ae083dfa8611b17a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "applications/si-potentiometers-calibration",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "applications/io-config-generator",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.io-config-generator-Release-76995b9f1b0174a8cdbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "applications/io-config-generator",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "applications/sd-card-updater",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.sd-card-updater-Release-c3557c1570e1de564fe8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "applications/sd-card-updater",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "applications/remove-logs",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.remove-logs-Release-6f8ac5122d3a0c359bbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "applications/remove-logs",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "applications/suj-bluetooth-reset",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.suj-bluetooth-reset-Release-6cac65692c936397cd57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 7,
+					"source" : "applications/suj-bluetooth-reset",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "applications/system-config-wizard",
+					"jsonFile" : "directory-applications.system-config-wizard-Release-00c6c19d2ac9e1e1a560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "applications/system-config-wizard"
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-examples-Release-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/derivedTeleOperationPSM/components",
+					"jsonFile" : "directory-examples.derivedTeleOperationPSM.components-Release-592a781e5e0f273e15a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 8,
+					"source" : "examples/derivedTeleOperationPSM/components",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						10
+					],
+					"name" : "sawIntuitiveResearchKitCore"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sawIntuitiveResearchKit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						9
+					],
+					"name" : "sawIntuitiveResearchKitApplications",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "sawIntuitiveResearchKitSiPotentiometersCalibration",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "sawIntuitiveResearchKitConfigGenerator",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "sawIntuitiveResearchKitSDCardUpdater",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "sawIntuitiveResearchKitRemoveLogs",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "sawIntuitiveResearchKitSUJBluetoothReset",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "sawIntuitiveResearchKitDerivedTeleOperationPSM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gattlibExternal::@5f76c3b237c71a93cbe5",
+					"jsonFile" : "target-gattlibExternal-Release-71ac9e6c07348950fb07.json",
+					"name" : "gattlibExternal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sawIntuitiveResearchKit::@5f76c3b237c71a93cbe5",
+					"jsonFile" : "target-sawIntuitiveResearchKit-Release-86c5e0bc65e2e07f4878.json",
+					"name" : "sawIntuitiveResearchKit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sawIntuitiveResearchKitConfigGenerator::@32eeacb7aeb387896d19",
+					"jsonFile" : "target-sawIntuitiveResearchKitConfigGenerator-Release-d64f1f81c43194a9c010.json",
+					"name" : "sawIntuitiveResearchKitConfigGenerator",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "sawIntuitiveResearchKitDerivedTeleOperationPSM::@602afead2067df8b4d71",
+					"jsonFile" : "target-sawIntuitiveResearchKitDerivedTeleOperationPSM-Release-6e5fca958be90c806463.json",
+					"name" : "sawIntuitiveResearchKitDerivedTeleOperationPSM",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sawIntuitiveResearchKitGripperCalibration::@028ae151f0bd077d544c",
+					"jsonFile" : "target-sawIntuitiveResearchKitGripperCalibration-Release-b3fb0321c0a07eb60166.json",
+					"name" : "sawIntuitiveResearchKitGripperCalibration",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sawIntuitiveResearchKitRemoveLogs::@758fb426fb90c5410c28",
+					"jsonFile" : "target-sawIntuitiveResearchKitRemoveLogs-Release-f612b7e07d044e7eaf09.json",
+					"name" : "sawIntuitiveResearchKitRemoveLogs",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sawIntuitiveResearchKitSDCardUpdater::@c5f919bb13585f3ac5fd",
+					"jsonFile" : "target-sawIntuitiveResearchKitSDCardUpdater-Release-afc439793ba5a14bc1d4.json",
+					"name" : "sawIntuitiveResearchKitSDCardUpdater",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "sawIntuitiveResearchKitSUJBluetoothReset::@790e6d3a0a1c62a34d61",
+					"jsonFile" : "target-sawIntuitiveResearchKitSUJBluetoothReset-Release-4acabdecf54af63244a3.json",
+					"name" : "sawIntuitiveResearchKitSUJBluetoothReset",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sawIntuitiveResearchKitSiPotentiometersCalibration::@0a02f85c6a42c1fa56e2",
+					"jsonFile" : "target-sawIntuitiveResearchKitSiPotentiometersCalibration-Release-74a424d483bfa57dde26.json",
+					"name" : "sawIntuitiveResearchKitSiPotentiometersCalibration",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

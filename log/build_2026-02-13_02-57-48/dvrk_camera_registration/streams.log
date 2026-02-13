@@ -1,0 +1,71 @@
+[0.028s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_camera_registration': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/dvrk/dvrk_camera_registration -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.409s] -- Detecting CXX compile features
+[0.410s] -- Detecting CXX compile features - done
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.733s] -- Configuring done
+[0.738s] -- Generating done
+[0.742s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/dvrk_camera_registration
+[0.746s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_camera_registration' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/dvrk/dvrk_camera_registration -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration
+[0.747s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_camera_registration': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_camera_registration -- -j8 -l8
+[0.812s] Built target ament_cmake_python_symlink_dvrk_camera_registration
+[1.058s] running egg_info
+[1.058s] creating dvrk_camera_registration.egg-info
+[1.058s] writing dvrk_camera_registration.egg-info/PKG-INFO
+[1.058s] writing dependency_links to dvrk_camera_registration.egg-info/dependency_links.txt
+[1.059s] writing top-level names to dvrk_camera_registration.egg-info/top_level.txt
+[1.059s] writing manifest file 'dvrk_camera_registration.egg-info/SOURCES.txt'
+[1.062s] reading manifest file 'dvrk_camera_registration.egg-info/SOURCES.txt'
+[1.063s] writing manifest file 'dvrk_camera_registration.egg-info/SOURCES.txt'
+[1.085s] Built target ament_cmake_python_build_dvrk_camera_registration_egg
+[1.099s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_camera_registration' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_camera_registration -- -j8 -l8
+[1.099s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_camera_registration': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_camera_registration
+[1.104s] -- Install configuration: "Release"
+[1.105s] -- Execute custom install script
+[1.106s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/pythonpath.sh
+[1.111s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/pythonpath.dsv
+[1.122s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/PKG-INFO
+[1.138s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.172s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.179s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration-1.0.0-py3.10.egg-info/top_level.txt
+[1.184s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/__init__.py
+[1.189s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/arm.py
+[1.207s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/camera.py
+[1.213s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/convex_hull.py
+[1.218s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/pose_generator.py
+[1.223s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/vision_tracking.py
+[1.227s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/lib/dvrk_camera_registration/camera_registration.py
+[1.234s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/lib/dvrk_camera_registration/vis_gripper_pose.py
+[1.239s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/ament_index/resource_index/package_run_dependencies/dvrk_camera_registration
+[1.246s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/ament_index/resource_index/parent_prefix_path/dvrk_camera_registration
+[1.256s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/ament_prefix_path.sh
+[1.263s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/ament_prefix_path.dsv
+[1.269s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/path.sh
+[1.282s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/environment/path.dsv
+[1.286s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.bash
+[1.294s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.sh
+[1.305s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.zsh
+[1.310s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/local_setup.dsv
+[1.315s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/package.dsv
+[1.322s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/ament_index/resource_index/packages/dvrk_camera_registration
+[1.335s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/cmake/dvrk_camera_registrationConfig.cmake
+[1.339s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/cmake/dvrk_camera_registrationConfig-version.cmake
+[1.345s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/share/dvrk_camera_registration/package.xml
+[1.381s] Listing '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration'...
+[1.381s] Compiling '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/__init__.py'...
+[1.381s] Compiling '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/arm.py'...
+[1.381s] Compiling '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/camera.py'...
+[1.381s] Compiling '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/convex_hull.py'...
+[1.381s] Compiling '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/pose_generator.py'...
+[1.381s] Compiling '/home/utc_sim/ros2_dvrk/install/dvrk_camera_registration/local/lib/python3.10/dist-packages/dvrk_camera_registration/vision_tracking.py'...
+[1.398s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_camera_registration' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_camera_registration

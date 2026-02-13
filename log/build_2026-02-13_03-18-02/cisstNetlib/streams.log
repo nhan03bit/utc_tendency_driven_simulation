@@ -1,0 +1,21 @@
+[0.062s] Invoking command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/cisstNetlib -- -j8 -l8
+[0.174s] [ 15%] Built target cisstNetlib_C
+[0.198s] [ 71%] Built target cisstNetlib_hanson_haskell
+[0.203s] [ 91%] Built target cisstNetlib_lawson_hanson
+[0.224s] [100%] Built target cisstNetlib
+[0.333s] Invoked command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/cisstNetlib -- -j8 -l8
+[0.334s] Invoking command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/cisstNetlib
+[0.341s] -- Install configuration: "Release"
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib.h
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-types.h
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lapack.h
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-hanson-haskell.h
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lawson-hanson.h
+[0.341s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
+[0.342s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+[0.342s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
+[0.342s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+[0.342s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/share/cisstNetlib/CisstNetlibConfig.cmake
+[0.343s] Invoked command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/cisstNetlib

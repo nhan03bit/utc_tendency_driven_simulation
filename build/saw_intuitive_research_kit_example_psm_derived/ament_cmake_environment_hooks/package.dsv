@@ -1,0 +1,4 @@
+source;share/saw_intuitive_research_kit_example_psm_derived/local_setup.bash
+source;share/saw_intuitive_research_kit_example_psm_derived/local_setup.dsv
+source;share/saw_intuitive_research_kit_example_psm_derived/local_setup.sh
+source;share/saw_intuitive_research_kit_example_psm_derived/local_setup.zsh

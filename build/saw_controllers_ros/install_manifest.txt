@@ -1,0 +1,3 @@
+/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib/libsaw_controllers_ros.so
+/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/share/saw_controllers_ros/cmake/saw_controllers_rosExport.cmake
+/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/share/saw_controllers_ros/cmake/saw_controllers_rosExport-release.cmake

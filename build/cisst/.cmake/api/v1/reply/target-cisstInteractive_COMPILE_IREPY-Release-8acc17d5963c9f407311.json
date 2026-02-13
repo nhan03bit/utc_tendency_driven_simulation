@@ -1,0 +1,70 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"cisstInteractive/code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "cisstInteractive"
+	},
+	"id" : "cisstInteractive_COMPILE_IREPY::@4057495abc0d5719bf61",
+	"name" : "cisstInteractive_COMPILE_IREPY",
+	"paths" : 
+	{
+		"build" : "cisstInteractive/code",
+		"source" : "cisstInteractive/code"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/utc_sim/ros2_dvrk/build/cisst/cisstInteractive/code/CMakeFiles/cisstInteractive_COMPILE_IREPY",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/utc_sim/ros2_dvrk/build/cisst/cisstInteractive/code/CMakeFiles/cisstInteractive_COMPILE_IREPY.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

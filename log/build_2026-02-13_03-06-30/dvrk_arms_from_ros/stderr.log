@@ -1,0 +1,7 @@
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstCommonQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (find_package)
+
+[0m

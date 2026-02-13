@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crtk_msgs/msg/CartesianState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Wrench.idl"
+#include "std_msgs/msg/Bool.idl"
+#include "std_msgs/msg/Header.idl"
+
+module crtk_msgs {
+  module msg {
+    struct CartesianState {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Pose pose;
+
+      std_msgs::msg::Bool pose_is_valid;
+
+      geometry_msgs::msg::Twist twist;
+
+      std_msgs::msg::Bool twist_is_valid;
+
+      geometry_msgs::msg::Wrench wrench;
+
+      std_msgs::msg::Bool wrench_is_valid;
+    };
+  };
+};

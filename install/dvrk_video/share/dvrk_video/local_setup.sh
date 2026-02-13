@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/build/dvrk_video/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crtk_msgs/msg/CartesianServo.msg
+// generated code does not contain a copyright notice
+
+#include "crtk_msgs/msg/SetpointMode.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Transform.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Wrench.idl"
+#include "std_msgs/msg/Header.idl"
+
+module crtk_msgs {
+  module msg {
+    typedef crtk_msgs::msg::SetpointMode crtk_msgs__msg__SetpointMode;
+    typedef crtk_msgs__msg__SetpointMode crtk_msgs__msg__SetpointMode__6[6];
+    struct CartesianServo {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Transform task_frame;
+
+      geometry_msgs::msg::Pose pose;
+
+      geometry_msgs::msg::Twist twist;
+
+      geometry_msgs::msg::Wrench wrench;
+
+      crtk_msgs__msg__SetpointMode__6 axis_mode;
+    };
+  };
+};

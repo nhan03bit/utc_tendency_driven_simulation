@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/utc_sim/ros2_dvrk/build/cisst_ros_bridge/libcisst_ros_bridge.so" "/home/utc_sim/ros2_dvrk/build/cisst_ros_bridge/example_bridge" "TARGETS" "cisst_ros_bridge" "example_bridge" "DESTINATION" "lib/cisst_ros_bridge")

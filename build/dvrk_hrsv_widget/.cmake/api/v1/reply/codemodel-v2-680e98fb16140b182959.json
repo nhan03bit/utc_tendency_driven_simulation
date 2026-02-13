@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a84d9ede7176f5aa8b1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dvrk_hrsv_widget",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dvrk_hrsv_widget_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvrk_hrsv_widget_uninstall-Release-d6be268e36e699c6a224.json",
+					"name" : "dvrk_hrsv_widget_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hrsv_widget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hrsv_widget-Release-90fc4df0933692834551.json",
+					"name" : "hrsv_widget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hrsv_widget_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hrsv_widget_autogen-Release-21ce4febfdb3d688c4af.json",
+					"name" : "hrsv_widget_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9a1d9ca2136476e51bbc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

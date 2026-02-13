@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/utc_sim/ros2_dvrk/src/build/dvrk_config': /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/share -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/src/install/dvrk_config
+[0.438s] -- The C compiler identification is GNU 11.4.0
+[0.438s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.442s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.555s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.561s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.748s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.849s] Traceback (most recent call last):
+[0.849s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.849s]     from ament_package.templates import get_environment_hook_template_path
+[0.849s] ModuleNotFoundError: No module named 'ament_package'
+[0.857s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.857s]   execute_process(/usr/bin/python3
+[0.857s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.858s]   /home/utc_sim/ros2_dvrk/src/build/dvrk_config/ament_cmake_package_templates/templates.cmake)
+[0.858s]   returned error code 1
+[0.858s] Call Stack (most recent call first):
+[0.858s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.858s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.858s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.858s]   CMakeLists.txt:11 (find_package)
+[0.858s] 
+[0.858s] [0m
+[0.858s] -- Configuring incomplete, errors occurred!
+[0.858s] See also "/home/utc_sim/ros2_dvrk/src/build/dvrk_config/CMakeFiles/CMakeOutput.log".

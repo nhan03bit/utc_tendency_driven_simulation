@@ -1,0 +1,4 @@
+Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_video -- -j8 -l8
+Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_video -- -j8 -l8
+Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_video
+Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_video

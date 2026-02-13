@@ -1,0 +1,51 @@
+[0.084s] Invoking command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_bilateral_teleop': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_bilateral_teleop
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.258s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.400s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.406s] -- Detecting CXX compiler ABI info
+[0.525s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.532s] -- Detecting CXX compile features - done
+[0.686s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.929s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.009s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.018s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.028s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.134s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.283s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.360s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.429s] -- Looking for pthread.h
+[1.542s] -- Looking for pthread.h - found
+[1.543s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.624s] -- Found Threads: TRUE  
+[1.672s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.683s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.695s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.711s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.724s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.820s] -- Found cisst_msgs: 4.0.0 (/home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake)
+[1.848s] -- Found crtk_msgs: 1.3.0 (/home/utc_sim/ros2_dvrk/install/crtk_msgs/share/crtk_msgs/cmake)
+[1.861s] -- Found cisst_ros_bridge: 4.0.0 (/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/share/cisst_ros_bridge/cmake)
+[1.863s] -- Found cisst_ros_crtk: 4.0.0 (/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake)
+[1.867s] -- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+[1.872s] -- Performing Test CXX_SUPPORTS_WEXTRA
+[2.003s] -- Performing Test CXX_SUPPORTS_WEXTRA - Success
+[2.003s] -- Performing Test CXX_SUPPORTS_WALL
+[2.099s] -- Performing Test CXX_SUPPORTS_WALL - Success
+[2.100s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[2.101s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[2.101s] -- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+[2.165s] -- Configuring done
+[2.187s] -- Generating done
+[2.194s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_bilateral_teleop

@@ -1,0 +1,58 @@
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstCommonQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  applications/system-config-wizard/CMakeLists.txt:24 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:141 (message):
+  find_package: cisst library "cisstQt" doesn't exist or hasn't been
+  compiled, use the flag CISST_HAS_QT to compile it
+Call Stack (most recent call first):
+  applications/system-config-wizard/CMakeLists.txt:24 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstCommonQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  applications/CMakeLists.txt:43 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstVectorQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  applications/CMakeLists.txt:43 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstMultiTaskQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  applications/CMakeLists.txt:43 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstParameterTypesQt" doesn't exist or hasn't
+  been compiled
+Call Stack (most recent call first):
+  applications/CMakeLists.txt:43 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:141 (message):
+  find_package: cisst library "cisstQt" doesn't exist or hasn't been
+  compiled, use the flag CISST_HAS_QT to compile it
+Call Stack (most recent call first):
+  applications/CMakeLists.txt:43 (find_package)
+
+[0m
+Cloning into 'gattlibExternal'...
+HEAD is now at 33a8a27 gattlib-py: Fix/Handle returned error code
+[31mCMake Error at CMakeLists.txt:37 (message):
+  Please install 'libbluetooth-dev'
+
+[0m
+gmake[2]: *** [components/CMakeFiles/gattlibExternal.dir/build.make:93: components/gattlib/src/gattlibExternal-stamp/gattlibExternal-configure] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:274: components/CMakeFiles/gattlibExternal.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2

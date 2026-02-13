@@ -1,0 +1,211 @@
+[0.081s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/share -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_config
+[0.203s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 11.4.0
+[0.330s] -- Detecting C compiler ABI info
+[0.501s] -- Detecting C compiler ABI info - done
+[0.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.501s] -- Detecting C compile features
+[0.501s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.560s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.574s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.849s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.938s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.112s] -- Configuring done
+[1.114s] -- Generating done
+[1.115s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/dvrk_config
+[1.119s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/share -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_config
+[1.120s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_config -- -j8 -l8
+[1.188s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_config -- -j8 -l8
+[1.189s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_config
+[1.215s] -- Install configuration: "Release"
+[1.216s] -- Execute custom install script
+[1.216s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/ECM_KIN_SIMULATED_STRAIGHT.json
+[1.222s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/ECM_Si_KIN_SIMULATED_STRAIGHT.json
+[1.226s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/MTML_KIN_SIMULATED.json
+[1.234s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/MTMR_KIN_SIMULATED.json
+[1.239s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/PSM_KIN_SIMULATED_5MM_NEEDLE_DRIVER_400117.json
+[1.244s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/PSM_KIN_SIMULATED_LARGE_NEEDLE_DRIVER_400006.json
+[1.249s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/PSM_KIN_SIMULATED_MANUAL.json
+[1.256s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/PSM_Si_KIN_SIMULATED_LARGE_NEEDLE_DRIVER_420006.json
+[1.267s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/README.md
+[1.276s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/suj-fixed-simulated.json
+[1.281s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/suj-si-simulated.json
+[1.290s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/arm/suj-simulated.json
+[1.300s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/collection/collection-MTML-MTMR.json
+[1.310s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/collection/collection-MTML-PSM1.json
+[1.323s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/console-MTMR-ForceDimension-no-keyboard-PSM1_KIN_SIMULATED-Teleop.json
+[1.336s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/console-MTMR-Omni-PSM1_KIN_SIMULATED-Teleop.json
+[1.341s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/console-PSM1_SNAKE_KIN_SIMULATED.json
+[1.348s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/console-patient-cart-fixed-simulated.json
+[1.355s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/sawPSMove-camera-MTMs.json
+[1.366s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/sawSensablePhantomDefault.json
+[1.379s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-2-ECMS-simulated.json
+[1.390s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-ECM_Classic_KIN_SIMULATED.json
+[1.394s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-ECM_Si_KIN_SIMULATED.json
+[1.400s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTML_Classic_KIN_SIMULATED.json
+[1.410s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTMR-NovintFalcon-JoystickPedals-PSM1_KIN_SIMULATED-Teleop.json
+[1.413s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTMR-NovintFalcon-PSM1_from_ROS.json
+[1.419s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTMR-PSMove-PSM1_KIN_SIMULATED.json
+[1.425s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTMR-PSMove-PSM1_from_ROS.json
+[1.435s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTMR_Classic_KIN_SIMULATED.json
+[1.447s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-MTMR_KIN_SIMULATED-PSM1_from_ROS.json
+[1.465s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-PSM1_Classic_KIN_SIMULATED.json
+[1.471s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-PSM1_Si_KIN_SIMULATED.json
+[1.476s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-PSM2_Classic_KIN_SIMULATED.json
+[1.481s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-PSM2_Si_KIN_SIMULATED.json
+[1.501s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-PSM3_Classic_KIN_SIMULATED.json
+[1.505s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-PSM3_Si_KIN_SIMULATED.json
+[1.510s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-dVRK-cart-simulated.json
+[1.521s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-dual-consoles-simulated.json
+[1.554s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-full-system-simulated.json
+[1.558s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-patient-cart-Classic-simulated.json
+[1.602s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-patient-cart-Si-simulated.json
+[1.635s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/system/system-surgeon-console-simulated.json
+[1.641s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/deprecated/dvecm.rob
+[1.650s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/deprecated/dvmtm.rob
+[1.666s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/deprecated/dvpsm.rob
+[1.669s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/hid/goovis-hd.json
+[1.697s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/igtl/README.md
+[1.714s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/igtl/igtl-PSM1.json
+[1.719s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/igtl/manager-igtl-PSM1.json
+[1.731s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/README.md
+[1.737s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTML-dVRK-head-sensor.xml
+[1.744s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTML-dv-endoscope-focus.json
+[1.753s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTML-dv-head-sensor.json
+[1.761s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTML-foot-pedals-DQLA.xml
+[1.767s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTML-foot-pedals-QLA1.json
+[1.773s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTMR-dv-endoscope-focus.json
+[1.781s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTMR-dv-head-sensor.json
+[1.809s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTMR-foot-pedals-DQLA.json
+[1.814s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-MTMR-foot-pedals-QLA1.json
+[1.822s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-PSM1-foot-pedals-QLA1.json
+[1.829s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-PSM2-foot-pedals-QLA1.json
+[1.885s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/io/sawRobotIO1394-PSM3-foot-pedals-QLA1.json
+[1.921s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/ECM.json
+[1.926s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/ECM_Si.json
+[1.931s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/ECM_Si_physical.json
+[1.936s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/MTML.json
+[1.943s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/MTMR.json
+[1.957s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/PSM.json
+[1.962s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/PSM_Si.json
+[1.969s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/PSM_Si_physical.json
+[1.974s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/kinematic/compute-ftmax.py
+[1.982s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/deprecated/sawControllersPID-ECM.xml
+[1.989s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/deprecated/sawControllersPID-Focus.xml
+[1.995s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/deprecated/sawControllersPID-MTML.xml
+[2.000s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/deprecated/sawControllersPID-MTMR.xml
+[2.007s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/deprecated/sawControllersPID-PSM-Si.xml
+[2.014s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/deprecated/sawControllersPID-PSM.xml
+[2.022s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/sawControllersPID-ECM-Si.json
+[2.027s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/sawControllersPID-ECM.json
+[2.036s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/sawControllersPID-MTM.json
+[2.041s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/sawControllersPID-PSM-Si.json
+[2.046s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/pid/sawControllersPID-PSM.json
+[2.056s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/README.md
+[2.077s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/cisst-component-manager.schema.json
+[2.086s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/cisst-matrices.schema.json
+[2.091s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/cisst-terminal.schema.json
+[2.096s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-IO-configuration.schema.json
+[2.101s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-IO.schema.json
+[2.106s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-arm.schema.json
+[2.112s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-console.schema.json
+[2.119s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-ecm.schema.json
+[2.130s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-hid.schema.json
+[2.138s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-interface-button.schema.json
+[2.145s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-mtm.schema.json
+[2.156s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-psm.schema.json
+[2.169s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-system-arm.schema.json
+[2.188s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-system-settings.schema.json
+[2.193s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-system.schema.json
+[2.200s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-teleop-ECM.schema.json
+[2.205s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-teleop-PSM.schema.json
+[2.212s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/dvrk-tool-list.schema.json
+[2.216s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/generate-html.py
+[2.221s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/json-schema.py
+[2.227s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/schemas/requirements.txt
+[2.242s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/README.md
+[2.256s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/example.py
+[2.260s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/manager-socket-streamer-MTML.json
+[2.268s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/manager-socket-streamer-PSM1.json
+[2.282s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/manager-socket-streamer-PSM2.json
+[2.282s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/manager-socket-streamer-console.json
+[2.291s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/manager-socket-streamer-patient-cart.json
+[2.291s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/streamerECM.json
+[2.297s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/streamerMTML.json
+[2.303s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/streamerMTMR.json
+[2.309s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/streamerPSM1.json
+[2.326s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/socket-streamer/streamerPSM2.json
+[2.352s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/BOWEL_GRASPER_400127.json
+[2.364s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/CADIERE_FORCEPS_400049.json
+[2.369s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/CADIERE_FORCEPS_420049.json
+[2.380s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/CURVED_SCISSORS_400178.json
+[2.385s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/CURVED_SCISSORS_420178.json
+[2.396s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/DEBAKEY_FORCEPS_400036.json
+[2.403s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/DEBAKEY_FORCEPS_420036.json
+[2.418s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/DOUBLE_FENESTRATED_GRASPER_400189.json
+[2.425s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/FENESTRATED_BIPOLAR_FORCEPS_400205.json
+[2.436s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/FENESTRATED_BIPOLAR_FORCEPS_420205.json
+[2.466s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LARGE_CLIP_APPLIER_400230.json
+[2.472s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LARGE_CLIP_APPLIER_420230.json
+[2.486s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LARGE_NEEDLE_DRIVER_400006.json
+[2.493s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LARGE_NEEDLE_DRIVER_420006.json
+[2.516s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LARGE_NEEDLE_DRIVER_420006_GEARED.json
+[2.524s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LARGE_SUTURECUT_NEEDLEDRIVER_420296.json
+[2.533s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LONG_TIP_FORCEPS_400048.json
+[2.551s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LONG_TIP_FORCEPS_420048.json
+[2.557s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/LRG_SUTURECUT_NEEDLE_DRIVER_400296.json
+[2.562s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MARYLAND_BIPOLAR_FORCEPS_400172.json
+[2.567s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MARYLAND_BIPOLAR_FORCEPS_420172.json
+[2.573s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MARYLAND_DISSECTOR_400143.json
+[2.579s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEDIUM-LARGE_CLIP_APPLIER_420327.json
+[2.586s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEGA_NEEDLE_DRIVER_400194.json
+[2.591s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEGA_NEEDLE_DRIVER_420194.json
+[2.598s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEGA_NEEDLE_DRIVER_420194_GEARED.json
+[2.603s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEGA_SUTURECUT_NEEDLE_DRIVER_400309.json
+[2.607s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEGA_SUTURECUT_NEEDLE_DRIVER_420309.json
+[2.611s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MEGA_SUTURECUT_NEEDLE_DRIVER_420309_GEARED.json
+[2.621s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MICRO_FORCEPS_400033.json
+[2.627s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MICRO_FORCEPS_420033.json
+[2.632s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MONOPOLAR_CURVED_SCISSORS_400179.json
+[2.647s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/MONOPOLAR_CURVED_SCISSORS_420179.json
+[2.657s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/NEEDLE_DRIVER_400117.json
+[2.660s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/NEEDLE_DRIVER_420117.json
+[2.665s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PERMANENT_CAUTERY_HOOK_400183.json
+[2.679s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PERMANENT_CAUTERY_HOOK_420183.json
+[2.688s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PERMANENT_CAUTERY_HOOK_420183_GEARED.json
+[2.698s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PERMANENT_CAUTERY_SPATULA_400184.json
+[2.705s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PERMANENT_CAUTERY_SPATULA_420184.json
+[2.718s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/POTTS_SCISSORS_400001.json
+[2.723s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/POTTS_SCISSORS_420001.json
+[2.728s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PROGRASP_FORCEPS_400093.json
+[2.733s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PROGRASP_FORCEPS_420093.json
+[2.738s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/PROGRASP_FORCEPS_420093_GEARED.json
+[2.745s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/RESANO_FORCEPS_400181.json
+[2.753s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/RESANO_FORCEPS_420181.json
+[2.763s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/ROUND_TIP_SCISSORS_400007.json
+[2.789s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/ROUND_TIP_SCISSORS_420007.json
+[2.817s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/ROUND_TOOTH_FORCEPS_400035.json
+[2.823s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/SMALL_CLIP_APPLIER_400003.json
+[2.866s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/STAPLER_45_410298.json
+[2.873s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/TENACULUM_FORCEPS_400207.json
+[2.886s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/THORACIC_GRASPER_400208.json
+[2.898s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/tool/index.json
+[2.914s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/ament_index/resource_index/package_run_dependencies/dvrk_config
+[2.921s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/ament_index/resource_index/parent_prefix_path/dvrk_config
+[2.927s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/environment/ament_prefix_path.sh
+[2.936s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/environment/ament_prefix_path.dsv
+[2.955s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/environment/path.sh
+[2.960s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/environment/path.dsv
+[2.967s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/local_setup.bash
+[2.975s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/local_setup.sh
+[3.001s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/local_setup.zsh
+[3.045s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/local_setup.dsv
+[3.066s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/package.dsv
+[3.072s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/ament_index/resource_index/packages/dvrk_config
+[3.078s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/cmake/dvrk_configConfig.cmake
+[3.084s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/cmake/dvrk_configConfig-version.cmake
+[3.094s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_config/share/dvrk_config/package.xml
+[3.105s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_config

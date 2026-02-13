@@ -1,0 +1,87 @@
+[  9%] Built target gattlibExternal
+[  9%] Built target sawIntuitiveResearchKitRemoveLogs
+[ 11%] Built target sawIntuitiveResearchKitGripperCalibration
+[ 11%] Built target sawIntuitiveResearchKitSUJBluetoothReset
+[ 14%] Built target sawIntuitiveResearchKitSiPotentiometersCalibration
+[ 14%] Built target sawIntuitiveResearchKitConfigGenerator
+[ 14%] Built target sawIntuitiveResearchKitSDCardUpdater
+[ 97%] Built target sawIntuitiveResearchKit
+[100%] Built target sawIntuitiveResearchKitDerivedTeleOperationPSM
+-- Install configuration: "Release"
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.cmake
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfigVersion.cmake
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorMTM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKit.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocusQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/prmConfigurationJointFromManipulator.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsToolList.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_PSM_proxy.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciEndoscopeFocus.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsStateMachine.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_proxy.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_ECM_proxy.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system_Qt.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationECMQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system_Qt_widget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/prmActuatorJointCouplingCheck.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitQtExport.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJFixed.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJ.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitExport.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/console.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsPSMCompensation.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationPSM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitPSMQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorECM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_proxy.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsDaVinciHeadSensor.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsHIDHeadSensor.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationECM.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/console_Qt_widget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robGravityCompensation.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorPSMSnake.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/IO_proxy.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArmQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitSUJSi.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitMTMQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsTeleOperationPSMQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitECMQtWidget.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitArm.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/IO_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_type.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/simulation.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/sawIntuitiveResearchKitRevision.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/IO_proxy_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_type.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/generation.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_ECM_proxy_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_PSM_proxy_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/arm_proxy_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/terminal.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/base_frame.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_ECM_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/console_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitControlTypes.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/system_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/teleop_PSM_configuration.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so.2.4.0
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKit.so
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitGripperCalibration
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitSiPotentiometersCalibration
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/calParser.py
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-io-config-generator.py
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-sd-card-updater.py
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-remove-logs.py
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-suj-bluetooth-reset.py

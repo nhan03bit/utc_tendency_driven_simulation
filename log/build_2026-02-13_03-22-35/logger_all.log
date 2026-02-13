@@ -1,0 +1,917 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dvrk_arms_from_ros', 'dvrk_robot', 'saw_intuitive_research_kit_example_psm_derived', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dvrk_arms_from_ros', 'dvrk_robot', 'saw_intuitive_research_kit_example_psm_derived'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffac157340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac118880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac118880>>, mixin_verb=('build',))
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/utc_sim/ros2_dvrk'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extension 'colcon_pkg'
+[0.190s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'cisst' of package 'src/cisst-saw/cisst' from colcon.pkg
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst' with type 'None' and name 'cisst'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst' with type 'ros.catkin' and name 'cisst'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_msgs) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst-ros/cisst_msgs' with type 'ros.ament_cmake' and name 'cisst_msgs'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extension 'colcon_pkg'
+[0.197s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'cisst_ros_bridge' of package 'src/cisst-saw/cisst-ros/cisst_ros_bridge' from colcon.pkg
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst-ros/cisst_ros_bridge' with type 'None' and name 'cisst_ros_bridge'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_bridge) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst-ros/cisst_ros_bridge' with type 'ros.ament_cmake' and name 'cisst_ros_bridge'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extension 'colcon_pkg'
+[0.204s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'cisst_ros_crtk' of package 'src/cisst-saw/cisst-ros/cisst_ros_crtk' from colcon.pkg
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst-ros/cisst_ros_crtk' with type 'None' and name 'cisst_ros_crtk'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisst-ros/cisst_ros_crtk) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisst-ros/cisst_ros_crtk' with type 'ros.ament_cmake' and name 'cisst_ros_crtk'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extension 'colcon_pkg'
+[0.209s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'cisstNetlib' of package 'src/cisst-saw/cisstNetlib' from colcon.pkg
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisstNetlib' with type 'None' and name 'cisstNetlib'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/cisstNetlib) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/cisstNetlib' with type 'ros.cmake' and name 'cisstNetlib'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'colcon_pkg'
+[0.210s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'sawControllersCore' of package 'src/cisst-saw/sawControllers/core' from colcon.pkg
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawControllers/core' with type 'None' and name 'sawControllersCore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/core) by extension 'python'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawControllers/core' with type 'cmake' and name 'sawControllersCore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extension 'colcon_pkg'
+[0.212s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'saw_controllers_ros' of package 'src/cisst-saw/sawControllers/ros' from colcon.pkg
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawControllers/ros' with type 'None' and name 'saw_controllers_ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawControllers/ros) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawControllers/ros' with type 'ros.ament_cmake' and name 'saw_controllers_ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'colcon_pkg'
+[0.215s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'sawIntuitiveResearchKitCore' of package 'src/cisst-saw/sawIntuitiveResearchKit/core' from colcon.pkg
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/core' with type 'None' and name 'sawIntuitiveResearchKitCore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/core) by extension 'python'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/core' with type 'cmake' and name 'sawIntuitiveResearchKitCore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/port-utils) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components' with type 'ros.ament_cmake' and name 'dvrk_arms_from_ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/share) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget' with type 'ros.ament_cmake' and name 'dvrk_hrsv_widget'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extension 'colcon_pkg'
+[0.224s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'dvrk_robot' of package 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot' from colcon.pkg
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot' with type 'None' and name 'dvrk_robot'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot' with type 'ros.ament_cmake' and name 'dvrk_robot'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extension 'colcon_pkg'
+[0.228s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'saw_intuitive_research_kit_example_bilateral_teleop' of package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components' from colcon.pkg
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components' with type 'None' and name 'saw_intuitive_research_kit_example_bilateral_teleop'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components' with type 'ros.ament_cmake' and name 'saw_intuitive_research_kit_example_bilateral_teleop'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/share) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extension 'colcon_pkg'
+[0.232s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'saw_intuitive_research_kit_example_psm_derived' of package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components' from colcon.pkg
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components' with type 'None' and name 'saw_intuitive_research_kit_example_psm_derived'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components' with type 'ros.ament_cmake' and name 'saw_intuitive_research_kit_example_psm_derived'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/share/jhu-dVRK) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawIntuitiveResearchKit/share) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawIntuitiveResearchKit/share' with type 'ros.ament_cmake' and name 'dvrk_config'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'colcon_pkg'
+[0.236s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'sawKeyboardAll' of package 'src/cisst-saw/sawKeyboard' from colcon.pkg
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawKeyboard' with type 'None' and name 'sawKeyboardAll'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawKeyboard) by extension 'python'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawKeyboard' with type 'cmake' and name 'sawKeyboardAll'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'colcon_pkg'
+[0.237s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'sawRobotIO1394Core' of package 'src/cisst-saw/sawRobotIO1394/core' from colcon.pkg
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawRobotIO1394/core' with type 'None' and name 'sawRobotIO1394Core'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/core) by extension 'python'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawRobotIO1394/core' with type 'cmake' and name 'sawRobotIO1394Core'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extension 'colcon_pkg'
+[0.241s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'saw_robot_io_1394_ros' of package 'src/cisst-saw/sawRobotIO1394/ros' from colcon.pkg
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawRobotIO1394/ros' with type 'None' and name 'saw_robot_io_1394_ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawRobotIO1394/ros) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawRobotIO1394/ros' with type 'ros.ament_cmake' and name 'saw_robot_io_1394_ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'colcon_pkg'
+[0.244s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'sawTextToSpeechAll' of package 'src/cisst-saw/sawTextToSpeech' from colcon.pkg
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawTextToSpeech' with type 'None' and name 'sawTextToSpeechAll'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cisst-saw/sawTextToSpeech) by extension 'python'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cisst-saw/sawTextToSpeech' with type 'cmake' and name 'sawTextToSpeechAll'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/+crtk) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_matlab_client/examples) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_msgs) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crtk/crtk_msgs' with type 'ros.ament_cmake' and name 'crtk_msgs'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/crtk/crtk_python_client) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crtk/crtk_python_client' with type 'ros.ament_cmake' and name 'crtk_python_client'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dESSJ-firmware) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk-gravity-compensation) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_camera_registration) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dvrk/dvrk_camera_registration' with type 'ros.ament_cmake' and name 'dvrk_camera_registration'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extension 'colcon_pkg'
+[0.255s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'dvrk_config_jhu' of package 'src/dvrk/dvrk_config_jhu' from colcon.pkg
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dvrk/dvrk_config_jhu' with type 'None' and name 'dvrk_config_jhu'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_config_jhu) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dvrk/dvrk_config_jhu' with type 'ros.cmake' and name 'dvrk_config_jhu'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/+dvrk) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_matlab/examples) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_model) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dvrk/dvrk_model' with type 'ros.ament_cmake' and name 'dvrk_model'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_python) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dvrk/dvrk_python' with type 'ros.ament_cmake' and name 'dvrk_python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/dvrk/dvrk_video) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dvrk/dvrk_video' with type 'ros.ament_cmake' and name 'dvrk_video'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.270s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawRobotIO1394/ros' from colcon.pkg: {'name': 'saw_robot_io_1394_ros', 'dependencies': ['cisst_ros_crtk', 'sawRobotIO1394Core']}
+[0.270s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/cisst-ros/cisst_ros_bridge' from colcon.pkg: {'name': 'cisst_ros_bridge', 'dependencies': ['cisst', 'cisst_msgs']}
+[0.270s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components' from colcon.pkg: {'name': 'saw_intuitive_research_kit_example_bilateral_teleop', 'dependencies': ['cisst_ros_crtk', 'sawIntuitiveResearchKitCore']}
+[0.271s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components' from colcon.pkg: {'name': 'saw_intuitive_research_kit_example_psm_derived', 'dependencies': ['cisst_ros_crtk', 'sawIntuitiveResearchKitCore']}
+[0.271s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawTextToSpeech' from colcon.pkg: {'name': 'sawTextToSpeechAll', 'dependencies': ['cisst', 'sawKeyboardAll']}
+[0.271s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawControllers/ros' from colcon.pkg: {'name': 'saw_controllers_ros', 'dependencies': ['cisst_ros_crtk', 'sawControllersCore']}
+[0.271s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/dvrk/dvrk_config_jhu' from colcon.pkg: {'name': 'dvrk_config_jhu'}
+[0.272s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawKeyboard' from colcon.pkg: {'name': 'sawKeyboardAll', 'dependencies': ['cisst']}
+[0.272s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/cisst' from colcon.pkg: {'name': 'cisst', 'dependencies': ['cisstNetlib'], 'cmake-args': ['-DCISSTNETLIB_USE_LOCAL_INSTALL=ON', '-DCISST_HAS_CISSTNETLIB=ON', '-DCISST_cisstMesh=ON', '-DCISST_cisstInteractive=ON', '-DCISST_USE_SI_UNITS=ON', '-DCISST_HAS_QT=ON', '-DCISST_HAS_JSON=ON', '-DCISST_HAS_SWIG_PYTHON=ON', '-DCISST_BUILD_SHARED_LIBS=ON', '-DIS_SHARED=SHARED', '-DBUILD_SHARED_LIBS=SHARED'], 'hooks': ['bin/cisstvars.sh']}
+[0.273s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawRobotIO1394/core' from colcon.pkg: {'name': 'sawRobotIO1394Core', 'dependencies': ['cisst']}
+[0.274s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/cisst-ros/cisst_ros_crtk' from colcon.pkg: {'name': 'cisst_ros_crtk', 'dependencies': ['cisst_ros_bridge', 'crtk_msgs']}
+[0.274s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawIntuitiveResearchKit/core' from colcon.pkg: {'name': 'sawIntuitiveResearchKitCore', 'dependencies': ['cisst', 'sawKeyboardAll', 'sawTextToSpeechAll', 'sawControllersCore', 'sawRobotIO1394Core']}
+[0.274s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawControllers/core' from colcon.pkg: {'name': 'sawControllersCore', 'dependencies': ['cisst', 'sawKeyboardAll']}
+[0.274s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/cisstNetlib' from colcon.pkg: {'name': 'cisstNetlib', 'cmake-args': ['-DcisstNetlib_LANGUAGE=C']}
+[0.275s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot' from colcon.pkg: {'name': 'dvrk_robot', 'dependencies': ['cisst_ros_crtk', 'saw_robot_io_1394_ros', 'saw_controllers_ros', 'sawIntuitiveResearchKitCore']}
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cisstNetlib' in 'src/cisst-saw/cisstNetlib'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cisst_msgs' in 'src/cisst-saw/cisst-ros/cisst_msgs'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crtk_msgs' in 'src/crtk/crtk_msgs'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_config' in 'src/cisst-saw/sawIntuitiveResearchKit/share'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_config_jhu' in 'src/dvrk/dvrk_config_jhu'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_hrsv_widget' in 'src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_model' in 'src/dvrk/dvrk_model'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_video' in 'src/dvrk/dvrk_video'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cisst' in 'src/cisst-saw/cisst'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'crtk_python_client' in 'src/crtk/crtk_python_client'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cisst_ros_bridge' in 'src/cisst-saw/cisst-ros/cisst_ros_bridge'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_camera_registration' in 'src/dvrk/dvrk_camera_registration'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dvrk_python' in 'src/dvrk/dvrk_python'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sawKeyboardAll' in 'src/cisst-saw/sawKeyboard'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sawRobotIO1394Core' in 'src/cisst-saw/sawRobotIO1394/core'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cisst_ros_crtk' in 'src/cisst-saw/cisst-ros/cisst_ros_crtk'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sawControllersCore' in 'src/cisst-saw/sawControllers/core'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sawTextToSpeechAll' in 'src/cisst-saw/sawTextToSpeech'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sawIntuitiveResearchKitCore' in 'src/cisst-saw/sawIntuitiveResearchKit/core'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saw_controllers_ros' in 'src/cisst-saw/sawControllers/ros'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saw_robot_io_1394_ros' in 'src/cisst-saw/sawRobotIO1394/ros'
+[0.277s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saw_intuitive_research_kit_example_bilateral_teleop' in 'src/cisst-saw/sawIntuitiveResearchKit/ros/examples/bilateralTeleop/components'
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/utc_sim/ros2_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_arms_from_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'dvrk_arms_from_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros', 'merge_install': False, 'path': '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'dvrk_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'dvrk_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utc_sim/ros2_dvrk/build/dvrk_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utc_sim/ros2_dvrk/install/dvrk_robot', 'merge_install': False, 'path': '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'saw_intuitive_research_kit_example_psm_derived' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'saw_intuitive_research_kit_example_psm_derived' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived', 'merge_install': False, 'path': '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components', 'symlink_install': False, 'test_result_base': None}
+[0.304s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components'
+[0.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot'
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_robot': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_robot
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros -- -j8 -l8
+[1.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived
+[1.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived -- -j8 -l8
+[1.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_robot' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_robot
+[1.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_robot': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_robot -- -j8 -l8
+[12.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros -- -j8 -l8
+[12.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros
+[12.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dvrk_arms_from_ros)
+[12.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros
+[12.450s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros' for CMake module files
+[12.450s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros' for CMake config files
+[12.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('dvrk_arms_from_ros', 'cmake_prefix_path')
+[12.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/cmake_prefix_path.ps1'
+[12.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/cmake_prefix_path.dsv'
+[12.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/cmake_prefix_path.sh'
+[12.456s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/lib'
+[12.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('dvrk_arms_from_ros', 'ld_library_path_lib')
+[12.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/ld_library_path_lib.ps1'
+[12.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/ld_library_path_lib.dsv'
+[12.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/ld_library_path_lib.sh'
+[12.459s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/bin'
+[12.459s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/lib/pkgconfig/dvrk_arms_from_ros.pc'
+[12.460s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/lib/python3.10/site-packages'
+[12.460s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/bin'
+[12.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.ps1'
+[12.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.dsv'
+[12.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.sh'
+[12.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.bash'
+[12.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.zsh'
+[12.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/colcon-core/packages/dvrk_arms_from_ros)
+[12.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dvrk_arms_from_ros)
+[12.464s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros' for CMake module files
+[12.465s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros' for CMake config files
+[12.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('dvrk_arms_from_ros', 'cmake_prefix_path')
+[12.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/cmake_prefix_path.ps1'
+[12.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/cmake_prefix_path.dsv'
+[12.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/cmake_prefix_path.sh'
+[12.466s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/lib'
+[12.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('dvrk_arms_from_ros', 'ld_library_path_lib')
+[12.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/ld_library_path_lib.ps1'
+[12.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/ld_library_path_lib.dsv'
+[12.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/hook/ld_library_path_lib.sh'
+[12.468s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/bin'
+[12.468s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/lib/pkgconfig/dvrk_arms_from_ros.pc'
+[12.469s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/lib/python3.10/site-packages'
+[12.469s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/bin'
+[12.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.ps1'
+[12.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.dsv'
+[12.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.sh'
+[12.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.bash'
+[12.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/dvrk_arms_from_ros/package.zsh'
+[12.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utc_sim/ros2_dvrk/install/dvrk_arms_from_ros/share/colcon-core/packages/dvrk_arms_from_ros)
+[23.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived -- -j8 -l8
+[23.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived
+[23.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saw_intuitive_research_kit_example_psm_derived)
+[23.256s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived' for CMake module files
+[23.258s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived' for CMake config files
+[23.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('saw_intuitive_research_kit_example_psm_derived', 'cmake_prefix_path')
+[23.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/hook/cmake_prefix_path.ps1'
+[23.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived
+[23.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/hook/cmake_prefix_path.dsv'
+[23.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/hook/cmake_prefix_path.sh'
+[23.262s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/bin'
+[23.262s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/lib/pkgconfig/saw_intuitive_research_kit_example_psm_derived.pc'
+[23.265s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/lib/python3.10/site-packages'
+[23.266s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/bin'
+[23.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.ps1'
+[23.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.dsv'
+[23.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.sh'
+[23.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.bash'
+[23.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.zsh'
+[23.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/colcon-core/packages/saw_intuitive_research_kit_example_psm_derived)
+[23.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saw_intuitive_research_kit_example_psm_derived)
+[23.291s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived' for CMake module files
+[23.292s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived' for CMake config files
+[23.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('saw_intuitive_research_kit_example_psm_derived', 'cmake_prefix_path')
+[23.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/hook/cmake_prefix_path.ps1'
+[23.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/hook/cmake_prefix_path.dsv'
+[23.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/hook/cmake_prefix_path.sh'
+[23.295s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/bin'
+[23.295s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/lib/pkgconfig/saw_intuitive_research_kit_example_psm_derived.pc'
+[23.296s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/lib/python3.10/site-packages'
+[23.296s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/bin'
+[23.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.ps1'
+[23.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.dsv'
+[23.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.sh'
+[23.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.bash'
+[23.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/saw_intuitive_research_kit_example_psm_derived/package.zsh'
+[23.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utc_sim/ros2_dvrk/install/saw_intuitive_research_kit_example_psm_derived/share/colcon-core/packages/saw_intuitive_research_kit_example_psm_derived)
+[48.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_robot' returned '2': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:${AMENT_PREFIX_PATH} CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_robot -- -j8 -l8
+[48.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dvrk_robot)
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_robot' for CMake module files
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_robot' for CMake config files
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_robot/bin'
+[48.005s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_robot/lib/pkgconfig/dvrk_robot.pc'
+[48.006s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_robot/lib/python3.10/site-packages'
+[48.006s] Level 1:colcon.colcon_core.environment:checking '/home/utc_sim/ros2_dvrk/install/dvrk_robot/bin'
+[48.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.ps1'
+[48.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.dsv'
+[48.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.sh'
+[48.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.bash'
+[48.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.zsh'
+[48.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/colcon-core/packages/dvrk_robot)
+[48.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[48.019s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.026s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.062s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utc_sim/ros2_dvrk/install/local_setup.ps1'
+[48.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/utc_sim/ros2_dvrk/install/_local_setup_util_ps1.py'
+[48.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utc_sim/ros2_dvrk/install/setup.ps1'
+[48.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utc_sim/ros2_dvrk/install/local_setup.sh'
+[48.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/utc_sim/ros2_dvrk/install/_local_setup_util_sh.py'
+[48.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utc_sim/ros2_dvrk/install/setup.sh'
+[48.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utc_sim/ros2_dvrk/install/local_setup.bash'
+[48.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utc_sim/ros2_dvrk/install/setup.bash'
+[48.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utc_sim/ros2_dvrk/install/local_setup.zsh'
+[48.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utc_sim/ros2_dvrk/install/setup.zsh'

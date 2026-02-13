@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crtk_msgs/msg/SetpointMode.msg
+// generated code does not contain a copyright notice
+
+
+module crtk_msgs {
+  module msg {
+    module SetpointMode_Constants {
+      const uint8 POSITION = 1;
+      const uint8 VELOCITY = 2;
+      const uint8 EFFORT = 4;
+      const uint8 NONE = 0;
+      const uint8 P = 1;
+      const uint8 V = 2;
+      const uint8 PV = 3;
+      const uint8 F = 4;
+      const uint8 PF = 5;
+      const uint8 VF = 6;
+      const uint8 PVF = 7;
+    };
+    struct SetpointMode {
+      uint8 value;
+    };
+  };
+};

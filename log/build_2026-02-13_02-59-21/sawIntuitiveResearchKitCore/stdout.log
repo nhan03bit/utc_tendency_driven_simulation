@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Performing Test CXX_SUPPORTS_WEXTRA
+-- Performing Test CXX_SUPPORTS_WEXTRA - Success
+-- Performing Test CXX_SUPPORTS_WALL
+-- Performing Test CXX_SUPPORTS_WALL - Success
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore
+[  1%] [34m[1mCreating directories for 'gattlibExternal'[0m
+[  2%] [34m[1mPerforming download step (git clone) for 'gattlibExternal'[0m
+[  3%] [34m[1mNo update step for 'gattlibExternal'[0m
+[  4%] [34m[1mNo patch step for 'gattlibExternal'[0m
+[  5%] [34m[1mPerforming configure step for 'gattlibExternal'[0m
+loading initial cache file /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/tmp/gattlibExternal-cache-Release.cmake
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Checking for one of the modules 'bluez'
+-- Configuring incomplete, errors occurred!
+See also "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-build/CMakeFiles/CMakeOutput.log".

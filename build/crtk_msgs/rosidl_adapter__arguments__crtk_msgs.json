@@ -1,0 +1,16 @@
+{
+  "package_name": "crtk_msgs",
+  "non_idl_tuples": [
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/OperatingState.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/StringStamped.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/CartesianImpedanceHalfPlaneGains.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/CartesianImpedance.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/CartesianState.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/SetpointMode.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/CartesianServo.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:msg/JointServo.msg",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:srv/TriggerOperatingState.srv",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:srv/QueryForwardKinematics.srv",
+    "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs:srv/QueryInverseKinematics.srv"
+  ]
+}

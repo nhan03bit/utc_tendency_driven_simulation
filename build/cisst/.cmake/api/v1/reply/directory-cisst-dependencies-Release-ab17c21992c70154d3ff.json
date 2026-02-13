@@ -1,0 +1,387 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"cisst_set_package_settings"
+		],
+		"files" : 
+		[
+			"cmake/cisstInternalMacros.cmake",
+			"cisst-dependencies/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 238,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 339,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 340,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 341,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 26
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "cisstOpenGL",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstOpenGLOpenGL.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cisstOpenGL",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstOpenGLExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cisstOpenGL",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstOpenGLOpenGL.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "cisstOpenGL",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstOpenGLExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "cisstSWIG",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstSWIGSWIG.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "cisstSWIG",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstSWIGExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "cisstSWIG",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstSWIGSWIG.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "cisstSWIG",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstSWIGExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "cisstPython",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstPythonPython.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "cisstPython",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstPythonExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "cisstPython",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstPythonPython.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "cisstPython",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstPythonExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstPythonBuild.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstCommonJSON.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstCommonExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstCommonJSON.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstCommonExternal.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstCommonJSON.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "cisstCommon",
+			"destination" : "share/cisst-1.4/cmake",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/build/cisst/share/cisst-1.4/cmake/cisstCommonExternal.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cisst-dependencies",
+		"source" : "cisst-dependencies"
+	}
+}

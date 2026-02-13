@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_bilateral_teleop/ament_cmake_environment_hooks/local_setup.bash

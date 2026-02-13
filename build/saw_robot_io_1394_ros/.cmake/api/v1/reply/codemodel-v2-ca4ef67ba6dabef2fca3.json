@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-08f46fdab9eeddb4becc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saw_robot_io_1394_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "saw_robot_io_1394_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saw_robot_io_1394_ros-Release-2a300ad4eb5c9726542c.json",
+					"name" : "saw_robot_io_1394_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saw_robot_io_1394_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saw_robot_io_1394_ros_uninstall-Release-cc75eee8d27f73e8401b.json",
+					"name" : "saw_robot_io_1394_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-992777c323d86ef665dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/saw_robot_io_1394_ros",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawRobotIO1394/ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,229 @@
+[0.047s] Invoking command in '/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore -- -j8 -l8
+[0.149s] [  1%] [34m[1mPerforming configure step for 'gattlibExternal'[0m
+[0.151s] [  2%] [32mBuilding CXX object applications/si-potentiometers-calibration/CMakeFiles/sawIntuitiveResearchKitSiPotentiometersCalibration.dir/SiPotentiometersCalibration.cpp.o[0m
+[0.154s] [  3%] [32mBuilding CXX object applications/gripper-calibration/CMakeFiles/sawIntuitiveResearchKitGripperCalibration.dir/GripperCalibration.cpp.o[0m
+[0.161s] loading initial cache file /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/tmp/gattlibExternal-cache-Release.cmake
+[0.174s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[0.174s] -- Checking for one of the modules 'bluez'
+[0.301s] -- Checking for one of the modules 'glib-2.0'
+[0.497s] -- Checking for one of the modules 'gio-unix-2.0'
+[0.720s] [0mBuild DBus gattlib for Bluez v5.64[0m
+[0.724s] [0mPackage Gattlib for development version [0m
+[0.769s] -- Configuring done
+[0.794s] -- Generating done
+[0.795s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal-build
+[0.815s] [  4%] [34m[1mPerforming build step for 'gattlibExternal'[0m
+[0.929s] [  4%] [34m[1mGenerate D-Bus 'org.bluez.GattService1.xml'[0m
+[0.933s] [  8%] [34m[1mGenerate D-Bus 'org.bluez.Adapter1.xml'[0m
+[1.101s] [ 13%] [34m[1mGenerate D-Bus 'org.bluez.Battery1.xml'[0m
+[1.117s] [ 17%] [34m[1mGenerate D-Bus 'org.bluez.Device1.xml'[0m
+[1.194s] [ 21%] [34m[1mGenerate D-Bus 'org.bluez.GattCharacteristic1.xml'[0m
+[1.247s] [ 26%] [34m[1mGenerate D-Bus 'org.bluez.GattDescriptor1.xml'[0m
+[1.351s] [ 30%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib.c.o[0m
+[1.374s] [ 34%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_adapter.c.o[0m
+[1.605s] In file included from [01m[K/usr/include/string.h:535[m[K,
+[1.606s]                  from [01m[K/usr/include/glib-2.0/glib/galloca.h:33[m[K,
+[1.606s]                  from [01m[K/usr/include/glib-2.0/glib.h:30[m[K,
+[1.606s]                  from [01m[K/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib.c:7[m[K:
+[1.607s] In function ‘[01m[Kstrncpy[m[K’,
+[1.607s]     inlined from ‘[01m[Kget_device_path_from_mac_with_adapter[m[K’ at [01m[K/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib.c:70:2[m[K:
+[1.607s] [01m[K/usr/include/aarch64-linux-gnu/bits/string_fortified.h:95:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 21 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+[1.607s]    95 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len,[m[K
+[1.608s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.608s]    96 | [01;35m[K                                  __glibc_objsize (__dest))[m[K;
+[1.608s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.615s] In function ‘[01m[Kstrncpy[m[K’,
+[1.615s]     inlined from ‘[01m[Kget_device_path_from_mac[m[K’ at [01m[K/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib.c:97:2[m[K:
+[1.616s] [01m[K/usr/include/aarch64-linux-gnu/bits/string_fortified.h:95:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 21 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+[1.616s]    95 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len,[m[K
+[1.616s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.616s]    96 | [01;35m[K                                  __glibc_objsize (__dest))[m[K;
+[1.617s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.755s] [ 39%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_advertisement.c.o[0m
+[1.795s] [ 43%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_char.c.o[0m
+[2.151s] [ 47%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_notification.c.o[0m
+[2.437s] [ 52%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/gattlib_stream.c.o[0m
+[2.723s] [  5%] [32m[1mLinking CXX executable sawIntuitiveResearchKitGripperCalibration[0m
+[2.778s] [01m[K/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib_stream.c:[m[K In function ‘[01m[Kgattlib_write_char_stream_write[m[K’:
+[2.779s] [01m[K/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/gattlib/src/gattlibExternal/dbus/gattlib_stream.c:72:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kwrite[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[2.779s]    72 |         [01;35m[Kwrite((unsigned long)stream, buffer, buffer_len)[m[K;
+[2.779s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.831s] [ 56%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/bluez5/lib/uuid.c.o[0m
+[2.997s] [  5%] Built target sawIntuitiveResearchKitGripperCalibration
+[3.003s] [ 60%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/__/common/gattlib_common.c.o[0m
+[3.257s] [ 65%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/__/common/logging_backend/syslog/gattlib_logging.c.o[0m
+[3.616s] [ 69%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-adaptater1.c.o[0m
+[3.883s] [  7%] [32m[1mLinking CXX executable sawIntuitiveResearchKitSiPotentiometersCalibration[0m
+[4.270s] [  7%] Built target sawIntuitiveResearchKitSiPotentiometersCalibration
+[4.493s] [ 73%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-gattcharacteristic1.c.o[0m
+[5.065s] [ 78%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-gattdescriptor1.c.o[0m
+[5.505s] [ 82%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-gattservice1.c.o[0m
+[5.897s] [ 86%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-battery1.c.o[0m
+[6.158s] [ 91%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/org-bluez-device1.c.o[0m
+[6.631s] [ 95%] [32mBuilding C object dbus/CMakeFiles/gattlib.dir/__/common/gattlib_eddystone.c.o[0m
+[6.729s] [100%] [32m[1mLinking C shared library libgattlib.so[0m
+[6.791s] [100%] Built target gattlib
+[6.832s] [  8%] [34m[1mPerforming install step for 'gattlibExternal'[0m
+[6.880s] [35m[1mConsolidate compiler generated dependencies of target gattlib[0m
+[6.910s] [100%] Built target gattlib
+[6.939s] [36mInstall the project...[0m
+[6.952s] -- Install configuration: "Release"
+[6.956s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/gattlib.h
+[6.957s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/pkgconfig/gattlib.pc
+[6.958s] -- Installing: /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libgattlib.so
+[7.042s] [  9%] [34m[1mCompleted 'gattlibExternal'[0m
+[7.129s] [ 14%] Built target gattlibExternal
+[7.157s] [ 14%] Built target sawIntuitiveResearchKitSUJBluetoothReset
+[7.170s] [ 15%] [34m[1mcisstDataGenerator for terminal[0m
+[7.175s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/terminal.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/terminal_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/terminal.cdg
+[7.177s] cisstDataGenerator: parse succeeded
+[7.177s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/terminal.h"
+[7.177s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/terminal_cdg.cpp"
+[7.187s] [ 16%] [34m[1mcisstDataGenerator for arm_proxy_configuration[0m
+[7.190s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/arm_proxy_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/arm_proxy_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/arm_proxy_configuration.cdg
+[7.192s] cisstDataGenerator: parse succeeded
+[7.192s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/arm_proxy_configuration.h"
+[7.192s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/arm_proxy_configuration_cdg.cpp"
+[7.209s] [ 17%] [34m[1mcisstDataGenerator for arm_type[0m
+[7.213s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/arm_type.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/arm_type_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/arm_type.cdg
+[7.214s] cisstDataGenerator: parse succeeded
+[7.214s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/arm_type.h"
+[7.215s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/arm_type_cdg.cpp"
+[7.231s] [ 19%] [34m[1mcisstDataGenerator for base_frame[0m
+[7.234s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/base_frame.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/base_frame_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/base_frame.cdg
+[7.234s] cisstDataGenerator: parse succeeded
+[7.235s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/base_frame.h"
+[7.235s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/base_frame_cdg.cpp"
+[7.247s] [ 20%] [34m[1mcisstDataGenerator for console_configuration[0m
+[7.255s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/console_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/console_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/console_configuration.cdg
+[7.255s] cisstDataGenerator: parse succeeded
+[7.255s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/console_configuration.h"
+[7.255s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/console_configuration_cdg.cpp"
+[7.269s] [ 21%] [34m[1mcisstDataGenerator for generation[0m
+[7.280s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/generation.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/generation_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/generation.cdg
+[7.282s] cisstDataGenerator: parse succeeded
+[7.282s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/generation.h"
+[7.282s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/generation_cdg.cpp"
+[7.306s] [ 22%] [34m[1mcisstDataGenerator for mtsHIDHeadSensorConfiguration[0m
+[7.308s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsHIDHeadSensorConfiguration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsHIDHeadSensorConfiguration.cdg
+[7.308s] cisstDataGenerator: parse succeeded
+[7.308s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsHIDHeadSensorConfiguration.h"
+[7.309s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsHIDHeadSensorConfiguration_cdg.cpp"
+[7.315s] [ 23%] [34m[1mcisstDataGenerator for mtsIntuitiveResearchKitControlTypes[0m
+[7.318s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitControlTypes.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitControlTypes_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsIntuitiveResearchKitControlTypes.cdg
+[7.318s] cisstDataGenerator: parse succeeded
+[7.318s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitControlTypes.h"
+[7.318s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitControlTypes_cdg.cpp"
+[7.326s] [ 25%] [34m[1mcisstDataGenerator for mtsIntuitiveResearchKitEndoscopeTypes[0m
+[7.329s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitEndoscopeTypes_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsIntuitiveResearchKitEndoscopeTypes.cdg
+[7.329s] cisstDataGenerator: parse succeeded
+[7.329s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitEndoscopeTypes.h"
+[7.332s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitEndoscopeTypes_cdg.cpp"
+[7.339s] [ 26%] [34m[1mcisstDataGenerator for mtsIntuitiveResearchKitToolTypes[0m
+[7.345s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitToolTypes_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsIntuitiveResearchKitToolTypes.cdg
+[7.346s] cisstDataGenerator: parse succeeded
+[7.347s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/mtsIntuitiveResearchKitToolTypes.h"
+[7.350s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/mtsIntuitiveResearchKitToolTypes_cdg.cpp"
+[7.360s] [ 27%] [34m[1mcisstDataGenerator for simulation[0m
+[7.365s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/simulation.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/simulation_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/simulation.cdg
+[7.365s] cisstDataGenerator: parse succeeded
+[7.365s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/simulation.h"
+[7.365s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/simulation_cdg.cpp"
+[7.377s] [ 28%] [34m[1mcisstDataGenerator for system_configuration[0m
+[7.380s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/system_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/system_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/system_configuration.cdg
+[7.380s] cisstDataGenerator: parse succeeded
+[7.380s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/system_configuration.h"
+[7.381s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/system_configuration_cdg.cpp"
+[7.395s] [ 29%] [34m[1mcisstDataGenerator for teleop_ECM_configuration[0m
+[7.404s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_ECM_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_ECM_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/teleop_ECM_configuration.cdg
+[7.404s] cisstDataGenerator: parse succeeded
+[7.405s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_ECM_configuration.h"
+[7.405s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_ECM_configuration_cdg.cpp"
+[7.416s] [ 30%] [34m[1mcisstDataGenerator for teleop_ECM_proxy_configuration[0m
+[7.424s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_ECM_proxy_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_ECM_proxy_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/teleop_ECM_proxy_configuration.cdg
+[7.424s] cisstDataGenerator: parse succeeded
+[7.424s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_ECM_proxy_configuration.h"
+[7.424s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_ECM_proxy_configuration_cdg.cpp"
+[7.433s] [ 32%] [34m[1mcisstDataGenerator for teleop_PSM_configuration[0m
+[7.435s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_PSM_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_PSM_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/teleop_PSM_configuration.cdg
+[7.435s] cisstDataGenerator: parse succeeded
+[7.436s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_PSM_configuration.h"
+[7.436s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_PSM_configuration_cdg.cpp"
+[7.442s] [ 33%] [34m[1mcisstDataGenerator for teleop_PSM_proxy_configuration[0m
+[7.444s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_PSM_proxy_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_PSM_proxy_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/teleop_PSM_proxy_configuration.cdg
+[7.444s] cisstDataGenerator: parse succeeded
+[7.445s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_PSM_proxy_configuration.h"
+[7.445s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_PSM_proxy_configuration_cdg.cpp"
+[7.451s] [ 34%] [34m[1mcisstDataGenerator for teleop_type[0m
+[7.453s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_type.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_type_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/teleop_type.cdg
+[7.453s] cisstDataGenerator: parse succeeded
+[7.454s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/teleop_type.h"
+[7.454s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/teleop_type_cdg.cpp"
+[7.510s] [ 35%] [34m[1mcisstDataGenerator for arm_configuration[0m
+[7.518s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/arm_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/arm_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/arm_configuration.cdg
+[7.518s] cisstDataGenerator: parse succeeded
+[7.518s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/arm_configuration.h"
+[7.518s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/arm_configuration_cdg.cpp"
+[7.527s] [ 36%] [34m[1mcisstDataGenerator for IO_proxy_configuration[0m
+[7.529s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/IO_proxy_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/IO_proxy_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/IO_proxy_configuration.cdg
+[7.529s] cisstDataGenerator: parse succeeded
+[7.529s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/IO_proxy_configuration.h"
+[7.529s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/IO_proxy_configuration_cdg.cpp"
+[7.546s] [ 38%] [34m[1mcisstDataGenerator for IO_configuration[0m
+[7.548s] cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/IO_configuration.h and /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/IO_configuration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/IO_configuration.cdg
+[7.548s] cisstDataGenerator: parse succeeded
+[7.548s] cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/include/sawIntuitiveResearchKit/IO_configuration.h"
+[7.548s] cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/components/IO_configuration_cdg.cpp"
+[7.568s] [ 39%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsStateMachine.cpp.o[0m
+[8.750s] [ 40%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitPSM.cpp.o[0m
+[14.092s] [ 41%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitECM.cpp.o[0m
+[17.303s] [ 42%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitSUJ.cpp.o[0m
+[29.544s] [ 44%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitSUJSi.cpp.o[0m
+[37.777s] [ 45%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitSUJFixed.cpp.o[0m
+[43.551s] [ 46%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsTeleOperationPSM.cpp.o[0m
+[51.873s] [ 47%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsTeleOperationECM.cpp.o[0m
+[58.108s] [ 48%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsDaVinciHeadSensor.cpp.o[0m
+[60.853s] [ 50%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsDaVinciEndoscopeFocus.cpp.o[0m
+[63.094s] [ 51%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsToolList.cpp.o[0m
+[64.671s] [ 52%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robManipulatorECM.cpp.o[0m
+[66.052s] [ 53%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robManipulatorMTM.cpp.o[0m
+[66.635s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:[m[K In member function ‘[01m[Kdouble robManipulatorMTM::ComputeGimbalIK(vctDynamicVector<double>&, const vctFrame4x4<double, true>&) const[m[K’:
+[66.635s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:156:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq3[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[66.635s]   156 |     double [01;35m[Kq3[m[K, q4, q5, q6;
+[66.635s]       |            [01;35m[K^~[m[K
+[66.635s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:254:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[66.635s]   254 | [01;35m[K}[m[K
+[66.636s]       | [01;35m[K^[m[K
+[66.637s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:[m[K In member function ‘[01m[Kdouble robManipulatorMTM::FindOptimalPlatformAngle(const vctDynamicVector<double>&, const vctFrame4x4<double, true>&) const[m[K’:
+[66.637s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:422:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ke[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[66.637s]   422 |         double [01;35m[Ke[m[K;
+[66.637s]       |                [01;35m[K^[m[K
+[66.725s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/robManipulatorMTM.cpp:450:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[66.726s]   450 | [01;35m[K}[m[K
+[66.726s]       | [01;35m[K^[m[K
+[67.176s] [ 54%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robManipulatorPSMSnake.cpp.o[0m
+[68.367s] [ 55%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsPSMCompensation.cpp.o[0m
+[70.063s] [ 57%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/prmActuatorJointCouplingCheck.cpp.o[0m
+[71.058s] [ 58%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/prmConfigurationJointFromManipulator.cpp.o[0m
+[71.933s] [ 59%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/robGravityCompensationMTM.cpp.o[0m
+[73.159s] [ 60%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/arm_proxy.cpp.o[0m
+[74.287s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/arm_proxy.cpp:[m[K In lambda function:
+[74.287s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/arm_proxy.cpp:224:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[74.287s]   224 | IntuitiveResearchKitMTM>(mtm, []([01;35m[KmtsIntuitiveResearchKitMTM * p[m[K){ ; });
+[74.287s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[74.287s] 
+[75.699s] [ 61%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/console.cpp.o[0m
+[77.909s] [ 63%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/IO_proxy.cpp.o[0m
+[79.245s] [ 64%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/system.cpp.o[0m
+[84.927s] [ 65%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/teleop_proxy.cpp.o[0m
+[86.020s] [ 66%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/teleop_ECM_proxy.cpp.o[0m
+[87.473s] [ 67%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/teleop_PSM_proxy.cpp.o[0m
+[88.925s] [ 69%] [32mBuilding CXX object components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsHIDHeadSensor.cpp.o[0m
+[88.949s] [01m[K/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core/components/code/mtsHIDHeadSensor.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Khidapi/hidapi.h: No such file or directory
+[88.951s]    19 | #include [01;31m[K<hidapi/hidapi.h>[m[K
+[88.951s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[88.951s] compilation terminated.
+[88.955s] gmake[2]: *** [components/CMakeFiles/sawIntuitiveResearchKit.dir/build.make:628: components/CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsHIDHeadSensor.cpp.o] Error 1
+[88.957s] gmake[1]: *** [CMakeFiles/Makefile2:300: components/CMakeFiles/sawIntuitiveResearchKit.dir/all] Error 2
+[88.958s] gmake: *** [Makefile:156: all] Error 2
+[88.971s] Invoked command in '/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore' returned '2': CISST_ROOT=/home/utc_sim/ros2_dvrk/install/cisst CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:${LD_LIBRARY_PATH} PATH=/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:${PATH} PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig PYTHONPATH=/home/utc_sim/ros2_dvrk/install/cisst/lib:${PYTHONPATH} ROS_PACKAGE_PATH=/home/utc_sim/ros2_dvrk/install/cisst/share /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore -- -j8 -l8

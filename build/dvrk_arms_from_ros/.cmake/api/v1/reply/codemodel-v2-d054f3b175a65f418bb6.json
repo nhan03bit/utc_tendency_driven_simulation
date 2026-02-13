@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-86ed8f2fa6dc31943d95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dvrk_arms_from_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dvrk_arm_from_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvrk_arm_from_ros-Release-a8c5e167cb50807c252c.json",
+					"name" : "dvrk_arm_from_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dvrk_arms_from_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvrk_arms_from_ros_uninstall-Release-8c3e9d12928469f47fd7.json",
+					"name" : "dvrk_arms_from_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-714bab4e42814aa4ffbb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/dvrk_arms_from_ros",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

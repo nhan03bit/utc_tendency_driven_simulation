@@ -1,0 +1,1 @@
+Invoking command in '/home/utc_sim/ros2_dvrk/src/build/dvrk_camera_registration': /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/dvrk/dvrk_camera_registration -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/src/install/dvrk_camera_registration

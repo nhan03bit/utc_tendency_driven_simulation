@@ -1,0 +1,397 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/_cisstRobotPython.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"swig_add_library",
+			"cisst_add_swig_module",
+			"install",
+			"link_directories",
+			"cisst_link_directories",
+			"cisst_set_directories",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories",
+			"cisst_include_directories",
+			"set_property",
+			"SWIG_ADD_SOURCE_TO_MODULE"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.22/Modules/UseSWIG.cmake",
+			"cmake/cisstMacros.cmake",
+			"cisstRobot/codePython/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 562,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 905,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 601,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 317,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 547,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 571,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 912,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 278,
+				"parent" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 94,
+				"parent" : 5
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 14
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 888,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 19
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -Wextra -Wall -O3 -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : ""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "CISST_CMN_ASSERT_THROWS_EXCEPTION"
+				},
+				{
+					"define" : "cisstRobotPython_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/utc_sim/ros2_dvrk/build/cisst/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/include/ReflexxesTypeII"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/usr/include/jsoncpp"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/usr/include/python3.10"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/usr/lib/python3/dist-packages/numpy/core/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "cisstCommon::@c4454b6c853ded827738"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cisstVector::@625dffff8027608c7d59"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cisstNumerical::@b390b0d3c0189d85a024"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "cisstRobot::@0ba8b71dc9073d7b3124"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "cisstRobotPython_swig_compilation::@544a77efdb7e350cafc7"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "cisstRobot"
+	},
+	"id" : "cisstRobotPython::@544a77efdb7e350cafc7",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/utc_sim/ros2_dvrk/install/cisst"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-L/home/utc_sim/ros2_dvrk/build/cisst/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-L/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/utc_sim/ros2_dvrk/build/cisst/lib:/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "../../lib/libcisstRobot.so.1.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "../../lib/libcisstNumerical.so.1.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "../../lib/libcisstVector.so.1.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "../../lib/libcisstCommon.so.1.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libpython3.10.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lReflexxesTypeII",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ljsoncpp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cisstRobotPython",
+	"nameOnDisk" : "_cisstRobotPython.so",
+	"paths" : 
+	{
+		"build" : "cisstRobot/codePython",
+		"source" : "cisstRobot/codePython"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/utc_sim/ros2_dvrk/build/cisst/cisstRobot/codePython/CMakeFiles/cisstRobotPython.dir/cisstRobotPYTHON_wrap.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/utc_sim/ros2_dvrk/build/cisst/cisstRobot/codePython/cisstRobotPython.py",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

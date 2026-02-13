@@ -1,0 +1,154 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "components",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components-Release-96065945004961124603.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "components",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Release-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/keyboard",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.keyboard-Release-1a942d755ef2b2ecd73a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "examples/keyboard",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sawTextToSpeechAll"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sawTextToSpeech",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "sawTextToSpeechExamples",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "sawTextToSpeechExampleKeyboard",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "sawTextToSpeech::@5f76c3b237c71a93cbe5",
+					"jsonFile" : "target-sawTextToSpeech-Release-4e40e62d925842da9d79.json",
+					"name" : "sawTextToSpeech",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sawTextToSpeechExampleKeyboard::@16beecb31ef1490c3610",
+					"jsonFile" : "target-sawTextToSpeechExampleKeyboard-Release-25eac683c15e5916ea8b.json",
+					"name" : "sawTextToSpeechExampleKeyboard",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/sawTextToSpeechAll",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawTextToSpeech"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

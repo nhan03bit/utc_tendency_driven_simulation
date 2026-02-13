@@ -1,0 +1,20 @@
+[ 15%] Built target cisstNetlib_C
+[35m[1mConsolidate compiler generated dependencies of target cisstNetlib_hanson_haskell[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstNetlib_lawson_hanson[0m
+[ 71%] Built target cisstNetlib_hanson_haskell
+[35m[1mConsolidate compiler generated dependencies of target cisstNetlib[0m
+[ 80%] Built target cisstNetlib
+[100%] Built target cisstNetlib_lawson_hanson
+-- Install configuration: "Release"
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-types.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lapack.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-hanson-haskell.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lawson-hanson.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/share/cisstNetlib/CisstNetlibConfig.cmake

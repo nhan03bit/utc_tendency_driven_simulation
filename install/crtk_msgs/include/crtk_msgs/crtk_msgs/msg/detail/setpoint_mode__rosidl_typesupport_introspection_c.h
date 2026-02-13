@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/build/crtk_msgs/rosidl_typesupport_introspection_c/crtk_msgs/msg/detail/setpoint_mode__rosidl_typesupport_introspection_c.h

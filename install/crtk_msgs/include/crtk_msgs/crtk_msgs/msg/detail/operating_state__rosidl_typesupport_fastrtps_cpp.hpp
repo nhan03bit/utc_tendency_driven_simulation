@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/build/crtk_msgs/rosidl_typesupport_fastrtps_cpp/crtk_msgs/msg/detail/operating_state__rosidl_typesupport_fastrtps_cpp.hpp

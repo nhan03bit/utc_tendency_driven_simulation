@@ -1,0 +1,144 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "components",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components-Release-7ecfdb80987eac030e7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "components",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Release-c42f4176da4515a84fac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sawControllersCore"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sawControllers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "sawControllersExamples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "mtsGCExample::@714eac15f71a94114fdf",
+					"jsonFile" : "target-mtsGCExample-Release-0843d48f9b3331f5656e.json",
+					"name" : "mtsGCExample",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "osaGCExample::@714eac15f71a94114fdf",
+					"jsonFile" : "target-osaGCExample-Release-3c277c9053ecbfad7442.json",
+					"name" : "osaGCExample",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "osaPDGCExample::@714eac15f71a94114fdf",
+					"jsonFile" : "target-osaPDGCExample-Release-21e43365eae1ac937880.json",
+					"name" : "osaPDGCExample",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sawControllers::@5f76c3b237c71a93cbe5",
+					"jsonFile" : "target-sawControllers-Release-89050af62e450d76b8e5.json",
+					"name" : "sawControllers",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/sawControllersCore",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawControllers/core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+Invoking command in '/home/utc_sim/ros2_dvrk/src/build/dvrk_arms_from_ros': /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_arms_from_ros/components -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/src/install/dvrk_arms_from_ros

@@ -1,0 +1,16 @@
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/lib/libdvrk_utilities.so
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/ament_index/resource_index/package_run_dependencies/dvrk_robot
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/ament_index/resource_index/parent_prefix_path/dvrk_robot
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.sh
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.dsv
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/path.sh
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/path.dsv
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.bash
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.sh
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.zsh
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.dsv
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.dsv
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/ament_index/resource_index/packages/dvrk_robot
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig.cmake
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig-version.cmake
+/home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.xml

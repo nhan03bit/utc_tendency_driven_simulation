@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Performing Test CXX_SUPPORTS_WEXTRA
+-- Performing Test CXX_SUPPORTS_WEXTRA - Success
+-- Performing Test CXX_SUPPORTS_WALL
+-- Performing Test CXX_SUPPORTS_WALL - Success
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2
+-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/utc_sim/ros2_dvrk/build/sawControllersCore
+[  5%] [34m[1mcisstDataGenerator for mtsPIDConfiguration[0m
+cisstDataGenerator: generating /home/utc_sim/ros2_dvrk/build/sawControllersCore/components/include/sawControllers/mtsPIDConfiguration.h and /home/utc_sim/ros2_dvrk/build/sawControllersCore/components/mtsPIDConfiguration_cdg.cpp from /home/utc_sim/ros2_dvrk/src/cisst-saw/sawControllers/core/components/code/mtsPIDConfiguration.cdg
+cisstDataGenerator: parse succeeded
+cisstDataGenerator: generating header file "/home/utc_sim/ros2_dvrk/build/sawControllersCore/components/include/sawControllers/mtsPIDConfiguration.h"
+cisstDataGenerator: generating code file "/home/utc_sim/ros2_dvrk/build/sawControllersCore/components/mtsPIDConfiguration_cdg.cpp"
+[ 11%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaGravityCompensation.cpp.o[0m
+[ 17%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsPID.cpp.o[0m
+[ 23%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/mtsPIDConfiguration_cdg.cpp.o[0m
+[ 29%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsPDGC.cpp.o[0m
+[ 35%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsGravityCompensation.cpp.o[0m
+[ 41%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/mtsController.cpp.o[0m
+[ 47%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaCartesianImpedanceController.cpp.o[0m
+[ 52%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaPIDAntiWindup.cpp.o[0m
+[ 58%] [32mBuilding CXX object components/CMakeFiles/sawControllers.dir/code/osaPDGC.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so[0m
+[ 64%] Built target sawControllers
+[ 70%] [32mBuilding CXX object examples/CMakeFiles/osaGCExample.dir/osaGCExample.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable osaGCExample[0m
+[ 76%] Built target osaGCExample
+[ 82%] [32mBuilding CXX object examples/CMakeFiles/mtsGCExample.dir/mtsGCExample.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable mtsGCExample[0m
+[ 88%] Built target mtsGCExample
+[ 94%] [32mBuilding CXX object examples/CMakeFiles/osaPDGCExample.dir/osaPDGCExample.cpp.o[0m
+[100%] [32m[1mLinking CXX executable osaPDGCExample[0m
+[100%] Built target osaPDGCExample
+-- Install configuration: "Release"
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/share/sawControllers/sawControllersConfig.cmake
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/share/sawControllers/sawControllersConfigVersion.cmake
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsPID.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsPDGC.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsController.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsGravityCompensation.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/osaCartesianImpedanceController.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/sawControllersQtExport.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/osaPDGC.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsPIDQtWidget.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/osaGravityCompensation.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/osaPIDAntiWindup.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/sawControllersExport.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsPIDConfiguration.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/sawControllersRevision.h
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/lib/libsawControllers.so.2.3.0
+-- Set runtime path of "/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib/libsawControllers.so.2.3.0" to ""
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/lib/libsawControllers.so
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/bin/osaGCExample
+-- Set runtime path of "/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin/osaGCExample" to ""
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/bin/osaPDGCExample
+-- Set runtime path of "/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin/osaPDGCExample" to ""
+-- Installing: /home/utc_sim/ros2_dvrk/install/sawControllersCore/bin/mtsGCExample
+-- Set runtime path of "/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin/mtsGCExample" to ""

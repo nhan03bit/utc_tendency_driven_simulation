@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/build/crtk_msgs/rosidl_generator_py/crtk_msgs/_crtk_msgs_s.ep.rosidl_typesupport_introspection_c.c

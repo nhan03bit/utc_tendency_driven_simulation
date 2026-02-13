@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c8aafaee16078715a339.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "crtk_msgs__py",
+					"jsonFile" : "directory-crtk_msgs__py-Release-2d94fa7da716cf76874a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/utc_sim/ros2_dvrk/build/crtk_msgs/crtk_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "crtk_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_crtk_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_crtk_msgs_egg-Release-0f39d567a5daca49efcc.json",
+					"name" : "ament_cmake_python_build_crtk_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_crtk_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_crtk_msgs-Release-4d9c034cb777c82614ef.json",
+					"name" : "ament_cmake_python_symlink_crtk_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs-Release-d935a76e4a148df66a23.json",
+					"name" : "crtk_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__cpp-Release-b77e80553bd41db7efea.json",
+					"name" : "crtk_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "crtk_msgs__py::@c90b0b16e51c78ec323e",
+					"jsonFile" : "target-crtk_msgs__py-Release-a8808c4e0bcd761d2d79.json",
+					"name" : "crtk_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_generator_c-Release-20288086ae42e6adbe88.json",
+					"name" : "crtk_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_generator_py-Release-5cb1b44912119b608cc0.json",
+					"name" : "crtk_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_c-Release-1e8eca7b31baa49f1054.json",
+					"name" : "crtk_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_c__pyext-Release-8a42a23e7f2bc8b3e9aa.json",
+					"name" : "crtk_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_cpp-Release-8d37a55d703853df193b.json",
+					"name" : "crtk_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_fastrtps_c-Release-ebe951a8700c9f3bf2c2.json",
+					"name" : "crtk_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-2c5b9bd840160bcda208.json",
+					"name" : "crtk_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_fastrtps_cpp-Release-0b765eecd955b72a27e8.json",
+					"name" : "crtk_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_introspection_c-Release-d41b882ce528f2dfb5e1.json",
+					"name" : "crtk_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_introspection_c__pyext-Release-ec750959d57570ca1660.json",
+					"name" : "crtk_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs__rosidl_typesupport_introspection_cpp-Release-e243237aca815b6e54f2.json",
+					"name" : "crtk_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crtk_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crtk_msgs_uninstall-Release-c61fcc02ed4898fb86ef.json",
+					"name" : "crtk_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2d8012c8f68fec1664d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/crtk_msgs",
+		"source" : "/home/utc_sim/ros2_dvrk/src/crtk/crtk_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

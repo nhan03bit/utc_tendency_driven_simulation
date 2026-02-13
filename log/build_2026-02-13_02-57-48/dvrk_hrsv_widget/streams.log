@@ -1,0 +1,67 @@
+[0.062s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.438s] -- Detecting C compile features
+[0.438s] -- Detecting C compile features - done
+[0.441s] -- Detecting CXX compiler ABI info
+[0.618s] -- Detecting CXX compiler ABI info - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.625s] -- Detecting CXX compile features - done
+[0.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.986s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.000s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.035s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.038s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.045s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.161s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.423s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.527s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.640s] -- Looking for pthread.h
+[1.799s] -- Looking for pthread.h - found
+[1.799s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.926s] -- Found Threads: TRUE  
+[2.021s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[2.063s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.216s] -- Configuring done
+[2.238s] -- Generating done
+[2.241s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget
+[2.264s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_hrsv_widget -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget
+[2.265s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget -- -j8 -l8
+[2.299s] [ 20%] [34m[1mAutomatic MOC for target hrsv_widget[0m
+[3.216s] [ 20%] Built target hrsv_widget_autogen
+[3.263s] [ 40%] [32mBuilding CXX object CMakeFiles/hrsv_widget.dir/hrsv_widget_autogen/mocs_compilation.cpp.o[0m
+[3.271s] [ 60%] [32mBuilding CXX object CMakeFiles/hrsv_widget.dir/src/hrsv_widget.cpp.o[0m
+[3.276s] [ 80%] [32mBuilding CXX object CMakeFiles/hrsv_widget.dir/src/main.cpp.o[0m
+[22.450s] [100%] [32m[1mLinking CXX executable hrsv_widget[0m
+[23.428s] [100%] Built target hrsv_widget
+[23.439s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget -- -j8 -l8
+[23.440s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget
+[23.446s] -- Install configuration: "Release"
+[23.446s] -- Execute custom install script
+[23.447s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/ament_index/resource_index/package_run_dependencies/dvrk_hrsv_widget
+[23.451s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/ament_index/resource_index/parent_prefix_path/dvrk_hrsv_widget
+[23.458s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/ament_prefix_path.sh
+[23.464s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/ament_prefix_path.dsv
+[23.468s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/path.sh
+[23.473s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/path.dsv
+[23.477s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.bash
+[23.488s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.sh
+[23.495s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.zsh
+[23.502s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.dsv
+[23.508s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/package.dsv
+[23.528s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/ament_index/resource_index/packages/dvrk_hrsv_widget
+[23.534s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig.cmake
+[23.538s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig-version.cmake
+[23.554s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/package.xml
+[23.560s] -- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/lib/dvrk_hrsv_widget/hrsv_widget
+[23.561s] -- Set runtime path of "/home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/lib/dvrk_hrsv_widget/hrsv_widget" to ""
+[23.567s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget

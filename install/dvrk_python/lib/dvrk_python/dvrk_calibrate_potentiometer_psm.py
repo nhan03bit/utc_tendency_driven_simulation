@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/src/dvrk/dvrk_python/scripts/dvrk_calibrate_potentiometer_psm.py

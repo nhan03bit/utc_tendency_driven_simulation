@@ -1,0 +1,47 @@
+[0.012s] Invoking command in '/home/utc_sim/ros2_dvrk/build/cisst': CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/cisst -DCMAKE_BUILD_TYPE=Release -DCISSTNETLIB_USE_LOCAL_INSTALL=ON -DCISST_HAS_CISSTNETLIB=ON -DCISST_cisstMesh=ON -DCISST_cisstInteractive=ON -DCISST_USE_SI_UNITS=ON -DCISST_HAS_QT=ON -DCISST_HAS_JSON=ON -DCISST_HAS_SWIG_PYTHON=ON -DCISST_BUILD_SHARED_LIBS=ON -DIS_SHARED=SHARED -DBUILD_SHARED_LIBS=SHARED -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/cisst
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.323s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.335s] -- Performing Test CXX_SUPPORTS_WEXTRA
+[0.390s] -- Performing Test CXX_SUPPORTS_WEXTRA - Success
+[0.390s] -- Performing Test CXX_SUPPORTS_WALL
+[0.448s] -- Performing Test CXX_SUPPORTS_WALL - Success
+[0.454s] -- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment
+[0.454s] -- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all
+[0.466s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[0.484s] [0mLooking for Qt5: can't find Qt5XmlPatterns[0m
+[0.572s] -- Found X11: /usr/include   
+[0.572s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[0.675s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[0.676s] -- Looking for gethostbyname
+[0.756s] -- Looking for gethostbyname - found
+[0.757s] -- Looking for connect
+[0.809s] -- Looking for connect - found
+[0.809s] -- Looking for remove
+[0.874s] -- Looking for remove - found
+[0.874s] -- Looking for shmat
+[0.921s] -- Looking for shmat - found
+[0.921s] -- Looking for IceConnectionNumber in ICE
+[0.972s] -- Looking for IceConnectionNumber in ICE - found
+[0.988s] -- Could NOT find FLTK (missing: FLTK_LIBRARIES FLTK_FLUID_EXECUTABLE) 
+[0.990s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[0.990s]   Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) (Required is at
+[0.991s]   least version "1.3.36")
+[0.991s] Call Stack (most recent call first):
+[0.991s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[0.991s]   /usr/share/cmake-3.22/Modules/FindSWIG.cmake:153 (find_package_handle_standard_args)
+[0.991s]   cisst-dependencies/CMakeLists.txt:201 (find_package)
+[0.991s] 
+[0.991s] [0m
+[0.991s] -- Configuring incomplete, errors occurred!
+[0.991s] See also "/home/utc_sim/ros2_dvrk/build/cisst/CMakeFiles/CMakeOutput.log".
+[0.996s] Invoked command in '/home/utc_sim/ros2_dvrk/build/cisst' returned '1': CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble PKG_CONFIG_PATH=/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/cisst-saw/cisst -DCMAKE_BUILD_TYPE=Release -DCISSTNETLIB_USE_LOCAL_INSTALL=ON -DCISST_HAS_CISSTNETLIB=ON -DCISST_cisstMesh=ON -DCISST_cisstInteractive=ON -DCISST_USE_SI_UNITS=ON -DCISST_HAS_QT=ON -DCISST_HAS_JSON=ON -DCISST_HAS_SWIG_PYTHON=ON -DCISST_BUILD_SHARED_LIBS=ON -DIS_SHARED=SHARED -DBUILD_SHARED_LIBS=SHARED -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/cisst

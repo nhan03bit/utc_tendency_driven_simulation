@@ -1,0 +1,25 @@
+[0.223s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget -- -j8 -l8
+[0.550s] [ 20%] [34m[1mAutomatic MOC for target hrsv_widget[0m
+[0.693s] [ 20%] Built target hrsv_widget_autogen
+[0.818s] [100%] Built target hrsv_widget
+[1.118s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget -- -j8 -l8
+[1.118s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget
+[1.126s] -- Install configuration: "Release"
+[1.127s] -- Execute custom install script
+[1.127s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/ament_index/resource_index/package_run_dependencies/dvrk_hrsv_widget
+[1.127s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/ament_index/resource_index/parent_prefix_path/dvrk_hrsv_widget
+[1.127s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/ament_prefix_path.sh
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/ament_prefix_path.dsv
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/path.sh
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/environment/path.dsv
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.bash
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.sh
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.zsh
+[1.128s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/local_setup.dsv
+[1.130s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/package.dsv
+[1.152s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/ament_index/resource_index/packages/dvrk_hrsv_widget
+[1.152s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig.cmake
+[1.152s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig-version.cmake
+[1.152s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/share/dvrk_hrsv_widget/package.xml
+[1.153s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/dvrk_hrsv_widget/lib/dvrk_hrsv_widget/hrsv_widget
+[1.168s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_hrsv_widget

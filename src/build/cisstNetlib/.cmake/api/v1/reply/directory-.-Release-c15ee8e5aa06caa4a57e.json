@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/src/build/cisstNetlib/include/cisstNetlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/cisstNetlib",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/src/build/cisstNetlib/include/cisstNetlib/cisstNetlib-types.h",
+				"include/cisstNetlib/cisstNetlib-lapack.h",
+				"include/cisstNetlib/cisstNetlib-hanson-haskell.h",
+				"include/cisstNetlib/cisstNetlib-lawson-hanson.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "/home/utc_sim/ros2_dvrk/src/build/cisstNetlib/cisstNetlibLapack/src/cisstNetlib_C-build/SRC/liblapack.a",
+					"to" : "libcisstNetlib_lapack.a"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "/home/utc_sim/ros2_dvrk/src/build/cisstNetlib/cisstNetlibLapack/src/cisstNetlib_C-build/BLAS/SRC/libblas.a",
+					"to" : "libcisstNetlib_blas.a"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "/home/utc_sim/ros2_dvrk/src/build/cisstNetlib/cisstNetlibLapack/src/cisstNetlib_C-build/F2CLIBS/libf2c/libf2c.a",
+					"to" : "libcisstNetlib_f2c.a"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/cisstNetlib",
+			"paths" : 
+			[
+				"/home/utc_sim/ros2_dvrk/src/build/cisstNetlib/CisstNetlibConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

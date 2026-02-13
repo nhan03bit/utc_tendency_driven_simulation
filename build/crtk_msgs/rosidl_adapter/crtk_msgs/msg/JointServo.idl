@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crtk_msgs/msg/JointServo.msg
+// generated code does not contain a copyright notice
+
+#include "crtk_msgs/msg/SetpointMode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module crtk_msgs {
+  module msg {
+    struct JointServo {
+      std_msgs::msg::Header header;
+
+      sequence<string> name;
+
+      sequence<double> position;
+
+      sequence<double> velocity;
+
+      sequence<double> effort;
+
+      sequence<crtk_msgs::msg::SetpointMode> mode;
+    };
+  };
+};

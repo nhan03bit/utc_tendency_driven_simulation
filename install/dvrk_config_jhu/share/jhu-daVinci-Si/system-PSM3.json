@@ -1,0 +1,22 @@
+{
+    // see https://dvrk.readthedocs.io
+    "$id": "dvrk-system.schema.json",
+    "$version": "1",
+    "IOs":
+    [
+        {
+            "name": "IO1",
+            "port": "udpfw" // fw, udpfw or udp
+        }
+    ]
+    ,
+    "arms":
+    [
+        {
+            "name": "PSM3",
+            "type": "PSM",
+            "serial": "698534",
+            "IO": "IO1" // defined in IOs
+        }
+    ]
+}

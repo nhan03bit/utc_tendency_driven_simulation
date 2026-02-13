@@ -1,0 +1,4 @@
+Invoking command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/cisstNetlib -- -j8 -l8
+Invoked command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/cisstNetlib -- -j8 -l8
+Invoking command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/cisstNetlib
+Invoked command in '/home/utc_sim/ros2_dvrk/build/cisstNetlib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/cisstNetlib

@@ -1,0 +1,561 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "components",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components-Release-a872ac1e10a1a3e239a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "components",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "components/code/Amp1394",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.code.Amp1394-Release-cd493682e9a1a3afcee3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "components/code/Amp1394"
+				},
+				{
+					"build" : "components/code/Amp1394/util",
+					"jsonFile" : "directory-components.code.Amp1394.util-Release-9b805c75a3e28a120aff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "components/code/Amp1394/util",
+					"targetIndexes" : 
+					[
+						4,
+						11,
+						21
+					]
+				},
+				{
+					"build" : "components/code/Amp1394/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.code.Amp1394.lib-Release-1cfdfac2c05e782fcd56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "components/code/Amp1394/lib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "components/code/Amp1394/tests",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.code.Amp1394.tests-Release-36c914c39530623809e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "components/code/Amp1394/tests",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "components/code/Amp1394/programmer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.code.Amp1394.programmer-Release-e12682d24fed47bf4cd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "components/code/Amp1394/programmer",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "share",
+					"jsonFile" : "directory-share-Release-c9e110b678a6b35a0909.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "share"
+				},
+				{
+					"build" : "applications",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications-Release-5fb25c2f6d910d1c64aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "applications"
+				},
+				{
+					"build" : "applications/Qt",
+					"jsonFile" : "directory-applications.Qt-Release-bd76c29a6297d89a3341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "applications/Qt"
+				},
+				{
+					"build" : "applications/current-calibration",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-applications.current-calibration-Release-802fff3f897c9bdfa9d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 9,
+					"source" : "applications/current-calibration",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "applications/data-plot",
+					"jsonFile" : "directory-applications.data-plot-Release-9f28bec3270be73ac492.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 10,
+					"source" : "applications/data-plot"
+				},
+				{
+					"build" : "applications/data-collection",
+					"jsonFile" : "directory-applications.data-collection-Release-c56938fc4371cf310b48.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 11,
+					"source" : "applications/data-collection",
+					"targetIndexes" : 
+					[
+						20
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						7
+					],
+					"name" : "sawRobotIO1394Core"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sawRobotIO1394",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Amp1394",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Amp1394Utils",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						11,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Amp1394Lib",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Amp1394Tests",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Amp1394Programmer",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "sawRobotIO1394Applications",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "sawRobotIO1394QtConsole",
+					"parentIndex" : 7
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "sawRobotIO1394ExamplesCurrentCalibration",
+					"parentIndex" : 7,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "sawRobotIO1394ExamplesDataPlot",
+					"parentIndex" : 7
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "sawRobotIO1394ExamplesDataCollection",
+					"parentIndex" : 7,
+					"targetIndexes" : 
+					[
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Amp1394::@f0e46f2d6b79066f2020",
+					"jsonFile" : "target-Amp1394-Release-7f286c90c00fe14008bd.json",
+					"name" : "Amp1394",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Amp1394Console::@f0e46f2d6b79066f2020",
+					"jsonFile" : "target-Amp1394Console-Release-45b5253de7774d04383a.json",
+					"name" : "Amp1394Console",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Amp1394Python::@f0e46f2d6b79066f2020",
+					"jsonFile" : "target-Amp1394Python-Release-3abe5162b2971e0a410b.json",
+					"name" : "Amp1394Python",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Amp1394Python_swig_compilation::@f0e46f2d6b79066f2020",
+					"jsonFile" : "target-Amp1394Python_swig_compilation-Release-365cef4d3fb26d688c5f.json",
+					"name" : "Amp1394Python_swig_compilation",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "block1394::@ea8c253f8befbb5e3c3e",
+					"jsonFile" : "target-block1394-Release-d4a24ca59ae204a52d42.json",
+					"name" : "block1394",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "block1394eth::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-block1394eth-Release-d935412e95bba2d9ee20.json",
+					"name" : "block1394eth",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "dvrktest::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-dvrktest-Release-7607223e964c04ba5522.json",
+					"name" : "dvrktest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "enctest::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-enctest-Release-8b879803c5d2435e1c59.json",
+					"name" : "enctest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ethswitch::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-ethswitch-Release-2e7722395bef3992b5c8.json",
+					"name" : "ethswitch",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fpgatest::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-fpgatest-Release-da9a69d44af54dcc2d89.json",
+					"name" : "fpgatest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fwPortTest::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-fwPortTest-Release-0f814298b6ffddd5f0f4.json",
+					"name" : "fwPortTest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "info1394::@ea8c253f8befbb5e3c3e",
+					"jsonFile" : "target-info1394-Release-cc61c445d4b0b4c10a77.json",
+					"name" : "info1394",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "instrument::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-instrument-Release-f60c144d36c3b97b3ff1.json",
+					"name" : "instrument",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pgm1394::@31ba63f18b62ee6ba6b7",
+					"jsonFile" : "target-pgm1394-Release-a7d739706d5226e8a6d3.json",
+					"name" : "pgm1394",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "qlacloserelays::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-qlacloserelays-Release-7d5be608135c2cb3c09c.json",
+					"name" : "qlacloserelays",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "qlacommand::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-qlacommand-Release-a553b68b35510b2c7b57.json",
+					"name" : "qlacommand",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "qladisp::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-qladisp-Release-c5bc570b5ecc31b9c673.json",
+					"name" : "qladisp",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "qlatest::@600c4f6fd5191271bfae",
+					"jsonFile" : "target-qlatest-Release-67755b6955199139e74a.json",
+					"name" : "qlatest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sawRobotIO1394::@5f76c3b237c71a93cbe5",
+					"jsonFile" : "target-sawRobotIO1394-Release-49067631627a38219d91.json",
+					"name" : "sawRobotIO1394",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "sawRobotIO1394CurrentCalibration::@f68521e81e7f1a1e9086",
+					"jsonFile" : "target-sawRobotIO1394CurrentCalibration-Release-579c75a39b9ec903e5f1.json",
+					"name" : "sawRobotIO1394CurrentCalibration",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sawRobotIO1394DataCollection::@d99ccc919f747d7071e9",
+					"jsonFile" : "target-sawRobotIO1394DataCollection-Release-d39335d616fcb9f79864.json",
+					"name" : "sawRobotIO1394DataCollection",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "time1394::@ea8c253f8befbb5e3c3e",
+					"jsonFile" : "target-time1394-Release-3fd75fbed3373600dc15.json",
+					"name" : "time1394",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawRobotIO1394/core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,66 @@
+[0.046s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_python': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_python -- -j8 -l8
+[0.127s] Built target ament_cmake_python_symlink_dvrk
+[0.598s] running egg_info
+[0.598s] writing dvrk.egg-info/PKG-INFO
+[0.598s] writing dependency_links to dvrk.egg-info/dependency_links.txt
+[0.599s] writing top-level names to dvrk.egg-info/top_level.txt
+[0.602s] reading manifest file 'dvrk.egg-info/SOURCES.txt'
+[0.602s] writing manifest file 'dvrk.egg-info/SOURCES.txt'
+[0.621s] Built target ament_cmake_python_build_dvrk_egg
+[0.645s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_python' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_python -- -j8 -l8
+[0.647s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_python': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_python
+[0.660s] -- Install configuration: "Release"
+[0.660s] -- Execute custom install script
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/environment/pythonpath.sh
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/environment/pythonpath.dsv
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.4.0-py3.10.egg-info/PKG-INFO
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.4.0-py3.10.egg-info/SOURCES.txt
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.4.0-py3.10.egg-info/dependency_links.txt
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk-2.4.0-py3.10.egg-info/top_level.txt
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/__init__.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/arm.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/console.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/ecm.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/mtm.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/psm.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/suj.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/system.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk/teleop_psm.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_arm_test.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_bag_replay.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometer_psm.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometer_psm_cv.py
+[0.660s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_potentiometers.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_calibrate_suj.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_console_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_ecm_psm_gc_collect.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_latency_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_move_wait_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_mtm_cartesian_impedance.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_mtm_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_psm_ecm_registration.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_psm_effort_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_psm_si_kinematics_to_ros.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_psm_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_reset_teleoperation.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_system_test.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/dvrk_teleoperation.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/psm_calibration_cv.py
+[0.661s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/lib/dvrk_python/validate_psm_calibration.py
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/ament_index/resource_index/package_run_dependencies/dvrk_python
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/ament_index/resource_index/parent_prefix_path/dvrk_python
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/environment/ament_prefix_path.sh
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/environment/ament_prefix_path.dsv
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/environment/path.sh
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/environment/path.dsv
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/local_setup.bash
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/local_setup.sh
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/local_setup.zsh
+[0.662s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/local_setup.dsv
+[0.662s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/package.dsv
+[0.688s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/ament_index/resource_index/packages/dvrk_python
+[0.688s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig.cmake
+[0.688s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig-version.cmake
+[0.688s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/dvrk_python/share/dvrk_python/package.xml
+[0.705s] Listing '/home/utc_sim/ros2_dvrk/install/dvrk_python/local/lib/python3.10/dist-packages/dvrk'...
+[0.771s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_python' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_python

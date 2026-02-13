@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/build/crtk_msgs/rosidl_typesupport_introspection_cpp/crtk_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp

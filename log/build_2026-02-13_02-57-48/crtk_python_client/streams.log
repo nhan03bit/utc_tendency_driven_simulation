@@ -1,0 +1,82 @@
+[0.005s] Invoking command in '/home/utc_sim/ros2_dvrk/build/crtk_python_client': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/crtk/crtk_python_client -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/crtk_python_client
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.319s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.494s] -- Detecting CXX compiler ABI info - done
+[0.500s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.500s] -- Detecting CXX compile features
+[0.500s] -- Detecting CXX compile features - done
+[0.641s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.707s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.859s] -- Configuring done
+[0.865s] -- Generating done
+[0.866s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/crtk_python_client
+[0.874s] Invoked command in '/home/utc_sim/ros2_dvrk/build/crtk_python_client' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/crtk/crtk_python_client -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/crtk_python_client
+[0.874s] Invoking command in '/home/utc_sim/ros2_dvrk/build/crtk_python_client': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/crtk_python_client -- -j8 -l8
+[0.940s] Built target ament_cmake_python_symlink_crtk
+[1.161s] running egg_info
+[1.161s] creating crtk.egg-info
+[1.161s] writing crtk.egg-info/PKG-INFO
+[1.161s] writing dependency_links to crtk.egg-info/dependency_links.txt
+[1.161s] writing top-level names to crtk.egg-info/top_level.txt
+[1.161s] writing manifest file 'crtk.egg-info/SOURCES.txt'
+[1.165s] reading manifest file 'crtk.egg-info/SOURCES.txt'
+[1.172s] writing manifest file 'crtk.egg-info/SOURCES.txt'
+[1.187s] Built target ament_cmake_python_build_crtk_egg
+[1.243s] Invoked command in '/home/utc_sim/ros2_dvrk/build/crtk_python_client' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/crtk_python_client -- -j8 -l8
+[1.247s] Invoking command in '/home/utc_sim/ros2_dvrk/build/crtk_python_client': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/crtk_python_client
+[1.251s] -- Install configuration: "Release"
+[1.252s] -- Execute custom install script
+[1.252s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/environment/pythonpath.sh
+[1.262s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/environment/pythonpath.dsv
+[1.275s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk-1.4.0-py3.10.egg-info/PKG-INFO
+[1.281s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk-1.4.0-py3.10.egg-info/SOURCES.txt
+[1.286s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk-1.4.0-py3.10.egg-info/dependency_links.txt
+[1.291s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk-1.4.0-py3.10.egg-info/top_level.txt
+[1.296s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/__init__.py
+[1.320s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/joystick_button.py
+[1.325s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/measured_cp.py
+[1.332s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/msg_conversions.py
+[1.339s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/py.typed
+[1.353s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/ral_ros1.py
+[1.369s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/ral_ros2.py
+[1.382s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/utils.py
+[1.388s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/wait_move_handle.py
+[1.393s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_haptic_example.py
+[1.398s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_move_cp_example.py
+[1.403s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_rate_example.py
+[1.410s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_servo_cp_example.py
+[1.415s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_servo_cv_example.py
+[1.421s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_servo_jp_example.py
+[1.425s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_simple_orientation_registration.py
+[1.430s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/lib/crtk_python_client/crtk_teleop_example.py
+[1.437s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/ament_index/resource_index/package_run_dependencies/crtk_python_client
+[1.443s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/ament_index/resource_index/parent_prefix_path/crtk_python_client
+[1.448s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/environment/ament_prefix_path.sh
+[1.456s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/environment/ament_prefix_path.dsv
+[1.461s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/environment/path.sh
+[1.465s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/environment/path.dsv
+[1.469s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/local_setup.bash
+[1.474s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/local_setup.sh
+[1.479s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/local_setup.zsh
+[1.484s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/local_setup.dsv
+[1.489s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/package.dsv
+[1.493s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/ament_index/resource_index/packages/crtk_python_client
+[1.498s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/cmake/crtk_python_clientConfig.cmake
+[1.507s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/cmake/crtk_python_clientConfig-version.cmake
+[1.512s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/crtk_python_client/share/crtk_python_client/package.xml
+[1.546s] Listing '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/__init__.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/joystick_button.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/measured_cp.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/msg_conversions.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/ral_ros1.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/ral_ros2.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/utils.py'...
+[1.546s] Compiling '/home/utc_sim/ros2_dvrk/install/crtk_python_client/local/lib/python3.10/dist-packages/crtk/wait_move_handle.py'...
+[1.551s] Invoked command in '/home/utc_sim/ros2_dvrk/build/crtk_python_client' returned '0': AMENT_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs:/opt/ros/humble:/opt/ros/humble:/home/utc_sim/ros2_ws/install: LD_LIBRARY_PATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/crtk_python_client

@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/utc_sim/ros2_dvrk/src/build/crtk_python_client': /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/crtk/crtk_python_client -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/src/install/crtk_python_client
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.339s] -- The CXX compiler identification is GNU 11.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.504s] -- Detecting C compile features
+[0.504s] -- Detecting C compile features - done
+[0.507s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.612s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.838s] Traceback (most recent call last):
+[0.838s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.838s]     from ament_package.templates import get_environment_hook_template_path
+[0.838s] ModuleNotFoundError: No module named 'ament_package'
+[0.846s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.847s]   execute_process(/usr/bin/python3
+[0.847s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.847s]   /home/utc_sim/ros2_dvrk/src/build/crtk_python_client/ament_cmake_package_templates/templates.cmake)
+[0.847s]   returned error code 1
+[0.847s] Call Stack (most recent call first):
+[0.847s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.847s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.847s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.847s]   CMakeLists.txt:16 (find_package)
+[0.847s] 
+[0.847s] [0m
+[0.847s] -- Configuring incomplete, errors occurred!
+[0.847s] See also "/home/utc_sim/ros2_dvrk/src/build/crtk_python_client/CMakeFiles/CMakeOutput.log".
+[0.855s] Invoked command in '/home/utc_sim/ros2_dvrk/src/build/crtk_python_client' returned '1': /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/crtk/crtk_python_client -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/src/install/crtk_python_client

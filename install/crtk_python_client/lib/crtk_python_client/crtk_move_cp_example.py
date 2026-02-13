@@ -1,0 +1,1 @@
+/home/utc_sim/ros2_dvrk/src/crtk/crtk_python_client/scripts/crtk_move_cp_example.py

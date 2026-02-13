@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:45 (find_package):
+  By not providing "Findsaw_controllers_ros.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "saw_controllers_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "saw_controllers_ros" with any of the following names:
+
+    saw_controllers_rosConfig.cmake
+    saw_controllers_ros-config.cmake
+
+  Add the installation prefix of "saw_controllers_ros" to CMAKE_PREFIX_PATH
+  or set "saw_controllers_ros_DIR" to a directory containing one of the above
+  files.  If "saw_controllers_ros" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

@@ -1,0 +1,34 @@
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstCommonQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  CMakeLists.txt:60 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstVectorQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  CMakeLists.txt:60 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstMultiTaskQt" doesn't exist or hasn't been
+  compiled
+Call Stack (most recent call first):
+  CMakeLists.txt:60 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstParameterTypesQt" doesn't exist or hasn't
+  been compiled
+Call Stack (most recent call first):
+  CMakeLists.txt:60 (find_package)
+
+[0m
+[33mCMake Warning at /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4/cmake/cisst-config.cmake:143 (message):
+  find_package: cisst library "cisstQt" doesn't exist or hasn't been compiled
+Call Stack (most recent call first):
+  CMakeLists.txt:60 (find_package)
+
+[0m

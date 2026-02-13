@@ -1,0 +1,17 @@
+[ 15%] Built target cisstNetlib_C
+[ 24%] Built target cisstNetlib
+[ 44%] Built target cisstNetlib_lawson_hanson
+[100%] Built target cisstNetlib_hanson_haskell
+-- Install configuration: "Release"
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-types.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lapack.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-hanson-haskell.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/include/cisstNetlib/cisstNetlib-lawson-hanson.h
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+-- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisstNetlib/share/cisstNetlib/CisstNetlibConfig.cmake

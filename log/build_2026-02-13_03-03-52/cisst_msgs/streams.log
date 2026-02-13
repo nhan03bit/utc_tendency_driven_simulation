@@ -1,0 +1,175 @@
+[0.196s] Invoking command in '/home/utc_sim/ros2_dvrk/build/cisst_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/cisst_msgs -- -j8 -l8
+[0.532s] [  0%] Built target ament_cmake_python_symlink_cisst_msgs
+[0.620s] [  1%] Built target cisst_msgs__cpp
+[0.676s] [ 12%] Built target cisst_msgs__rosidl_generator_c
+[0.722s] [ 23%] Built target cisst_msgs__rosidl_typesupport_introspection_cpp
+[0.762s] [ 34%] Built target cisst_msgs__rosidl_typesupport_cpp
+[0.811s] [ 45%] Built target cisst_msgs__rosidl_typesupport_introspection_c
+[0.880s] [ 56%] Built target cisst_msgs__rosidl_typesupport_fastrtps_c
+[0.899s] [ 67%] Built target cisst_msgs__rosidl_typesupport_c
+[1.048s] [ 78%] Built target cisst_msgs__rosidl_typesupport_fastrtps_cpp
+[1.180s] [ 78%] Built target cisst_msgs
+[1.207s] [ 80%] Built target cisst_msgs__py
+[1.254s] [ 89%] Built target cisst_msgs__rosidl_generator_py
+[1.281s] [ 92%] Built target cisst_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.313s] running egg_info
+[1.313s] writing cisst_msgs.egg-info/PKG-INFO
+[1.314s] writing dependency_links to cisst_msgs.egg-info/dependency_links.txt
+[1.316s] writing top-level names to cisst_msgs.egg-info/top_level.txt
+[1.319s] reading manifest file 'cisst_msgs.egg-info/SOURCES.txt'
+[1.320s] writing manifest file 'cisst_msgs.egg-info/SOURCES.txt'
+[1.330s] [ 96%] Built target cisst_msgs__rosidl_typesupport_introspection_c__pyext
+[1.397s] [ 96%] Built target ament_cmake_python_build_cisst_msgs_egg
+[1.415s] [100%] Built target cisst_msgs__rosidl_typesupport_c__pyext
+[1.457s] Invoked command in '/home/utc_sim/ros2_dvrk/build/cisst_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/cisst_msgs -- -j8 -l8
+[1.457s] Invoking command in '/home/utc_sim/ros2_dvrk/build/cisst_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/cisst_msgs
+[1.465s] -- Install configuration: "Release"
+[1.466s] -- Execute custom install script
+[1.466s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/ament_index/resource_index/rosidl_interfaces/cisst_msgs
+[1.467s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/bool_stamped.h
+[1.467s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__functions.h
+[1.467s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__struct.h
+[1.468s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__type_support.h
+[1.472s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__functions.h
+[1.472s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__struct.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__type_support.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__functions.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__struct.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__type_support.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/double_vec.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/interval_statistics.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/convert_float64_array.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__functions.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__struct.h
+[1.473s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__type_support.h
+[1.482s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/library_path.sh
+[1.482s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/library_path.dsv
+[1.484s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_fastrtps_c.h
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/bool_stamped.hpp
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__builder.hpp
+[1.488s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__struct.hpp
+[1.489s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__traits.hpp
+[1.491s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__type_support.hpp
+[1.491s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__builder.hpp
+[1.491s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__struct.hpp
+[1.491s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__traits.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__type_support.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__builder.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__struct.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__traits.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__type_support.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/double_vec.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/interval_statistics.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/convert_float64_array.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__builder.hpp
+[1.492s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__struct.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__traits.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__type_support.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_introspection_c.h
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_introspection_c.h
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.503s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_introspection_c.h
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/double_vec__rosidl_typesupport_introspection_cpp.hpp
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/msg/detail/interval_statistics__rosidl_typesupport_introspection_cpp.hpp
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/include/cisst_msgs/cisst_msgs/srv/detail/convert_float64_array__rosidl_typesupport_introspection_cpp.hpp
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/pythonpath.sh
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/pythonpath.dsv
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-4.0.0-py3.10.egg-info/PKG-INFO
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-4.0.0-py3.10.egg-info/SOURCES.txt
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-4.0.0-py3.10.egg-info/dependency_links.txt
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs-4.0.0-py3.10.egg-info/top_level.txt
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/__init__.py
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/_cisst_msgs_s.ep.rosidl_typesupport_c.c
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/_cisst_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.504s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/_cisst_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/libcisst_msgs__rosidl_generator_py.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/__init__.py
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_bool_stamped.py
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_bool_stamped_s.c
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_double_vec.py
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_double_vec_s.c
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_interval_statistics.py
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg/_interval_statistics_s.c
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv/__init__.py
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv/_convert_float64_array.py
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv/_convert_float64_array_s.c
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/cisst_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/msg/DoubleVec.idl
+[1.507s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/msg/IntervalStatistics.idl
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/msg/BoolStamped.idl
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array.idl
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/msg/DoubleVec.msg
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/msg/IntervalStatistics.msg
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/msg/BoolStamped.msg
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array.srv
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array_Request.msg
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/srv/ConvertFloat64Array_Response.msg
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/ament_index/resource_index/package_run_dependencies/cisst_msgs
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/ament_index/resource_index/parent_prefix_path/cisst_msgs
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/ament_prefix_path.sh
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/ament_prefix_path.dsv
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/path.sh
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/environment/path.dsv
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/local_setup.bash
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/local_setup.sh
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/local_setup.zsh
+[1.508s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/local_setup.dsv
+[1.508s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/package.dsv
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/ament_index/resource_index/packages/cisst_msgs
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/rosidl_cmake-extras.cmake
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.516s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.519s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.519s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgsConfig.cmake
+[1.519s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgsConfig-version.cmake
+[1.519s] -- Up-to-date symlink: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/package.xml
+[1.521s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_generator_c.so
+[1.521s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_fastrtps_c.so
+[1.521s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.521s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_introspection_c.so
+[1.522s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_c.so
+[1.523s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_introspection_cpp.so
+[1.524s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_typesupport_cpp.so
+[1.567s] Listing '/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs'...
+[1.567s] Listing '/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/msg'...
+[1.567s] Listing '/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages/cisst_msgs/srv'...
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/lib/libcisst_msgs__rosidl_generator_py.so
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_cExport.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_cExport-release.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_cppExport.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.574s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cExport.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cExport-release.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cppExport.cmake
+[1.575s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/cisst_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.580s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_pyExport.cmake
+[1.580s] -- Up-to-date: /home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake/export_cisst_msgs__rosidl_generator_pyExport-release.cmake
+[1.613s] Invoked command in '/home/utc_sim/ros2_dvrk/build/cisst_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/cisst_msgs

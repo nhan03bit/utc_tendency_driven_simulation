@@ -1,0 +1,49 @@
+[0.113s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/dvrk/dvrk_video -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_video
+[0.962s] -- The C compiler identification is GNU 11.4.0
+[0.962s] -- The CXX compiler identification is GNU 11.4.0
+[0.962s] -- Detecting C compiler ABI info
+[0.962s] -- Detecting C compiler ABI info - done
+[0.962s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.963s] -- Detecting C compile features
+[0.963s] -- Detecting C compile features - done
+[0.963s] -- Detecting CXX compiler ABI info
+[0.963s] -- Detecting CXX compiler ABI info - done
+[0.963s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.963s] -- Detecting CXX compile features
+[0.963s] -- Detecting CXX compile features - done
+[0.969s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.969s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.012s] -- Configuring done
+[1.014s] -- Generating done
+[1.015s] -- Build files have been written to: /home/utc_sim/ros2_dvrk/build/dvrk_video
+[1.019s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake /home/utc_sim/ros2_dvrk/src/dvrk/dvrk_video -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_video
+[1.019s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_video -- -j8 -l8
+[1.116s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --build /home/utc_sim/ros2_dvrk/build/dvrk_video -- -j8 -l8
+[1.118s] Invoking command in '/home/utc_sim/ros2_dvrk/build/dvrk_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_video
+[1.137s] -- Install configuration: "Release"
+[1.137s] -- Execute custom install script
+[1.138s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/decklink_stereo_1280x1024.launch.py
+[1.138s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/decklink_stereo_goovis.launch.py
+[1.146s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/gscam_decklink.launch.py
+[1.150s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/gscam_decklink_stereo.launch.py
+[1.154s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/gscam_v4l.launch.py
+[1.160s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/gscam_v4l_stereo.launch.py
+[1.194s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/v4l_stereo_1280x960.launch.py
+[1.202s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/v4l_stereo_full.launch.py
+[1.220s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/launch/v4l_stereo_goovis.launch.py
+[1.228s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/ament_index/resource_index/package_run_dependencies/dvrk_video
+[1.244s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/ament_index/resource_index/parent_prefix_path/dvrk_video
+[1.249s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/environment/ament_prefix_path.sh
+[1.254s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/environment/ament_prefix_path.dsv
+[1.262s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/environment/path.sh
+[1.273s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/environment/path.dsv
+[1.283s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/local_setup.bash
+[1.298s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/local_setup.sh
+[1.315s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/local_setup.zsh
+[1.320s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/local_setup.dsv
+[1.327s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/package.dsv
+[1.343s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/ament_index/resource_index/packages/dvrk_video
+[1.353s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/cmake/dvrk_videoConfig.cmake
+[1.360s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/cmake/dvrk_videoConfig-version.cmake
+[1.365s] -- Symlinking: /home/utc_sim/ros2_dvrk/install/dvrk_video/share/dvrk_video/package.xml
+[1.377s] Invoked command in '/home/utc_sim/ros2_dvrk/build/dvrk_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utc_sim/ros2_ws/install /usr/bin/cmake --install /home/utc_sim/ros2_dvrk/build/dvrk_video

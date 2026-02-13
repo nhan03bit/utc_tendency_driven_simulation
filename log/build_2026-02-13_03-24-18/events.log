@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.000211] (-) JobUnselected: {'identifier': 'cisst'}
+[0.000774] (-) JobUnselected: {'identifier': 'cisstNetlib'}
+[0.000821] (-) JobUnselected: {'identifier': 'cisst_msgs'}
+[0.001082] (-) JobUnselected: {'identifier': 'cisst_ros_bridge'}
+[0.001120] (-) JobUnselected: {'identifier': 'cisst_ros_crtk'}
+[0.001132] (-) JobUnselected: {'identifier': 'crtk_msgs'}
+[0.001140] (-) JobUnselected: {'identifier': 'crtk_python_client'}
+[0.001149] (-) JobUnselected: {'identifier': 'dvrk_arms_from_ros'}
+[0.001156] (-) JobUnselected: {'identifier': 'dvrk_camera_registration'}
+[0.001164] (-) JobUnselected: {'identifier': 'dvrk_config'}
+[0.001173] (-) JobUnselected: {'identifier': 'dvrk_config_jhu'}
+[0.001196] (-) JobUnselected: {'identifier': 'dvrk_hrsv_widget'}
+[0.001204] (-) JobUnselected: {'identifier': 'dvrk_model'}
+[0.001212] (-) JobUnselected: {'identifier': 'dvrk_python'}
+[0.001237] (-) JobUnselected: {'identifier': 'dvrk_video'}
+[0.001245] (-) JobUnselected: {'identifier': 'sawControllersCore'}
+[0.001253] (-) JobUnselected: {'identifier': 'sawIntuitiveResearchKitCore'}
+[0.001261] (-) JobUnselected: {'identifier': 'sawKeyboardAll'}
+[0.001280] (-) JobUnselected: {'identifier': 'sawRobotIO1394Core'}
+[0.001289] (-) JobUnselected: {'identifier': 'sawTextToSpeechAll'}
+[0.001297] (-) JobUnselected: {'identifier': 'saw_controllers_ros'}
+[0.001305] (-) JobUnselected: {'identifier': 'saw_intuitive_research_kit_example_bilateral_teleop'}
+[0.001313] (-) JobUnselected: {'identifier': 'saw_intuitive_research_kit_example_psm_derived'}
+[0.001321] (-) JobUnselected: {'identifier': 'saw_robot_io_1394_ros'}
+[0.001331] (dvrk_robot) JobQueued: {'identifier': 'dvrk_robot', 'dependencies': OrderedDict([('cisstNetlib', '/home/utc_sim/ros2_dvrk/install/cisstNetlib'), ('cisst_msgs', '/home/utc_sim/ros2_dvrk/install/cisst_msgs'), ('crtk_msgs', '/home/utc_sim/ros2_dvrk/install/crtk_msgs'), ('cisst', '/home/utc_sim/ros2_dvrk/install/cisst'), ('cisst_ros_bridge', '/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge'), ('sawKeyboardAll', '/home/utc_sim/ros2_dvrk/install/sawKeyboardAll'), ('sawRobotIO1394Core', '/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core'), ('cisst_ros_crtk', '/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk'), ('sawControllersCore', '/home/utc_sim/ros2_dvrk/install/sawControllersCore'), ('sawTextToSpeechAll', '/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll'), ('sawIntuitiveResearchKitCore', '/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore'), ('saw_controllers_ros', '/home/utc_sim/ros2_dvrk/install/saw_controllers_ros'), ('saw_robot_io_1394_ros', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros')])}
+[0.001375] (dvrk_robot) JobStarted: {'identifier': 'dvrk_robot'}
+[0.027554] (dvrk_robot) JobProgress: {'identifier': 'dvrk_robot', 'progress': 'cmake'}
+[0.028034] (dvrk_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/dvrk_robot', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/utc_sim/ros2_dvrk/install/dvrk_robot'], 'cwd': '/home/utc_sim/ros2_dvrk/build/dvrk_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'utc_sim'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/home/utc_sim/ros2_dvrk/install/cisst/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/utc_sim'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.109.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('CISST_ROOT', '/home/utc_sim/ros2_dvrk/install/cisst'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1427'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1540'), ('BUNDLED_DEBUGPY_PATH', '/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2202'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'utc_sim'), ('JOURNAL_STREAM', '8:31901'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig'), ('USERNAME', 'utc_sim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/opt/ros/humble/bin:/home/utc_sim/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/utc_sim/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/utc_sim/.local/bin:/home/utc_sim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/utcsim:@/tmp/.ICE-unix/1513,unix/utcsim:/tmp/.ICE-unix/1513'), ('INVOCATION_ID', 'ff2eef9eaaef4ff59a525c909baa381c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-82edc2354abcd2b2.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/utc_sim/.config/Code/User/workspaceStorage/c87801f3a53ab92f3da4daa89b753380/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PKHDK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c03f7ce33a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/opt/ros/humble:/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('launch_DIR', '/opt/ros/humble/share/launch/cmake'), ('CMAKE_MODULE_PATH', '/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/utc_sim/ros2_dvrk/build/dvrk_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble')]), 'shell': False}
+[0.079365] (dvrk_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099518] (-) TimerEvent: {}
+[0.123139] (dvrk_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.127930] (dvrk_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.185137] (dvrk_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.190906] (dvrk_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.191346] (dvrk_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.191799] (dvrk_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.194955] (dvrk_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199621] (-) TimerEvent: {}
+[0.275225] (dvrk_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.284184] (dvrk_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.284521] (dvrk_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.285028] (dvrk_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299738] (-) TimerEvent: {}
+[0.400019] (-) TimerEvent: {}
+[0.426493] (dvrk_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.498947] (dvrk_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500110] (-) TimerEvent: {}
+[0.541153] (dvrk_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.546022] (dvrk_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.556203] (dvrk_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.567798] (dvrk_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.581316] (dvrk_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601499] (-) TimerEvent: {}
+[0.620577] (dvrk_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.623406] (dvrk_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.690885] (dvrk_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.702242] (-) TimerEvent: {}
+[0.713066] (dvrk_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.750414] (dvrk_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.759954] (dvrk_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.802356] (-) TimerEvent: {}
+[0.807425] (dvrk_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.807867] (dvrk_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.857151] (dvrk_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.858350] (dvrk_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.902543] (-) TimerEvent: {}
+[0.904725] (dvrk_robot) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.914226] (dvrk_robot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.926247] (dvrk_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.941844] (dvrk_robot) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[0.955918] (dvrk_robot) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.004394] (-) TimerEvent: {}
+[1.044862] (dvrk_robot) StdoutLine: {'line': b'-- Found cisst_msgs: 4.0.0 (/home/utc_sim/ros2_dvrk/install/cisst_msgs/share/cisst_msgs/cmake)\n'}
+[1.058163] (dvrk_robot) StdoutLine: {'line': b'-- Found crtk_msgs: 1.3.0 (/home/utc_sim/ros2_dvrk/install/crtk_msgs/share/crtk_msgs/cmake)\n'}
+[1.071230] (dvrk_robot) StdoutLine: {'line': b'-- Found cisst_ros_bridge: 4.0.0 (/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/share/cisst_ros_bridge/cmake)\n'}
+[1.072197] (dvrk_robot) StdoutLine: {'line': b'-- Found cisst_ros_crtk: 4.0.0 (/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/share/cisst_ros_crtk/cmake)\n'}
+[1.072972] (dvrk_robot) StdoutLine: {'line': b'-- Found saw_robot_io_1394_ros: 2.4.0 (/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/share/saw_robot_io_1394_ros/cmake)\n'}
+[1.073804] (dvrk_robot) StdoutLine: {'line': b'-- Found saw_controllers_ros: 2.3.0 (/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/share/saw_controllers_ros/cmake)\n'}
+[1.075805] (dvrk_robot) StdoutLine: {'line': b'-- Information: cisst has been found in "/home/utc_sim/ros2_dvrk/install/cisst/", headers are in "/home/utc_sim/ros2_dvrk/install/cisst//include"\n'}
+[1.079650] (dvrk_robot) StdoutLine: {'line': b'-- Performing Test CXX_SUPPORTS_WEXTRA\n'}
+[1.105079] (-) TimerEvent: {}
+[1.128728] (dvrk_robot) StdoutLine: {'line': b'-- Performing Test CXX_SUPPORTS_WEXTRA - Success\n'}
+[1.129271] (dvrk_robot) StdoutLine: {'line': b'-- Performing Test CXX_SUPPORTS_WALL\n'}
+[1.186983] (dvrk_robot) StdoutLine: {'line': b'-- Performing Test CXX_SUPPORTS_WALL - Success\n'}
+[1.188562] (dvrk_robot) StdoutLine: {'line': b'-- Assuming cisst is built using ROS/catkin since ROS_ROOT is defined in environment\n'}
+[1.188624] (dvrk_robot) StdoutLine: {'line': b'-- CATKIN_DEVEL_PREFIX is not defined so assuming this is NOT a ROS/catkin build after all\n'}
+[1.188655] (dvrk_robot) StdoutLine: {'line': b'-- Assuming cisst is built using ROS2/colcon since ROS_VERSION is 2\n'}
+[1.190934] (dvrk_robot) StdoutLine: {'line': b'-- Skipping dvrk_pid (Qt not available)\n'}
+[1.192392] (dvrk_robot) StdoutLine: {'line': b'-- Skipping dvrk_system (Qt not available)\n'}
+[1.205758] (-) TimerEvent: {}
+[1.240435] (dvrk_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.259066] (dvrk_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.264985] (dvrk_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/utc_sim/ros2_dvrk/build/dvrk_robot\n'}
+[1.276199] (dvrk_robot) CommandEnded: {'returncode': 0}
+[1.276850] (dvrk_robot) JobProgress: {'identifier': 'dvrk_robot', 'progress': 'build'}
+[1.278535] (dvrk_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/utc_sim/ros2_dvrk/build/dvrk_robot', '--', '-j8', '-l8'], 'cwd': '/home/utc_sim/ros2_dvrk/build/dvrk_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'utc_sim'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/home/utc_sim/ros2_dvrk/install/cisst/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/utc_sim'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.109.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('CISST_ROOT', '/home/utc_sim/ros2_dvrk/install/cisst'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1427'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1540'), ('BUNDLED_DEBUGPY_PATH', '/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2202'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'utc_sim'), ('JOURNAL_STREAM', '8:31901'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig'), ('USERNAME', 'utc_sim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/opt/ros/humble/bin:/home/utc_sim/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/utc_sim/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/utc_sim/.local/bin:/home/utc_sim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/utcsim:@/tmp/.ICE-unix/1513,unix/utcsim:/tmp/.ICE-unix/1513'), ('INVOCATION_ID', 'ff2eef9eaaef4ff59a525c909baa381c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-82edc2354abcd2b2.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/utc_sim/.config/Code/User/workspaceStorage/c87801f3a53ab92f3da4daa89b753380/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PKHDK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c03f7ce33a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/opt/ros/humble:/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('launch_DIR', '/opt/ros/humble/share/launch/cmake'), ('CMAKE_MODULE_PATH', '/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/utc_sim/ros2_dvrk/build/dvrk_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble')]), 'shell': False}
+[1.306171] (-) TimerEvent: {}
+[1.312648] (dvrk_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dvrk_utilities.dir/src/system_ROS.cpp.o\x1b[0m\n'}
+[1.407351] (-) TimerEvent: {}
+[1.509489] (-) TimerEvent: {}
+[1.610624] (-) TimerEvent: {}
+[1.712672] (-) TimerEvent: {}
+[1.814877] (-) TimerEvent: {}
+[1.916434] (-) TimerEvent: {}
+[2.017459] (-) TimerEvent: {}
+[2.117821] (-) TimerEvent: {}
+[2.218189] (-) TimerEvent: {}
+[2.318521] (-) TimerEvent: {}
+[2.418907] (-) TimerEvent: {}
+[2.519230] (-) TimerEvent: {}
+[2.619817] (-) TimerEvent: {}
+[2.721144] (-) TimerEvent: {}
+[2.821457] (-) TimerEvent: {}
+[2.923337] (-) TimerEvent: {}
+[3.023969] (-) TimerEvent: {}
+[3.124376] (-) TimerEvent: {}
+[3.224721] (-) TimerEvent: {}
+[3.325019] (-) TimerEvent: {}
+[3.425392] (-) TimerEvent: {}
+[3.525729] (-) TimerEvent: {}
+[3.626110] (-) TimerEvent: {}
+[3.726388] (-) TimerEvent: {}
+[3.826681] (-) TimerEvent: {}
+[3.927038] (-) TimerEvent: {}
+[4.028441] (-) TimerEvent: {}
+[4.130669] (-) TimerEvent: {}
+[4.231009] (-) TimerEvent: {}
+[4.332875] (-) TimerEvent: {}
+[4.433278] (-) TimerEvent: {}
+[4.537244] (-) TimerEvent: {}
+[4.637926] (-) TimerEvent: {}
+[4.738919] (-) TimerEvent: {}
+[4.839586] (-) TimerEvent: {}
+[4.942125] (-) TimerEvent: {}
+[5.042441] (-) TimerEvent: {}
+[5.146293] (-) TimerEvent: {}
+[5.247023] (-) TimerEvent: {}
+[5.347343] (-) TimerEvent: {}
+[5.449714] (-) TimerEvent: {}
+[5.551578] (-) TimerEvent: {}
+[5.651998] (-) TimerEvent: {}
+[5.756356] (-) TimerEvent: {}
+[5.856683] (-) TimerEvent: {}
+[5.957667] (-) TimerEvent: {}
+[6.058044] (-) TimerEvent: {}
+[6.160763] (-) TimerEvent: {}
+[6.261135] (-) TimerEvent: {}
+[6.364613] (-) TimerEvent: {}
+[6.464941] (-) TimerEvent: {}
+[6.565584] (-) TimerEvent: {}
+[6.666165] (-) TimerEvent: {}
+[6.766429] (-) TimerEvent: {}
+[6.866941] (-) TimerEvent: {}
+[6.967298] (-) TimerEvent: {}
+[7.070427] (-) TimerEvent: {}
+[7.170799] (-) TimerEvent: {}
+[7.271113] (-) TimerEvent: {}
+[7.371473] (-) TimerEvent: {}
+[7.472841] (-) TimerEvent: {}
+[7.577783] (-) TimerEvent: {}
+[7.678240] (-) TimerEvent: {}
+[7.778553] (-) TimerEvent: {}
+[7.879283] (-) TimerEvent: {}
+[7.979810] (-) TimerEvent: {}
+[8.080471] (-) TimerEvent: {}
+[8.181065] (-) TimerEvent: {}
+[8.281371] (-) TimerEvent: {}
+[8.382840] (-) TimerEvent: {}
+[8.483465] (-) TimerEvent: {}
+[8.584077] (-) TimerEvent: {}
+[8.684446] (-) TimerEvent: {}
+[8.785113] (-) TimerEvent: {}
+[8.885532] (-) TimerEvent: {}
+[8.986591] (-) TimerEvent: {}
+[9.087168] (-) TimerEvent: {}
+[9.187837] (-) TimerEvent: {}
+[9.288445] (-) TimerEvent: {}
+[9.389031] (-) TimerEvent: {}
+[9.489632] (-) TimerEvent: {}
+[9.590369] (-) TimerEvent: {}
+[9.691784] (-) TimerEvent: {}
+[9.792148] (-) TimerEvent: {}
+[9.892685] (-) TimerEvent: {}
+[9.993044] (-) TimerEvent: {}
+[10.093376] (-) TimerEvent: {}
+[10.193774] (-) TimerEvent: {}
+[10.294929] (-) TimerEvent: {}
+[10.395251] (-) TimerEvent: {}
+[10.495663] (-) TimerEvent: {}
+[10.596017] (-) TimerEvent: {}
+[10.696471] (-) TimerEvent: {}
+[10.796802] (-) TimerEvent: {}
+[10.897127] (-) TimerEvent: {}
+[11.000514] (-) TimerEvent: {}
+[11.100833] (-) TimerEvent: {}
+[11.201114] (-) TimerEvent: {}
+[11.301495] (-) TimerEvent: {}
+[11.402026] (-) TimerEvent: {}
+[11.502418] (-) TimerEvent: {}
+[11.602844] (-) TimerEvent: {}
+[11.703236] (-) TimerEvent: {}
+[11.803516] (-) TimerEvent: {}
+[11.903996] (-) TimerEvent: {}
+[12.006309] (-) TimerEvent: {}
+[12.106629] (-) TimerEvent: {}
+[12.206903] (-) TimerEvent: {}
+[12.307209] (-) TimerEvent: {}
+[12.407525] (-) TimerEvent: {}
+[12.507823] (-) TimerEvent: {}
+[12.608720] (-) TimerEvent: {}
+[12.709727] (-) TimerEvent: {}
+[12.810151] (-) TimerEvent: {}
+[12.911614] (-) TimerEvent: {}
+[13.012267] (-) TimerEvent: {}
+[13.112603] (-) TimerEvent: {}
+[13.212883] (-) TimerEvent: {}
+[13.313226] (-) TimerEvent: {}
+[13.413604] (-) TimerEvent: {}
+[13.514026] (-) TimerEvent: {}
+[13.616335] (-) TimerEvent: {}
+[13.716748] (-) TimerEvent: {}
+[13.818511] (-) TimerEvent: {}
+[13.918812] (-) TimerEvent: {}
+[14.019107] (-) TimerEvent: {}
+[14.130157] (-) TimerEvent: {}
+[14.230464] (-) TimerEvent: {}
+[14.330815] (-) TimerEvent: {}
+[14.431202] (-) TimerEvent: {}
+[14.531635] (-) TimerEvent: {}
+[14.632029] (-) TimerEvent: {}
+[14.732429] (-) TimerEvent: {}
+[14.832704] (-) TimerEvent: {}
+[14.934573] (-) TimerEvent: {}
+[15.035173] (-) TimerEvent: {}
+[15.135621] (-) TimerEvent: {}
+[15.236181] (-) TimerEvent: {}
+[15.338467] (-) TimerEvent: {}
+[15.441144] (-) TimerEvent: {}
+[15.541766] (-) TimerEvent: {}
+[15.642943] (-) TimerEvent: {}
+[15.743665] (-) TimerEvent: {}
+[15.846043] (-) TimerEvent: {}
+[15.947301] (-) TimerEvent: {}
+[16.047717] (-) TimerEvent: {}
+[16.148209] (-) TimerEvent: {}
+[16.248951] (-) TimerEvent: {}
+[16.349644] (-) TimerEvent: {}
+[16.450519] (-) TimerEvent: {}
+[16.550842] (-) TimerEvent: {}
+[16.651151] (-) TimerEvent: {}
+[16.751431] (-) TimerEvent: {}
+[16.851727] (-) TimerEvent: {}
+[16.952025] (-) TimerEvent: {}
+[17.052351] (-) TimerEvent: {}
+[17.152737] (-) TimerEvent: {}
+[17.254365] (-) TimerEvent: {}
+[17.364183] (-) TimerEvent: {}
+[17.470325] (-) TimerEvent: {}
+[17.570762] (-) TimerEvent: {}
+[17.671442] (-) TimerEvent: {}
+[17.771963] (-) TimerEvent: {}
+[17.872485] (-) TimerEvent: {}
+[17.972976] (-) TimerEvent: {}
+[18.073559] (-) TimerEvent: {}
+[18.174409] (-) TimerEvent: {}
+[18.275418] (-) TimerEvent: {}
+[18.375690] (-) TimerEvent: {}
+[18.475985] (-) TimerEvent: {}
+[18.576570] (-) TimerEvent: {}
+[18.676943] (-) TimerEvent: {}
+[18.777220] (-) TimerEvent: {}
+[18.878247] (-) TimerEvent: {}
+[18.978848] (-) TimerEvent: {}
+[19.079134] (-) TimerEvent: {}
+[19.179499] (-) TimerEvent: {}
+[19.279869] (-) TimerEvent: {}
+[19.380245] (-) TimerEvent: {}
+[19.481248] (-) TimerEvent: {}
+[19.581580] (-) TimerEvent: {}
+[19.682135] (-) TimerEvent: {}
+[19.794472] (-) TimerEvent: {}
+[19.895062] (-) TimerEvent: {}
+[19.998121] (-) TimerEvent: {}
+[20.098434] (-) TimerEvent: {}
+[20.198730] (-) TimerEvent: {}
+[20.299661] (-) TimerEvent: {}
+[20.410280] (-) TimerEvent: {}
+[20.510554] (-) TimerEvent: {}
+[20.610944] (-) TimerEvent: {}
+[20.711220] (-) TimerEvent: {}
+[20.812025] (-) TimerEvent: {}
+[20.912323] (-) TimerEvent: {}
+[21.012619] (-) TimerEvent: {}
+[21.113242] (-) TimerEvent: {}
+[21.213531] (-) TimerEvent: {}
+[21.313840] (-) TimerEvent: {}
+[21.414414] (-) TimerEvent: {}
+[21.514697] (-) TimerEvent: {}
+[21.614977] (-) TimerEvent: {}
+[21.715265] (-) TimerEvent: {}
+[21.815561] (-) TimerEvent: {}
+[21.915881] (-) TimerEvent: {}
+[22.016177] (-) TimerEvent: {}
+[22.117247] (-) TimerEvent: {}
+[22.217592] (-) TimerEvent: {}
+[22.318239] (-) TimerEvent: {}
+[22.418538] (-) TimerEvent: {}
+[22.518916] (-) TimerEvent: {}
+[22.630783] (-) TimerEvent: {}
+[22.731057] (-) TimerEvent: {}
+[22.831562] (-) TimerEvent: {}
+[22.932997] (-) TimerEvent: {}
+[23.033297] (-) TimerEvent: {}
+[23.133608] (-) TimerEvent: {}
+[23.234329] (-) TimerEvent: {}
+[23.334693] (-) TimerEvent: {}
+[23.434976] (-) TimerEvent: {}
+[23.535255] (-) TimerEvent: {}
+[23.635581] (-) TimerEvent: {}
+[23.735831] (-) TimerEvent: {}
+[23.836091] (-) TimerEvent: {}
+[23.936373] (-) TimerEvent: {}
+[24.037669] (-) TimerEvent: {}
+[24.138200] (-) TimerEvent: {}
+[24.238615] (-) TimerEvent: {}
+[24.338916] (-) TimerEvent: {}
+[24.439232] (-) TimerEvent: {}
+[24.539513] (-) TimerEvent: {}
+[24.639801] (-) TimerEvent: {}
+[24.740095] (-) TimerEvent: {}
+[24.840366] (-) TimerEvent: {}
+[24.940646] (-) TimerEvent: {}
+[25.040950] (-) TimerEvent: {}
+[25.141204] (-) TimerEvent: {}
+[25.242205] (-) TimerEvent: {}
+[25.342491] (-) TimerEvent: {}
+[25.442766] (-) TimerEvent: {}
+[25.543024] (-) TimerEvent: {}
+[25.643294] (-) TimerEvent: {}
+[25.743610] (-) TimerEvent: {}
+[25.844186] (-) TimerEvent: {}
+[25.944513] (-) TimerEvent: {}
+[26.044808] (-) TimerEvent: {}
+[26.148282] (-) TimerEvent: {}
+[26.248690] (-) TimerEvent: {}
+[26.349017] (-) TimerEvent: {}
+[26.449291] (-) TimerEvent: {}
+[26.549660] (-) TimerEvent: {}
+[26.650243] (-) TimerEvent: {}
+[26.751598] (-) TimerEvent: {}
+[26.851979] (-) TimerEvent: {}
+[26.952551] (-) TimerEvent: {}
+[27.053034] (-) TimerEvent: {}
+[27.153398] (-) TimerEvent: {}
+[27.253759] (-) TimerEvent: {}
+[27.354342] (-) TimerEvent: {}
+[27.455909] (-) TimerEvent: {}
+[27.556213] (-) TimerEvent: {}
+[27.657840] (-) TimerEvent: {}
+[27.758601] (-) TimerEvent: {}
+[27.859225] (-) TimerEvent: {}
+[27.960888] (-) TimerEvent: {}
+[28.061460] (-) TimerEvent: {}
+[28.162111] (-) TimerEvent: {}
+[28.262697] (-) TimerEvent: {}
+[28.362977] (-) TimerEvent: {}
+[28.463311] (-) TimerEvent: {}
+[28.563812] (-) TimerEvent: {}
+[28.664296] (-) TimerEvent: {}
+[28.764846] (-) TimerEvent: {}
+[28.865392] (-) TimerEvent: {}
+[28.966200] (-) TimerEvent: {}
+[29.066591] (-) TimerEvent: {}
+[29.167129] (-) TimerEvent: {}
+[29.267676] (-) TimerEvent: {}
+[29.368212] (-) TimerEvent: {}
+[29.468774] (-) TimerEvent: {}
+[29.569044] (-) TimerEvent: {}
+[29.669801] (-) TimerEvent: {}
+[29.770595] (-) TimerEvent: {}
+[29.870997] (-) TimerEvent: {}
+[29.971565] (-) TimerEvent: {}
+[30.072496] (-) TimerEvent: {}
+[30.173091] (-) TimerEvent: {}
+[30.274568] (-) TimerEvent: {}
+[30.374898] (-) TimerEvent: {}
+[30.475200] (-) TimerEvent: {}
+[30.575519] (-) TimerEvent: {}
+[30.675986] (-) TimerEvent: {}
+[30.776499] (-) TimerEvent: {}
+[30.876912] (-) TimerEvent: {}
+[30.977234] (-) TimerEvent: {}
+[31.077516] (-) TimerEvent: {}
+[31.178827] (-) TimerEvent: {}
+[31.286711] (-) TimerEvent: {}
+[31.387046] (-) TimerEvent: {}
+[31.487364] (-) TimerEvent: {}
+[31.587653] (-) TimerEvent: {}
+[31.687977] (-) TimerEvent: {}
+[31.788348] (-) TimerEvent: {}
+[31.888820] (-) TimerEvent: {}
+[31.989150] (-) TimerEvent: {}
+[32.089442] (-) TimerEvent: {}
+[32.189816] (-) TimerEvent: {}
+[32.291153] (-) TimerEvent: {}
+[32.391490] (-) TimerEvent: {}
+[32.491816] (-) TimerEvent: {}
+[32.592104] (-) TimerEvent: {}
+[32.692410] (-) TimerEvent: {}
+[32.792737] (-) TimerEvent: {}
+[32.893378] (-) TimerEvent: {}
+[32.994163] (-) TimerEvent: {}
+[33.095271] (-) TimerEvent: {}
+[33.195593] (-) TimerEvent: {}
+[33.299504] (-) TimerEvent: {}
+[33.399865] (-) TimerEvent: {}
+[33.500158] (-) TimerEvent: {}
+[33.600984] (-) TimerEvent: {}
+[33.701319] (-) TimerEvent: {}
+[33.801590] (-) TimerEvent: {}
+[33.901901] (-) TimerEvent: {}
+[34.002325] (-) TimerEvent: {}
+[34.102576] (-) TimerEvent: {}
+[34.213018] (-) TimerEvent: {}
+[34.313603] (-) TimerEvent: {}
+[34.414135] (-) TimerEvent: {}
+[34.514431] (-) TimerEvent: {}
+[34.614939] (-) TimerEvent: {}
+[34.715316] (-) TimerEvent: {}
+[34.815604] (-) TimerEvent: {}
+[34.922030] (-) TimerEvent: {}
+[35.022578] (-) TimerEvent: {}
+[35.122897] (-) TimerEvent: {}
+[35.223176] (-) TimerEvent: {}
+[35.323512] (-) TimerEvent: {}
+[35.423853] (-) TimerEvent: {}
+[35.524152] (-) TimerEvent: {}
+[35.624471] (-) TimerEvent: {}
+[35.724747] (-) TimerEvent: {}
+[35.825183] (-) TimerEvent: {}
+[35.925748] (-) TimerEvent: {}
+[36.026322] (-) TimerEvent: {}
+[36.126579] (-) TimerEvent: {}
+[36.226857] (-) TimerEvent: {}
+[36.327195] (-) TimerEvent: {}
+[36.427558] (-) TimerEvent: {}
+[36.529656] (-) TimerEvent: {}
+[36.630276] (-) TimerEvent: {}
+[36.730584] (-) TimerEvent: {}
+[36.830860] (-) TimerEvent: {}
+[36.931218] (-) TimerEvent: {}
+[37.031622] (-) TimerEvent: {}
+[37.132014] (-) TimerEvent: {}
+[37.232388] (-) TimerEvent: {}
+[37.332879] (-) TimerEvent: {}
+[37.434676] (-) TimerEvent: {}
+[37.535126] (-) TimerEvent: {}
+[37.635464] (-) TimerEvent: {}
+[37.735767] (-) TimerEvent: {}
+[37.836625] (-) TimerEvent: {}
+[37.937346] (-) TimerEvent: {}
+[38.038334] (-) TimerEvent: {}
+[38.138713] (-) TimerEvent: {}
+[38.239363] (-) TimerEvent: {}
+[38.339951] (-) TimerEvent: {}
+[38.440316] (-) TimerEvent: {}
+[38.540601] (-) TimerEvent: {}
+[38.640904] (-) TimerEvent: {}
+[38.741225] (-) TimerEvent: {}
+[38.841544] (-) TimerEvent: {}
+[38.941856] (-) TimerEvent: {}
+[39.042189] (-) TimerEvent: {}
+[39.142699] (-) TimerEvent: {}
+[39.244396] (-) TimerEvent: {}
+[39.344725] (-) TimerEvent: {}
+[39.445170] (-) TimerEvent: {}
+[39.545484] (-) TimerEvent: {}
+[39.650321] (-) TimerEvent: {}
+[39.750631] (-) TimerEvent: {}
+[39.850954] (-) TimerEvent: {}
+[39.954788] (-) TimerEvent: {}
+[40.055818] (-) TimerEvent: {}
+[40.156223] (-) TimerEvent: {}
+[40.182451] (dvrk_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library /home/utc_sim/ros2_dvrk/install/cisst/lib/libdvrk_utilities.so\x1b[0m\n'}
+[40.256362] (-) TimerEvent: {}
+[40.356690] (-) TimerEvent: {}
+[40.457047] (-) TimerEvent: {}
+[40.557392] (-) TimerEvent: {}
+[40.657687] (-) TimerEvent: {}
+[40.758401] (-) TimerEvent: {}
+[40.858916] (-) TimerEvent: {}
+[40.922700] (dvrk_robot) StdoutLine: {'line': b'[100%] Built target dvrk_utilities\n'}
+[40.940818] (dvrk_robot) CommandEnded: {'returncode': 0}
+[40.941811] (dvrk_robot) JobProgress: {'identifier': 'dvrk_robot', 'progress': 'install'}
+[40.947579] (dvrk_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/utc_sim/ros2_dvrk/build/dvrk_robot'], 'cwd': '/home/utc_sim/ros2_dvrk/build/dvrk_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'utc_sim'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/home/utc_sim/ros2_dvrk/install/cisst/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/utc_sim'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.109.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('CISST_ROOT', '/home/utc_sim/ros2_dvrk/install/cisst'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1427'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1540'), ('BUNDLED_DEBUGPY_PATH', '/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2202'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'utc_sim'), ('JOURNAL_STREAM', '8:31901'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/utc_sim/ros2_dvrk/install/cisst/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisst/lib/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/aarch64-linux-gnu/pkgconfig:/home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/pkgconfig'), ('USERNAME', 'utc_sim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll/bin:/home/utc_sim/ros2_dvrk/install/sawControllersCore/bin:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/home/utc_sim/ros2_dvrk/install/cisst/bin:/opt/ros/humble/bin:/home/utc_sim/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/utc_sim/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/utc_sim/.local/bin:/home/utc_sim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/utcsim:@/tmp/.ICE-unix/1513,unix/utcsim:/tmp/.ICE-unix/1513'), ('INVOCATION_ID', 'ff2eef9eaaef4ff59a525c909baa381c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/utc_sim/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-82edc2354abcd2b2.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/utc_sim/.config/Code/User/workspaceStorage/c87801f3a53ab92f3da4daa89b753380/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PKHDK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c03f7ce33a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/opt/ros/humble:/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('launch_DIR', '/opt/ros/humble/share/launch/cmake'), ('CMAKE_MODULE_PATH', '/home/utc_sim/ros2_ws/install:/home/utc_sim/ros2_ws/install:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/utc_sim/ros2_dvrk/build/dvrk_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/utc_sim/ros2_dvrk/install/cisst_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore:/home/utc_sim/ros2_dvrk/install/sawTextToSpeechAll:/home/utc_sim/ros2_dvrk/install/sawControllersCore:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core:/home/utc_sim/ros2_dvrk/install/sawKeyboardAll:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge:/home/utc_sim/ros2_ws/install::/home/utc_sim/ros2_dvrk/install/cisst:/home/utc_sim/ros2_dvrk/install/crtk_msgs:/home/utc_sim/ros2_dvrk/install/cisst_msgs:/home/utc_sim/ros2_dvrk/install/cisstNetlib:/opt/ros/humble:/opt/ros/humble')]), 'shell': False}
+[40.956443] (dvrk_robot) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[40.959019] (-) TimerEvent: {}
+[40.963845] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/lib/libdvrk_utilities.so\n'}
+[40.968611] (dvrk_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/utc_sim/ros2_dvrk/install/dvrk_robot/lib/libdvrk_utilities.so" to ""\n'}
+[40.968785] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/ament_index/resource_index/package_run_dependencies/dvrk_robot\n'}
+[40.969053] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/ament_index/resource_index/parent_prefix_path/dvrk_robot\n'}
+[40.973177] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.sh\n'}
+[40.973413] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/ament_prefix_path.dsv\n'}
+[40.973486] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/path.sh\n'}
+[40.974280] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/environment/path.dsv\n'}
+[40.974368] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.bash\n'}
+[40.974812] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.sh\n'}
+[40.975323] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.zsh\n'}
+[40.975549] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/local_setup.dsv\n'}
+[40.975893] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.dsv\n'}
+[40.976541] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/ament_index/resource_index/packages/dvrk_robot\n'}
+[40.977281] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig.cmake\n'}
+[40.977645] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/cmake/dvrk_robotConfig-version.cmake\n'}
+[40.978454] (dvrk_robot) StdoutLine: {'line': b'-- Installing: /home/utc_sim/ros2_dvrk/install/dvrk_robot/share/dvrk_robot/package.xml\n'}
+[41.006531] (dvrk_robot) CommandEnded: {'returncode': 0}
+[41.023981] (dvrk_robot) JobEnded: {'identifier': 'dvrk_robot', 'rc': 0}
+[41.024760] (-) EventReactorShutdown: {}

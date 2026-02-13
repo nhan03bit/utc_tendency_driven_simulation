@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b5d5e7e59d8100ab40b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "saw_intuitive_research_kit_example_psm_derived",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sawIntuitiveResearchKitDerivedPSM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sawIntuitiveResearchKitDerivedPSM-Release-0e40e81380684e52ae20.json",
+					"name" : "sawIntuitiveResearchKitDerivedPSM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saw_intuitive_research_kit_example_psm_derived_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saw_intuitive_research_kit_example_psm_derived_uninstall-Release-058ab884dd60f30ef46f.json",
+					"name" : "saw_intuitive_research_kit_example_psm_derived_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-ed824bd088091f7b69cc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/utc_sim/ros2_dvrk/build/saw_intuitive_research_kit_example_psm_derived",
+		"source" : "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/ros/examples/derivedPSMQtROS/components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

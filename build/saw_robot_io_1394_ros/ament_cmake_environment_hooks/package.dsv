@@ -1,0 +1,4 @@
+source;share/saw_robot_io_1394_ros/local_setup.bash
+source;share/saw_robot_io_1394_ros/local_setup.dsv
+source;share/saw_robot_io_1394_ros/local_setup.sh
+source;share/saw_robot_io_1394_ros/local_setup.zsh
