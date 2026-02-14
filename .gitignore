@@ -1,0 +1,25 @@
+.vscode/*
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Model build files
+*.dae
+*.stl
+*.obj
+
+# Binary files
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.pyc
+*.pyo
+*.class
+*.bin
