@@ -30,4 +30,4 @@ else ()
   set (sawControllers_LIBRARY_DIR "${sawControllers_INCLUDE_DIR}/../lib" "/home/utc_sim/ros2_dvrk/install/cisst//lib")
 endif ()
 
-set (sawControllers_LIBRARIES "sawControllers")
+set (sawControllers_LIBRARIES "sawControllers;sawControllersQt")

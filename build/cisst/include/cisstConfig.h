@@ -79,10 +79,10 @@ http://www.cisst.org/cisst/license.txt.
 #define CISST_HAS_QT4 0
 
 // Using Qt5 or not
-#define CISST_HAS_QT5 0
+#define CISST_HAS_QT5 1
 
 // Any version of Qt
-#define CISST_HAS_QT 0
+#define CISST_HAS_QT 1
 
 // Using OpenGL or not
 #define CISST_HAS_OPENGL 1

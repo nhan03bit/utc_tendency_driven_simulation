@@ -47,6 +47,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core/components/code/Amp1394/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core/components/code/Qt/cmake_install.cmake")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xsawRobotIO1394x" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sawRobotIO1394" TYPE FILE FILES
     "/home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core/components/sawRobotIO1394Config.cmake"

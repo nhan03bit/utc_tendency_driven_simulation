@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"sawControllers\" \"sawControllers-Examples\" \"sawControllers-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"sawControllers\" \"sawControllers-Examples\" \"sawControllers-Qt\" \"sawControllers-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -195,6 +195,32 @@ sawControllers/fast:
 .PHONY : sawControllers/fast
 
 #=============================================================================
+# Target rules for targets named sawControllersQt
+
+# Build rule for target.
+sawControllersQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawControllersQt
+.PHONY : sawControllersQt
+
+# fast build rule for target.
+sawControllersQt/fast:
+	$(MAKE) $(MAKESILENT) -f components/code/Qt/CMakeFiles/sawControllersQt.dir/build.make components/code/Qt/CMakeFiles/sawControllersQt.dir/build
+.PHONY : sawControllersQt/fast
+
+#=============================================================================
+# Target rules for targets named sawControllersQt_autogen
+
+# Build rule for target.
+sawControllersQt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawControllersQt_autogen
+.PHONY : sawControllersQt_autogen
+
+# fast build rule for target.
+sawControllersQt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f components/code/Qt/CMakeFiles/sawControllersQt_autogen.dir/build.make components/code/Qt/CMakeFiles/sawControllersQt_autogen.dir/build
+.PHONY : sawControllersQt_autogen/fast
+
+#=============================================================================
 # Target rules for targets named osaGCExample
 
 # Build rule for target.
@@ -247,10 +273,12 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... sawControllersQt_autogen"
 	@echo "... mtsGCExample"
 	@echo "... osaGCExample"
 	@echo "... osaPDGCExample"
 	@echo "... sawControllers"
+	@echo "... sawControllersQt"
 .PHONY : help
 
 

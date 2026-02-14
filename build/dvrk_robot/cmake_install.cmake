@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdvrk_utilities.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdvrk_utilities.so"
-         OLD_RPATH "/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/include/../lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/opt/ros/humble/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:"
+         OLD_RPATH "/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/include/../lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/opt/ros/humble/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdvrk_utilities.so")
@@ -63,6 +63,46 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot" TYPE EXECUTABLE FILES "/home/utc_sim/ros2_dvrk/install/cisst/bin/dvrk_pid")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid"
+         OLD_RPATH "/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/include/../lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/opt/ros/humble/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_pid")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot" TYPE EXECUTABLE FILES "/home/utc_sim/ros2_dvrk/install/cisst/bin/dvrk_system")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system"
+         OLD_RPATH "/home/utc_sim/ros2_dvrk/install/cisst/lib:/home/utc_sim/ros2_dvrk/build/cisst/cisstReflexxesTypeII/lib:/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/include/../lib:/home/utc_sim/ros2_dvrk/install/sawControllersCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/../lib:/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib:/home/utc_sim/ros2_dvrk/install/saw_robot_io_1394_ros/lib:/home/utc_sim/ros2_dvrk/install/saw_controllers_ros/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_crtk/lib:/home/utc_sim/ros2_dvrk/install/crtk_msgs/lib:/home/utc_sim/ros2_dvrk/install/cisst_ros_bridge/lib:/opt/ros/humble/lib:/home/utc_sim/ros2_dvrk/install/cisst_msgs/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/dvrk_robot/dvrk_system")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

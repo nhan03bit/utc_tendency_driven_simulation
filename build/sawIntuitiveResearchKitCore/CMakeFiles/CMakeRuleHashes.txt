@@ -1,6 +1,10 @@
 # Hashes of file build rules.
+eb0e8d9f679f2f8b490b2b7b046a4445 applications/system-config-wizard/CMakeFiles/dvrk-system-config-wizard_autogen
+7ebf66cabb2ece56d886b6eddea2ddfd applications/system-config-wizard/qrc_dvrk_logo.cpp
 c000c3ef6e78156a5fecb764ab00e5d6 components/CMakeFiles/gattlibExternal
 ab7a762f149c0df8a6223f0c90d461f1 components/CMakeFiles/gattlibExternal-complete
+c5505952dc52ee303655f36e1e88c880 components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt_autogen
+00c4eaa1b778c9f0103a8f309afa0370 components/code/Qt/qrc_logo.cpp
 f40b994a3a627dfe74db7fc11d09276e components/gattlib/src/gattlibExternal-stamp/gattlibExternal-build
 4d04c273c0f60f728a3b5b1cb3777108 components/gattlib/src/gattlibExternal-stamp/gattlibExternal-configure
 7c5f1fc156b40fd6292fc3c7f65ab669 components/gattlib/src/gattlibExternal-stamp/gattlibExternal-download

@@ -92,7 +92,7 @@ osaGCExample_EXTERNAL_OBJECTS =
 
 examples/osaGCExample: examples/CMakeFiles/osaGCExample.dir/osaGCExample.cpp.o
 examples/osaGCExample: examples/CMakeFiles/osaGCExample.dir/build.make
-examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so.2.3.0
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllersQt.so.2.3.0
 examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libOpenGL.so
 examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libGLX.so
 examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libGLU.so
@@ -102,6 +102,23 @@ examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstN
 examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
 examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
 examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so.2.3.0
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libxml2.so
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libOpenGL.so
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libGLX.so
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libGLU.so
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
+examples/osaGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libQt5OpenGL.so.5.15.3
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.3
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.3
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libQt5XmlPatterns.so.5.15.3
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libQt5Network.so.5.15.3
+examples/osaGCExample: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.3
 examples/osaGCExample: examples/CMakeFiles/osaGCExample.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/utc_sim/ros2_dvrk/build/sawControllersCore/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable osaGCExample"
 	cd /home/utc_sim/ros2_dvrk/build/sawControllersCore/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/osaGCExample.dir/link.txt --verbose=$(VERBOSE)

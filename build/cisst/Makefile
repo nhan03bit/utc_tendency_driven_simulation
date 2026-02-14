@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"cisstCommon\" \"cisstCommon-dev\" \"cisstCommonXML\" \"cisstCommonXML-dev\" \"cisstInteractive\" \"cisstInteractive-dev\" \"cisstMesh\" \"cisstMesh-dev\" \"cisstMultiTask\" \"cisstMultiTask-dev\" \"cisstNumerical\" \"cisstNumerical-dev\" \"cisstOSAbstraction\" \"cisstOSAbstraction-dev\" \"cisstOpenGL\" \"cisstParameterTypes\" \"cisstParameterTypes-dev\" \"cisstPython\" \"cisstRobot\" \"cisstRobot-dev\" \"cisstSWIG\" \"cisstVector\" \"cisstVector-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"cisstCommon\" \"cisstCommon-dev\" \"cisstCommonQt\" \"cisstCommonQt-dev\" \"cisstCommonXML\" \"cisstCommonXML-dev\" \"cisstInteractive\" \"cisstInteractive-dev\" \"cisstMesh\" \"cisstMesh-dev\" \"cisstMultiTask\" \"cisstMultiTask-dev\" \"cisstMultiTaskQt\" \"cisstMultiTaskQt-dev\" \"cisstNumerical\" \"cisstNumerical-dev\" \"cisstOSAbstraction\" \"cisstOSAbstraction-dev\" \"cisstOpenGL\" \"cisstParameterTypes\" \"cisstParameterTypes-dev\" \"cisstParameterTypesQt\" \"cisstParameterTypesQt-dev\" \"cisstPython\" \"cisstQt\" \"cisstRobot\" \"cisstRobot-dev\" \"cisstSWIG\" \"cisstVector\" \"cisstVector-dev\" \"cisstVectorQt\" \"cisstVectorQt-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -260,6 +260,19 @@ cisstCommonPython_swig_compilation/fast:
 .PHONY : cisstCommonPython_swig_compilation/fast
 
 #=============================================================================
+# Target rules for targets named cisstCommonQt
+
+# Build rule for target.
+cisstCommonQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstCommonQt
+.PHONY : cisstCommonQt
+
+# fast build rule for target.
+cisstCommonQt/fast:
+	$(MAKE) $(MAKESILENT) -f cisstCommon/codeQt/CMakeFiles/cisstCommonQt.dir/build.make cisstCommon/codeQt/CMakeFiles/cisstCommonQt.dir/build
+.PHONY : cisstCommonQt/fast
+
+#=============================================================================
 # Target rules for targets named cisstCommonXML
 
 # Build rule for target.
@@ -310,6 +323,32 @@ cisstVectorPython_swig_compilation: cmake_check_build_system
 cisstVectorPython_swig_compilation/fast:
 	$(MAKE) $(MAKESILENT) -f cisstVector/codePython/CMakeFiles/cisstVectorPython_swig_compilation.dir/build.make cisstVector/codePython/CMakeFiles/cisstVectorPython_swig_compilation.dir/build
 .PHONY : cisstVectorPython_swig_compilation/fast
+
+#=============================================================================
+# Target rules for targets named cisstVectorQt
+
+# Build rule for target.
+cisstVectorQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstVectorQt
+.PHONY : cisstVectorQt
+
+# fast build rule for target.
+cisstVectorQt/fast:
+	$(MAKE) $(MAKESILENT) -f cisstVector/codeQt/CMakeFiles/cisstVectorQt.dir/build.make cisstVector/codeQt/CMakeFiles/cisstVectorQt.dir/build
+.PHONY : cisstVectorQt/fast
+
+#=============================================================================
+# Target rules for targets named cisstVectorQt_autogen
+
+# Build rule for target.
+cisstVectorQt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstVectorQt_autogen
+.PHONY : cisstVectorQt_autogen
+
+# fast build rule for target.
+cisstVectorQt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f cisstVector/codeQt/CMakeFiles/cisstVectorQt_autogen.dir/build.make cisstVector/codeQt/CMakeFiles/cisstVectorQt_autogen.dir/build
+.PHONY : cisstVectorQt_autogen/fast
 
 #=============================================================================
 # Target rules for targets named cisstOSAbstraction
@@ -429,6 +468,32 @@ cisstMultiTaskPython_swig_compilation/fast:
 .PHONY : cisstMultiTaskPython_swig_compilation/fast
 
 #=============================================================================
+# Target rules for targets named cisstMultiTaskQt
+
+# Build rule for target.
+cisstMultiTaskQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstMultiTaskQt
+.PHONY : cisstMultiTaskQt
+
+# fast build rule for target.
+cisstMultiTaskQt/fast:
+	$(MAKE) $(MAKESILENT) -f cisstMultiTask/codeQt/CMakeFiles/cisstMultiTaskQt.dir/build.make cisstMultiTask/codeQt/CMakeFiles/cisstMultiTaskQt.dir/build
+.PHONY : cisstMultiTaskQt/fast
+
+#=============================================================================
+# Target rules for targets named cisstMultiTaskQt_autogen
+
+# Build rule for target.
+cisstMultiTaskQt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstMultiTaskQt_autogen
+.PHONY : cisstMultiTaskQt_autogen
+
+# fast build rule for target.
+cisstMultiTaskQt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f cisstMultiTask/codeQt/CMakeFiles/cisstMultiTaskQt_autogen.dir/build.make cisstMultiTask/codeQt/CMakeFiles/cisstMultiTaskQt_autogen.dir/build
+.PHONY : cisstMultiTaskQt_autogen/fast
+
+#=============================================================================
 # Target rules for targets named cisstParameterTypes
 
 # Build rule for target.
@@ -466,6 +531,32 @@ cisstParameterTypesPython_swig_compilation: cmake_check_build_system
 cisstParameterTypesPython_swig_compilation/fast:
 	$(MAKE) $(MAKESILENT) -f cisstParameterTypes/codePython/CMakeFiles/cisstParameterTypesPython_swig_compilation.dir/build.make cisstParameterTypes/codePython/CMakeFiles/cisstParameterTypesPython_swig_compilation.dir/build
 .PHONY : cisstParameterTypesPython_swig_compilation/fast
+
+#=============================================================================
+# Target rules for targets named cisstParameterTypesQt
+
+# Build rule for target.
+cisstParameterTypesQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstParameterTypesQt
+.PHONY : cisstParameterTypesQt
+
+# fast build rule for target.
+cisstParameterTypesQt/fast:
+	$(MAKE) $(MAKESILENT) -f cisstParameterTypes/codeQt/CMakeFiles/cisstParameterTypesQt.dir/build.make cisstParameterTypes/codeQt/CMakeFiles/cisstParameterTypesQt.dir/build
+.PHONY : cisstParameterTypesQt/fast
+
+#=============================================================================
+# Target rules for targets named cisstParameterTypesQt_autogen
+
+# Build rule for target.
+cisstParameterTypesQt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cisstParameterTypesQt_autogen
+.PHONY : cisstParameterTypesQt_autogen
+
+# fast build rule for target.
+cisstParameterTypesQt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f cisstParameterTypes/codeQt/CMakeFiles/cisstParameterTypesQt_autogen.dir/build.make cisstParameterTypes/codeQt/CMakeFiles/cisstParameterTypesQt_autogen.dir/build
+.PHONY : cisstParameterTypesQt_autogen/fast
 
 #=============================================================================
 # Target rules for targets named cisstReflexxesTypeIIExternal
@@ -642,18 +733,22 @@ help:
 	@echo "... cisstInteractive_COMPILE_IREPY"
 	@echo "... cisstMeshPython_swig_compilation"
 	@echo "... cisstMultiTaskPython_swig_compilation"
+	@echo "... cisstMultiTaskQt_autogen"
 	@echo "... cisstNumericalPython_swig_compilation"
 	@echo "... cisstOSAbstractionPython_swig_compilation"
 	@echo "... cisstParameterTypesPython_swig_compilation"
+	@echo "... cisstParameterTypesQt_autogen"
 	@echo "... cisstReflexxesTypeIIExternal"
 	@echo "... cisstRevision"
 	@echo "... cisstRobotPython_swig_compilation"
 	@echo "... cisstVectorPython_swig_compilation"
+	@echo "... cisstVectorQt_autogen"
 	@echo "... copy_data_images"
 	@echo "... copy_data_models"
 	@echo "... copy_data_movies"
 	@echo "... cisstCommon"
 	@echo "... cisstCommonPython"
+	@echo "... cisstCommonQt"
 	@echo "... cisstCommonXML"
 	@echo "... cisstDataGenerator"
 	@echo "... cisstInteractive"
@@ -661,16 +756,19 @@ help:
 	@echo "... cisstMeshPython"
 	@echo "... cisstMultiTask"
 	@echo "... cisstMultiTaskPython"
+	@echo "... cisstMultiTaskQt"
 	@echo "... cisstNumerical"
 	@echo "... cisstNumericalPython"
 	@echo "... cisstOSAbstraction"
 	@echo "... cisstOSAbstractionPython"
 	@echo "... cisstParameterTypes"
 	@echo "... cisstParameterTypesPython"
+	@echo "... cisstParameterTypesQt"
 	@echo "... cisstRobot"
 	@echo "... cisstRobotPython"
 	@echo "... cisstVector"
 	@echo "... cisstVectorPython"
+	@echo "... cisstVectorQt"
 .PHONY : help
 
 

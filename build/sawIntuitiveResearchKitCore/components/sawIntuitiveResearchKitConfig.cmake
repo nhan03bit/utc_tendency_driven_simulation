@@ -30,4 +30,4 @@ else ()
   set (sawIntuitiveResearchKit_LIBRARY_DIR "${sawIntuitiveResearchKit_INCLUDE_DIR}/../lib" "/home/utc_sim/ros2_dvrk/install/cisst//lib;/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib")
 endif ()
 
-set (sawIntuitiveResearchKit_LIBRARIES "sawIntuitiveResearchKit")
+set (sawIntuitiveResearchKit_LIBRARIES "sawIntuitiveResearchKit;sawIntuitiveResearchKitQt")

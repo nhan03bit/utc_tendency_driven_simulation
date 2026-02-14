@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Amp1394\" \"Amp1394-dev\" \"Amp1394-utils\" \"sawRobotIO1394\" \"sawRobotIO1394-Applications\" \"sawRobotIO1394-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Amp1394\" \"Amp1394-dev\" \"Amp1394-utils\" \"sawRobotIO1394\" \"sawRobotIO1394-Applications\" \"sawRobotIO1394-Qt\" \"sawRobotIO1394-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -181,6 +181,106 @@ depend:
 	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/rule:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/rule
+.PHONY : applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/rule
+
+# Convenience name for target.
+sawRobotIO1394QtDataPlot: applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/rule
+.PHONY : sawRobotIO1394QtDataPlot
+
+# fast build rule for target.
+sawRobotIO1394QtDataPlot/fast:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build
+.PHONY : sawRobotIO1394QtDataPlot/fast
+
+# Convenience name for target.
+applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/rule:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/rule
+.PHONY : applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/rule
+
+# Convenience name for target.
+sawRobotIO1394QtDataPlot_autogen: applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/rule
+.PHONY : sawRobotIO1394QtDataPlot_autogen
+
+# fast build rule for target.
+sawRobotIO1394QtDataPlot_autogen/fast:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/build
+.PHONY : sawRobotIO1394QtDataPlot_autogen/fast
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+plotObject.o: plotObject.cpp.o
+.PHONY : plotObject.o
+
+# target to build an object file
+plotObject.cpp.o:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/plotObject.cpp.o
+.PHONY : plotObject.cpp.o
+
+plotObject.i: plotObject.cpp.i
+.PHONY : plotObject.i
+
+# target to preprocess a source file
+plotObject.cpp.i:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/plotObject.cpp.i
+.PHONY : plotObject.cpp.i
+
+plotObject.s: plotObject.cpp.s
+.PHONY : plotObject.s
+
+# target to generate assembly for a file
+plotObject.cpp.s:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/plotObject.cpp.s
+.PHONY : plotObject.cpp.s
+
+sawRobotIO1394QtDataPlot_autogen/mocs_compilation.o: sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.o
+.PHONY : sawRobotIO1394QtDataPlot_autogen/mocs_compilation.o
+
+# target to build an object file
+sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.o:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.o
+.PHONY : sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.o
+
+sawRobotIO1394QtDataPlot_autogen/mocs_compilation.i: sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.i
+.PHONY : sawRobotIO1394QtDataPlot_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.i:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.i
+.PHONY : sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.i
+
+sawRobotIO1394QtDataPlot_autogen/mocs_compilation.s: sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.s
+.PHONY : sawRobotIO1394QtDataPlot_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.s:
+	cd /home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core && $(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.s
+.PHONY : sawRobotIO1394QtDataPlot_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -195,6 +295,17 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... sawRobotIO1394QtDataPlot_autogen"
+	@echo "... sawRobotIO1394QtDataPlot"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... plotObject.o"
+	@echo "... plotObject.i"
+	@echo "... plotObject.s"
+	@echo "... sawRobotIO1394QtDataPlot_autogen/mocs_compilation.o"
+	@echo "... sawRobotIO1394QtDataPlot_autogen/mocs_compilation.i"
+	@echo "... sawRobotIO1394QtDataPlot_autogen/mocs_compilation.s"
 .PHONY : help
 
 

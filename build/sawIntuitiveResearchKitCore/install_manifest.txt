@@ -1,3 +1,5 @@
+/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKitQt.so.2.4.0
+/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/lib/libsawIntuitiveResearchKitQt.so
 /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfig.cmake
 /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/share/sawIntuitiveResearchKit/sawIntuitiveResearchKitConfigVersion.cmake
 /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/include/sawIntuitiveResearchKit/robManipulatorMTM.h
@@ -73,3 +75,6 @@
 /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-sd-card-updater.py
 /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-remove-logs.py
 /home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-suj-bluetooth-reset.py
+/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/dvrk-system-config-wizard
+/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitPID
+/home/utc_sim/ros2_dvrk/install/sawIntuitiveResearchKitCore/bin/sawIntuitiveResearchKitSystem

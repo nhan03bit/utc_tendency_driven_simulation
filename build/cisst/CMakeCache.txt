@@ -21,9 +21,6 @@ BUILD_SHARED_LIBS:UNINITIALIZED=SHARED
 CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
 
 //No help, variable specified on the command line.
-CATKIN_SYMLINK_INSTALL:UNINITIALIZED=ON
-
-//No help, variable specified on the command line.
 CISSTNETLIB_USE_LOCAL_INSTALL:UNINITIALIZED=ON
 
 //Build cisst applications (when turned ON, all applications are
@@ -56,7 +53,7 @@ CISST_FOUND_LIBXML2_XML:BOOL=ON
 
 //Is Qt XML available.  CISST_XML_LIB determines which library
 // is actually used.
-CISST_FOUND_QT_XML:BOOL=OFF
+CISST_FOUND_QT_XML:BOOL=ON
 
 //Use the netlib.org sets of numerical methods in Fortran (provided
 // on cisst.org).
@@ -87,7 +84,7 @@ CISST_HAS_QT:UNINITIALIZED=ON
 
 //Is Qt 5 available.  If not, Qt widgets and some examples won't
 // be compiled
-CISST_HAS_QT5:BOOL=OFF
+CISST_HAS_QT5:BOOL=ON
 
 //Build the Python wrappers for cisst with Swig.
 CISST_HAS_SWIG_PYTHON:BOOL=ON
@@ -181,6 +178,9 @@ CISST_cisstParameterTypes:BOOL=ON
 
 //Build cisstParameterTypes Python
 CISST_cisstParameterTypesPython:BOOL=ON
+
+//No help, variable specified on the command line.
+CISST_cisstQt:BOOL=ON
 
 //Build cisstRobot.
 CISST_cisstRobot:BOOL=ON
@@ -549,6 +549,9 @@ Qt5Core_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Core
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui
 
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Network
+
 //The directory containing a CMake configuration file for Qt5OpenGL.
 Qt5OpenGL_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5OpenGL
 
@@ -556,7 +559,7 @@ Qt5OpenGL_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5OpenGL
 Qt5Widgets_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5XmlPatterns.
-Qt5XmlPatterns_DIR:PATH=Qt5XmlPatterns_DIR-NOTFOUND
+Qt5XmlPatterns_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5XmlPatterns
 
 //The directory containing a CMake configuration file for Qt5Xml.
 Qt5Xml_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Xml
@@ -820,6 +823,15 @@ cisstCommonPython_IS_TOP_LEVEL:STATIC=OFF
 cisstCommonPython_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstCommon/codePython
 
 //Value Computed by CMake
+cisstCommonQt_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstCommon/codeQt
+
+//Value Computed by CMake
+cisstCommonQt_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cisstCommonQt_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstCommon/codeQt
+
+//Value Computed by CMake
 cisstCommonXML_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstCommon/codeXML
 
 //Value Computed by CMake
@@ -939,6 +951,15 @@ cisstMultiTaskPython_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 cisstMultiTaskPython_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstMultiTask/codePython
 
+//Value Computed by CMake
+cisstMultiTaskQt_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstMultiTask/codeQt
+
+//Value Computed by CMake
+cisstMultiTaskQt_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cisstMultiTaskQt_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstMultiTask/codeQt
+
 //Path to a file.
 cisstNetlib_INCLUDE_DIR:PATH=/home/utc_sim/ros2_dvrk/install/cisstNetlib/include
 
@@ -1036,6 +1057,15 @@ cisstParameterTypesPython_IS_TOP_LEVEL:STATIC=OFF
 cisstParameterTypesPython_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstParameterTypes/codePython
 
 //Value Computed by CMake
+cisstParameterTypesQt_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstParameterTypes/codeQt
+
+//Value Computed by CMake
+cisstParameterTypesQt_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cisstParameterTypesQt_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstParameterTypes/codeQt
+
+//Value Computed by CMake
 cisstParameterTypes_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstParameterTypes/code
 
 //Value Computed by CMake
@@ -1091,6 +1121,15 @@ cisstVectorPython_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 cisstVectorPython_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstVector/codePython
+
+//Value Computed by CMake
+cisstVectorQt_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstVector/codeQt
+
+//Value Computed by CMake
+cisstVectorQt_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+cisstVectorQt_SOURCE_DIR:STATIC=/home/utc_sim/ros2_dvrk/src/cisst-saw/cisst/cisstVector/codeQt
 
 //Value Computed by CMake
 cisstVector_BINARY_DIR:STATIC=/home/utc_sim/ros2_dvrk/build/cisst/cisstVector/code
@@ -1157,6 +1196,8 @@ CISST_HAS_CMAKE_DEBUG-ADVANCED:INTERNAL=1
 CISST_HAS_ISFINITE:INTERNAL=1
 //ADVANCED property for variable: CISST_HAS_OPENGL
 CISST_HAS_OPENGL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CISST_HAS_QT5
+CISST_HAS_QT5-ADVANCED:INTERNAL=1
 //Test CISST_HAS_STD_ISFINITE
 CISST_HAS_STD_ISFINITE:INTERNAL=1
 //Test CISST_HAS_STD_ISNAN
@@ -1319,7 +1360,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=40
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=44
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

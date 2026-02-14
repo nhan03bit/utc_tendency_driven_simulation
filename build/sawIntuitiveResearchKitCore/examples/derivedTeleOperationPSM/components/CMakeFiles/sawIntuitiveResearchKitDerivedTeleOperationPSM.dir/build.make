@@ -101,18 +101,25 @@ sawIntuitiveResearchKitDerivedTeleOperationPSM_EXTERNAL_OBJECTS =
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitQt.so.2.4.0
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKit.so.2.4.0
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libxml2.so
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libOpenGL.so
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libGLX.so
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libGLU.so
-/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libQt5OpenGL.so.5.15.3
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.3
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.3
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libQt5XmlPatterns.so.5.15.3
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libQt5Network.so.5.15.3
+/home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.3
 /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so: examples/derivedTeleOperationPSM/components/CMakeFiles/sawIntuitiveResearchKitDerivedTeleOperationPSM.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so"
 	cd /home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore/examples/derivedTeleOperationPSM/components && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sawIntuitiveResearchKitDerivedTeleOperationPSM.dir/link.txt --verbose=$(VERBOSE)

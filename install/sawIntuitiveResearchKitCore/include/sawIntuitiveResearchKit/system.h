@@ -95,6 +95,9 @@ namespace dvrk {
 
         std::string find_file(const std::string & filename) const;
 
+        /*! Enable all arms (transition from DISABLED to ENABLED) */
+        void power_on(void);
+
     protected:
         dvrk::system_configuration m_config;
         bool m_configured;
@@ -127,7 +130,6 @@ namespace dvrk {
         void configure_IO(const dvrk::IO_configuration & _IO_config);
 
         void power_off(void);
-        void power_on(void);
         void home(void);
         void disable_faulty_arms(void);
         // void set_scale(const double & scale);

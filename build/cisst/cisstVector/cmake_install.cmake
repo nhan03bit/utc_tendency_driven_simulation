@@ -52,3 +52,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/utc_sim/ros2_dvrk/build/cisst/cisstVector/codePython/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/utc_sim/ros2_dvrk/build/cisst/cisstVector/codeQt/cmake_install.cmake")
+endif()
+

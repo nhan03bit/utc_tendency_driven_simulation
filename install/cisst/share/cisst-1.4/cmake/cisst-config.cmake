@@ -74,8 +74,8 @@ find_file (CISST_USE_FILE
 set (CISST_CMAKE_COMPILER_IS_MSVC_64 OFF)
 
 # Which libraries have been compiled
-set (CISST_LIBRARIES "cisstCommonXML;cisstInteractive;cisstMesh;cisstRobot;cisstParameterTypes;cisstMultiTask;cisstNumerical;cisstOSAbstraction;cisstVector;cisstCommon")
-set (CISST_SETTINGS "cisstPython;cisstSWIG;cisstOpenGL")
+set (CISST_LIBRARIES "cisstCommonXML;cisstInteractive;cisstMesh;cisstRobot;cisstParameterTypesQt;cisstParameterTypes;cisstMultiTaskQt;cisstMultiTask;cisstNumerical;cisstOSAbstraction;cisstVectorQt;cisstVector;cisstCommonQt;cisstCommon")
+set (CISST_SETTINGS "cisstQt;cisstPython;cisstSWIG;cisstOpenGL")
 set (CISST_BUILD_SHARED_LIBS ON)
 
 # Build static or dynamic libraries
@@ -96,9 +96,9 @@ set (CISST_HAS_LINUX_XENOMAI OFF)
 set (CISST_HAS_SWIG_PYTHON ON)
 set (CISST_HAS_XML ON)
 set (CISST_HAS_OPENGL ON)
-set (CISST_HAS_QT OFF)
+set (CISST_HAS_QT ON)
 set (CISST_HAS_QT4 OFF)
-set (CISST_HAS_QT5 OFF)
+set (CISST_HAS_QT5 ON)
 set (CISST_HAS_FLTK OFF)
 set (CISST_HAS_JSON ON)
 set (CISST_CATKIN_BUILT FALSE)

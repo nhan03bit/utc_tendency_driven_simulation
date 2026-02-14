@@ -92,7 +92,7 @@ osaPDGCExample_EXTERNAL_OBJECTS =
 
 examples/osaPDGCExample: examples/CMakeFiles/osaPDGCExample.dir/osaPDGCExample.cpp.o
 examples/osaPDGCExample: examples/CMakeFiles/osaPDGCExample.dir/build.make
-examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so.2.3.0
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllersQt.so.2.3.0
 examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libOpenGL.so
 examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libGLX.so
 examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libGLU.so
@@ -102,6 +102,23 @@ examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libciss
 examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
 examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
 examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so.2.3.0
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libxml2.so
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libOpenGL.so
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libGLX.so
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libGLU.so
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
+examples/osaPDGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libQt5OpenGL.so.5.15.3
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.3
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.3
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libQt5XmlPatterns.so.5.15.3
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libQt5Network.so.5.15.3
+examples/osaPDGCExample: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.3
 examples/osaPDGCExample: examples/CMakeFiles/osaPDGCExample.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/utc_sim/ros2_dvrk/build/sawControllersCore/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable osaPDGCExample"
 	cd /home/utc_sim/ros2_dvrk/build/sawControllersCore/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/osaPDGCExample.dir/link.txt --verbose=$(VERBOSE)

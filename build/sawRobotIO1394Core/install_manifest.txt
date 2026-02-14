@@ -30,6 +30,8 @@
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin/pgm1394
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin/pgm1394multi.bash
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin/qlareloadfw.bash
+/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib/libsawRobotIO1394Qt.so.2.4.0
+/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib/libsawRobotIO1394Qt.so
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/share/sawRobotIO1394/sawRobotIO1394Config.cmake
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/share/sawRobotIO1394/sawRobotIO1394ConfigVersion.cmake
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/include/sawRobotIO1394/mtsRobot1394.h
@@ -47,4 +49,5 @@
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/include/sawRobotIO1394/osaConfiguration1394.h
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib/libsawRobotIO1394.so.2.4.0
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/lib/libsawRobotIO1394.so
+/home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin/sawRobotIO1394QtConsole
 /home/utc_sim/ros2_dvrk/install/sawRobotIO1394Core/bin/sawRobotIO1394CurrentCalibration

@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"cisstCommon\" \"cisstCommon-dev\" \"cisstCommonXML\" \"cisstCommonXML-dev\" \"cisstInteractive\" \"cisstInteractive-dev\" \"cisstMesh\" \"cisstMesh-dev\" \"cisstMultiTask\" \"cisstMultiTask-dev\" \"cisstNumerical\" \"cisstNumerical-dev\" \"cisstOSAbstraction\" \"cisstOSAbstraction-dev\" \"cisstOpenGL\" \"cisstParameterTypes\" \"cisstParameterTypes-dev\" \"cisstPython\" \"cisstRobot\" \"cisstRobot-dev\" \"cisstSWIG\" \"cisstVector\" \"cisstVector-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"cisstCommon\" \"cisstCommon-dev\" \"cisstCommonQt\" \"cisstCommonQt-dev\" \"cisstCommonXML\" \"cisstCommonXML-dev\" \"cisstInteractive\" \"cisstInteractive-dev\" \"cisstMesh\" \"cisstMesh-dev\" \"cisstMultiTask\" \"cisstMultiTask-dev\" \"cisstMultiTaskQt\" \"cisstMultiTaskQt-dev\" \"cisstNumerical\" \"cisstNumerical-dev\" \"cisstOSAbstraction\" \"cisstOSAbstraction-dev\" \"cisstOpenGL\" \"cisstParameterTypes\" \"cisstParameterTypes-dev\" \"cisstParameterTypesQt\" \"cisstParameterTypesQt-dev\" \"cisstPython\" \"cisstQt\" \"cisstRobot\" \"cisstRobot-dev\" \"cisstSWIG\" \"cisstVector\" \"cisstVector-dev\" \"cisstVectorQt\" \"cisstVectorQt-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components

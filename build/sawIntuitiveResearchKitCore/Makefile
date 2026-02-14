@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"sawIntuitiveResearchKit\" \"sawIntuitiveResearchKit-Applications\" \"sawIntuitiveResearchKit-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"sawIntuitiveResearchKit\" \"sawIntuitiveResearchKit-Applications\" \"sawIntuitiveResearchKit-Qt\" \"sawIntuitiveResearchKit-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -208,6 +208,58 @@ sawIntuitiveResearchKit/fast:
 .PHONY : sawIntuitiveResearchKit/fast
 
 #=============================================================================
+# Target rules for targets named sawIntuitiveResearchKitQt
+
+# Build rule for target.
+sawIntuitiveResearchKitQt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawIntuitiveResearchKitQt
+.PHONY : sawIntuitiveResearchKitQt
+
+# fast build rule for target.
+sawIntuitiveResearchKitQt/fast:
+	$(MAKE) $(MAKESILENT) -f components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/build.make components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt.dir/build
+.PHONY : sawIntuitiveResearchKitQt/fast
+
+#=============================================================================
+# Target rules for targets named sawIntuitiveResearchKitQt_autogen
+
+# Build rule for target.
+sawIntuitiveResearchKitQt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawIntuitiveResearchKitQt_autogen
+.PHONY : sawIntuitiveResearchKitQt_autogen
+
+# fast build rule for target.
+sawIntuitiveResearchKitQt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt_autogen.dir/build.make components/code/Qt/CMakeFiles/sawIntuitiveResearchKitQt_autogen.dir/build
+.PHONY : sawIntuitiveResearchKitQt_autogen/fast
+
+#=============================================================================
+# Target rules for targets named sawIntuitiveResearchKitPID
+
+# Build rule for target.
+sawIntuitiveResearchKitPID: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawIntuitiveResearchKitPID
+.PHONY : sawIntuitiveResearchKitPID
+
+# fast build rule for target.
+sawIntuitiveResearchKitPID/fast:
+	$(MAKE) $(MAKESILENT) -f applications/CMakeFiles/sawIntuitiveResearchKitPID.dir/build.make applications/CMakeFiles/sawIntuitiveResearchKitPID.dir/build
+.PHONY : sawIntuitiveResearchKitPID/fast
+
+#=============================================================================
+# Target rules for targets named sawIntuitiveResearchKitSystem
+
+# Build rule for target.
+sawIntuitiveResearchKitSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawIntuitiveResearchKitSystem
+.PHONY : sawIntuitiveResearchKitSystem
+
+# fast build rule for target.
+sawIntuitiveResearchKitSystem/fast:
+	$(MAKE) $(MAKESILENT) -f applications/CMakeFiles/sawIntuitiveResearchKitSystem.dir/build.make applications/CMakeFiles/sawIntuitiveResearchKitSystem.dir/build
+.PHONY : sawIntuitiveResearchKitSystem/fast
+
+#=============================================================================
 # Target rules for targets named sawIntuitiveResearchKitGripperCalibration
 
 # Build rule for target.
@@ -286,6 +338,32 @@ sawIntuitiveResearchKitSUJBluetoothReset/fast:
 .PHONY : sawIntuitiveResearchKitSUJBluetoothReset/fast
 
 #=============================================================================
+# Target rules for targets named dvrk-system-config-wizard
+
+# Build rule for target.
+dvrk-system-config-wizard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dvrk-system-config-wizard
+.PHONY : dvrk-system-config-wizard
+
+# fast build rule for target.
+dvrk-system-config-wizard/fast:
+	$(MAKE) $(MAKESILENT) -f applications/system-config-wizard/CMakeFiles/dvrk-system-config-wizard.dir/build.make applications/system-config-wizard/CMakeFiles/dvrk-system-config-wizard.dir/build
+.PHONY : dvrk-system-config-wizard/fast
+
+#=============================================================================
+# Target rules for targets named dvrk-system-config-wizard_autogen
+
+# Build rule for target.
+dvrk-system-config-wizard_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dvrk-system-config-wizard_autogen
+.PHONY : dvrk-system-config-wizard_autogen
+
+# fast build rule for target.
+dvrk-system-config-wizard_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f applications/system-config-wizard/CMakeFiles/dvrk-system-config-wizard_autogen.dir/build.make applications/system-config-wizard/CMakeFiles/dvrk-system-config-wizard_autogen.dir/build
+.PHONY : dvrk-system-config-wizard_autogen/fast
+
+#=============================================================================
 # Target rules for targets named sawIntuitiveResearchKitDerivedTeleOperationPSM
 
 # Build rule for target.
@@ -312,15 +390,21 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... dvrk-system-config-wizard_autogen"
 	@echo "... gattlibExternal"
 	@echo "... sawIntuitiveResearchKitConfigGenerator"
+	@echo "... sawIntuitiveResearchKitQt_autogen"
 	@echo "... sawIntuitiveResearchKitRemoveLogs"
 	@echo "... sawIntuitiveResearchKitSDCardUpdater"
 	@echo "... sawIntuitiveResearchKitSUJBluetoothReset"
+	@echo "... dvrk-system-config-wizard"
 	@echo "... sawIntuitiveResearchKit"
 	@echo "... sawIntuitiveResearchKitDerivedTeleOperationPSM"
 	@echo "... sawIntuitiveResearchKitGripperCalibration"
+	@echo "... sawIntuitiveResearchKitPID"
+	@echo "... sawIntuitiveResearchKitQt"
 	@echo "... sawIntuitiveResearchKitSiPotentiometersCalibration"
+	@echo "... sawIntuitiveResearchKitSystem"
 .PHONY : help
 
 

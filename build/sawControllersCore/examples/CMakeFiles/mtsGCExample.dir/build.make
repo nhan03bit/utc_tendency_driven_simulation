@@ -92,7 +92,7 @@ mtsGCExample_EXTERNAL_OBJECTS =
 
 examples/mtsGCExample: examples/CMakeFiles/mtsGCExample.dir/mtsGCExample.cpp.o
 examples/mtsGCExample: examples/CMakeFiles/mtsGCExample.dir/build.make
-examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so.2.3.0
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllersQt.so.2.3.0
 examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libOpenGL.so
 examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libGLX.so
 examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libGLU.so
@@ -102,6 +102,23 @@ examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstN
 examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
 examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
 examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisst/lib/libsawControllers.so.2.3.0
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libxml2.so
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libOpenGL.so
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libGLX.so
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libGLU.so
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib.a
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_hanson_haskell.a
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lawson_hanson.a
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_lapack.a
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_blas.a
+examples/mtsGCExample: /home/utc_sim/ros2_dvrk/install/cisstNetlib/lib/libcisstNetlib_f2c.a
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libQt5OpenGL.so.5.15.3
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.3
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.3
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libQt5XmlPatterns.so.5.15.3
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libQt5Network.so.5.15.3
+examples/mtsGCExample: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.3
 examples/mtsGCExample: examples/CMakeFiles/mtsGCExample.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/utc_sim/ros2_dvrk/build/sawControllersCore/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mtsGCExample"
 	cd /home/utc_sim/ros2_dvrk/build/sawControllersCore/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mtsGCExample.dir/link.txt --verbose=$(VERBOSE)

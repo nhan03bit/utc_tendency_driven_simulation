@@ -30,4 +30,4 @@ else ()
   set (sawRobotIO1394_LIBRARY_DIR "${sawRobotIO1394_INCLUDE_DIR}/../lib" "/home/utc_sim/ros2_dvrk/install/cisst//lib;/home/utc_sim/ros2_dvrk/install/cisst//lib")
 endif ()
 
-set (sawRobotIO1394_LIBRARIES "sawRobotIO1394;Amp1394;raw1394")
+set (sawRobotIO1394_LIBRARIES "sawRobotIO1394;Amp1394;raw1394;sawRobotIO1394Qt")

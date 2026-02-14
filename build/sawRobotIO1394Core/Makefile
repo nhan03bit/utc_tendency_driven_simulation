@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Amp1394\" \"Amp1394-dev\" \"Amp1394-utils\" \"sawRobotIO1394\" \"sawRobotIO1394-Applications\" \"sawRobotIO1394-dev\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Amp1394\" \"Amp1394-dev\" \"Amp1394-utils\" \"sawRobotIO1394\" \"sawRobotIO1394-Applications\" \"sawRobotIO1394-Qt\" \"sawRobotIO1394-dev\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -442,6 +442,45 @@ pgm1394/fast:
 .PHONY : pgm1394/fast
 
 #=============================================================================
+# Target rules for targets named sawRobotIO1394Qt
+
+# Build rule for target.
+sawRobotIO1394Qt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawRobotIO1394Qt
+.PHONY : sawRobotIO1394Qt
+
+# fast build rule for target.
+sawRobotIO1394Qt/fast:
+	$(MAKE) $(MAKESILENT) -f components/code/Qt/CMakeFiles/sawRobotIO1394Qt.dir/build.make components/code/Qt/CMakeFiles/sawRobotIO1394Qt.dir/build
+.PHONY : sawRobotIO1394Qt/fast
+
+#=============================================================================
+# Target rules for targets named sawRobotIO1394Qt_autogen
+
+# Build rule for target.
+sawRobotIO1394Qt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawRobotIO1394Qt_autogen
+.PHONY : sawRobotIO1394Qt_autogen
+
+# fast build rule for target.
+sawRobotIO1394Qt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f components/code/Qt/CMakeFiles/sawRobotIO1394Qt_autogen.dir/build.make components/code/Qt/CMakeFiles/sawRobotIO1394Qt_autogen.dir/build
+.PHONY : sawRobotIO1394Qt_autogen/fast
+
+#=============================================================================
+# Target rules for targets named sawRobotIO1394QtConsole
+
+# Build rule for target.
+sawRobotIO1394QtConsole: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawRobotIO1394QtConsole
+.PHONY : sawRobotIO1394QtConsole
+
+# fast build rule for target.
+sawRobotIO1394QtConsole/fast:
+	$(MAKE) $(MAKESILENT) -f applications/Qt/CMakeFiles/sawRobotIO1394QtConsole.dir/build.make applications/Qt/CMakeFiles/sawRobotIO1394QtConsole.dir/build
+.PHONY : sawRobotIO1394QtConsole/fast
+
+#=============================================================================
 # Target rules for targets named sawRobotIO1394CurrentCalibration
 
 # Build rule for target.
@@ -453,6 +492,32 @@ sawRobotIO1394CurrentCalibration: cmake_check_build_system
 sawRobotIO1394CurrentCalibration/fast:
 	$(MAKE) $(MAKESILENT) -f applications/current-calibration/CMakeFiles/sawRobotIO1394CurrentCalibration.dir/build.make applications/current-calibration/CMakeFiles/sawRobotIO1394CurrentCalibration.dir/build
 .PHONY : sawRobotIO1394CurrentCalibration/fast
+
+#=============================================================================
+# Target rules for targets named sawRobotIO1394QtDataPlot
+
+# Build rule for target.
+sawRobotIO1394QtDataPlot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawRobotIO1394QtDataPlot
+.PHONY : sawRobotIO1394QtDataPlot
+
+# fast build rule for target.
+sawRobotIO1394QtDataPlot/fast:
+	$(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot.dir/build
+.PHONY : sawRobotIO1394QtDataPlot/fast
+
+#=============================================================================
+# Target rules for targets named sawRobotIO1394QtDataPlot_autogen
+
+# Build rule for target.
+sawRobotIO1394QtDataPlot_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sawRobotIO1394QtDataPlot_autogen
+.PHONY : sawRobotIO1394QtDataPlot_autogen
+
+# fast build rule for target.
+sawRobotIO1394QtDataPlot_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/build.make applications/data-plot/CMakeFiles/sawRobotIO1394QtDataPlot_autogen.dir/build
+.PHONY : sawRobotIO1394QtDataPlot_autogen/fast
 
 #=============================================================================
 # Target rules for targets named sawRobotIO1394DataCollection
@@ -482,6 +547,8 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... Amp1394Python_swig_compilation"
+	@echo "... sawRobotIO1394QtDataPlot_autogen"
+	@echo "... sawRobotIO1394Qt_autogen"
 	@echo "... Amp1394"
 	@echo "... Amp1394Console"
 	@echo "... Amp1394Python"
@@ -502,6 +569,9 @@ help:
 	@echo "... sawRobotIO1394"
 	@echo "... sawRobotIO1394CurrentCalibration"
 	@echo "... sawRobotIO1394DataCollection"
+	@echo "... sawRobotIO1394Qt"
+	@echo "... sawRobotIO1394QtConsole"
+	@echo "... sawRobotIO1394QtDataPlot"
 	@echo "... time1394"
 .PHONY : help
 

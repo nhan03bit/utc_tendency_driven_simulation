@@ -12,7 +12,7 @@
 
 set(CPACK_BUILD_SOURCE_DIRS "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawRobotIO1394/core;/home/utc_sim/ros2_dvrk/build/sawRobotIO1394Core")
 set(CPACK_CMAKE_GENERATOR "Unix Makefiles")
-set(CPACK_COMPONENTS_ALL "Amp1394;Amp1394-dev;Amp1394-utils;sawRobotIO1394;sawRobotIO1394-Applications;sawRobotIO1394-dev")
+set(CPACK_COMPONENTS_ALL "Amp1394;Amp1394-dev;Amp1394-utils;sawRobotIO1394;sawRobotIO1394-Applications;sawRobotIO1394-Qt;sawRobotIO1394-dev")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
 set(CPACK_DEBIAN_PACKAGE_GENERATE_SHLIBS "ON")

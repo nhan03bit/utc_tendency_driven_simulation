@@ -1,4 +1,4 @@
 M- cisst 1.4.0 (git: 1.4.0)
-M- CISST_ROOT: undefined
-M- cisst share: undefined
+M- CISST_ROOT: /home/utc_sim/ros2_dvrk/install/cisst
+M- cisst share: /home/utc_sim/ros2_dvrk/install/cisst/share/cisst-1.4
 M- cmn_m: 1, cmn_kg: 1, CISST_USE_SI_UNITS is set to 1

@@ -1,3 +1,5 @@
+/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib/libsawControllersQt.so.2.3.0
+/home/utc_sim/ros2_dvrk/install/sawControllersCore/lib/libsawControllersQt.so
 /home/utc_sim/ros2_dvrk/install/sawControllersCore/share/sawControllers/sawControllersConfig.cmake
 /home/utc_sim/ros2_dvrk/install/sawControllersCore/share/sawControllers/sawControllersConfigVersion.cmake
 /home/utc_sim/ros2_dvrk/install/sawControllersCore/include/sawControllers/mtsPID.h

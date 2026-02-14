@@ -12,7 +12,7 @@
 
 set(CPACK_BUILD_SOURCE_DIRS "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawControllers/core;/home/utc_sim/ros2_dvrk/build/sawControllersCore")
 set(CPACK_CMAKE_GENERATOR "Unix Makefiles")
-set(CPACK_COMPONENTS_ALL "sawControllers;sawControllers-Examples;sawControllers-dev")
+set(CPACK_COMPONENTS_ALL "sawControllers;sawControllers-Examples;sawControllers-Qt;sawControllers-dev")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
 set(CPACK_DEBIAN_PACKAGE_GENERATE_SHLIBS "ON")

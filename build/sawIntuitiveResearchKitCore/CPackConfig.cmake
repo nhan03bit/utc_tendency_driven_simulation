@@ -12,7 +12,7 @@
 
 set(CPACK_BUILD_SOURCE_DIRS "/home/utc_sim/ros2_dvrk/src/cisst-saw/sawIntuitiveResearchKit/core;/home/utc_sim/ros2_dvrk/build/sawIntuitiveResearchKitCore")
 set(CPACK_CMAKE_GENERATOR "Unix Makefiles")
-set(CPACK_COMPONENTS_ALL "sawIntuitiveResearchKit;sawIntuitiveResearchKit-Applications;sawIntuitiveResearchKit-dev")
+set(CPACK_COMPONENTS_ALL "sawIntuitiveResearchKit;sawIntuitiveResearchKit-Applications;sawIntuitiveResearchKit-Qt;sawIntuitiveResearchKit-dev")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
 set(CPACK_DEBIAN_PACKAGE_GENERATE_SHLIBS "ON")
@@ -73,19 +73,19 @@ endif()
 
 # Configuration for component "sawIntuitiveResearchKit"
 
-SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-dev)
+SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-Qt sawIntuitiveResearchKit-dev)
 
 # Configuration for component "sawIntuitiveResearchKit-dev"
 
-SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-dev)
+SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-Qt sawIntuitiveResearchKit-dev)
 set(CPACK_COMPONENT_SAWINTUITIVERESEARCHKIT-DEV_DEPENDS sawIntuitiveResearchKit)
 
 # Configuration for component "sawIntuitiveResearchKit-Qt"
 
-SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-dev)
+SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-Qt sawIntuitiveResearchKit-dev)
 set(CPACK_COMPONENT_SAWINTUITIVERESEARCHKIT-QT_DEPENDS sawIntuitiveResearchKit)
 
 # Configuration for component "sawIntuitiveResearchKit-Applications"
 
-SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-dev)
+SET(CPACK_COMPONENTS_ALL sawIntuitiveResearchKit sawIntuitiveResearchKit-Applications sawIntuitiveResearchKit-Qt sawIntuitiveResearchKit-dev)
 set(CPACK_COMPONENT_SAWINTUITIVERESEARCHKIT-APPLICATIONS_DEPENDS sawIntuitiveResearchKit sawIntuitiveResearchKit-Qt)
