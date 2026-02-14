@@ -103,11 +103,7 @@ source ~/.bashrc
 
 ## 5. Run Test Model (Patient Cart Simulation)
 ```bash
-# Source workspace
-source ~/ros2_dvrk/install/setup.bash
-
-# Launch Classic da Vinci patient cart (with Gazebo simulation)
-ros2 launch dvrk_model patient_cart.launch.py generation:=Classic simulated:=true
+source ./install/setup.bash && ros2 launch dvrk_model patient_cart.launch.py generation:=Classic simulated:=true
 ```
 
 **Alternative test (real-hardware mode, as in your message):**
