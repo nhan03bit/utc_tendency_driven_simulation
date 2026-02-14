@@ -300,6 +300,46 @@ High-level control:
 
 ---
 
+## 🧪 Run Simulation Test Scripts
+
+Location:
+
+```
+src/dvrk/dvrk_python/scripts/
+```
+
+These scripts drive the simulated robot. **Requires the simulator running in a separate terminal first:**
+
+```bash
+# Terminal 1 — start the simulator
+unset QT_QPA_PLATFORM_PLUGIN_PATH
+ros2 launch dvrk_model patient_cart.launch.py generation:=Classic simulated:=true
+
+# Terminal 2 — run a test script
+source ~/ros2_dvrk/install/setup.bash
+ros2 run dvrk_python <script_name> -a <arm_name>
+```
+
+### Simulation Test Scripts
+
+| Script                             | Command                                                                  | Description                                      |
+| ---------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------ |
+| `dvrk_arm_test.py`                 | `ros2 run dvrk_python dvrk_arm_test.py -a PSM1`                         | Full arm test: servo_jp, move_jp, servo_cp, move_cp |
+| `dvrk_psm_test.py`                | `ros2 run dvrk_python dvrk_psm_test.py -a PSM1`                         | PSM jaw open/close, insertion, Cartesian moves    |
+| `dvrk_psm_effort_test.py`         | `ros2 run dvrk_python dvrk_psm_effort_test.py -a PSM1`                  | PSM joint effort (servo_jf) control               |
+| `dvrk_mtm_test.py`                | `ros2 run dvrk_python dvrk_mtm_test.py -a MTML`                         | MTM wrench, gravity comp, orientation lock        |
+| `dvrk_mtm_cartesian_impedance.py` | `ros2 run dvrk_python dvrk_mtm_cartesian_impedance.py -a MTML`          | MTM Cartesian impedance control (servo_ci)        |
+| `dvrk_move_wait_test.py`          | `ros2 run dvrk_python dvrk_move_wait_test.py -a PSM1`                   | Test move_jp/move_cp with wait handles            |
+| `dvrk_teleoperation.py`           | `ros2 run dvrk_python dvrk_teleoperation.py`                             | Full Python master-puppet teleoperation           |
+| `dvrk_system_test.py`             | `ros2 run dvrk_python dvrk_system_test.py`                               | System-level enable/home/disable test             |
+| `dvrk_console_test.py`            | `ros2 run dvrk_python dvrk_console_test.py`                              | Console teleop enable/disable test                |
+| `dvrk_bag_replay.py`              | `ros2 run dvrk_python dvrk_bag_replay.py`                                | Replay recorded bag data                          |
+| `dvrk_latency_test.py`            | `ros2 run dvrk_python dvrk_latency_test.py -a PSM1`                     | Measure command-to-feedback latency               |
+| `dvrk_calibrate_potentiometers.py`| —                                                                        | Potentiometer calibration (hardware only)         |
+| `dvrk_calibrate_suj.py`           | —                                                                        | SUJ calibration (hardware only)                   |
+
+---
+
 ## 🔄 Data Flow Overview
 
 ```
